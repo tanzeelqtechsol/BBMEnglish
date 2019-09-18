@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{499AAB51-6A85-4437-BC03-CC9A100C741D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataBaseHelper</RootNamespace>
+    <AssemblyName>DataBaseHelper</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommonClass\SQLHelper.cs" />
+    <Compile Include="DALClass\AddFavoriteUserQueryDALClass.cs" />
+    <Compile Include="DALClass\AgentDetailDAL.cs" />
+    <Compile Include="DALClass\BalanceSheetDAL.cs" />
+    <Compile Include="DALClass\BankDespositDALClass.cs" />
+    <Compile Include="DALClass\BankWithdrawDALClass.cs" />
+    <Compile Include="DALClass\CleanDBInfoDAL.cs" />
+    <Compile Include="DALClass\ComCatDALClass.cs" />
+    <Compile Include="DALClass\CustomReportDALClass.cs" />
+    <Compile Include="DALClass\DiscountDALClass.cs" />
+    <Compile Include="DALClass\EmployeeDALClass.cs" />
+    <Compile Include="DALClass\EndOfDayDAL.cs" />
+    <Compile Include="DALClass\FindSaleInvoiceDAL.cs" />
+    <Compile Include="DALClass\InventoryAdjustDAL.cs" />
+    <Compile Include="DALClass\ItemCardDALClass.cs" />
+    <Compile Include="DALClass\LoginDAL.cs" />
+    <Compile Include="DALClass\MasterDataDALClass.cs" />
+    <Compile Include="DALClass\OpeningStockDAL.cs" />
+    <Compile Include="DALClass\OptionSettingDAL.cs" />
+    <Compile Include="DALClass\OrderInvoiceDAL.cs" />
+    <Compile Include="DALClass\PayReceiptDAL.cs" />
+    <Compile Include="DALClass\PerformanceDAL.cs" />
+    <Compile Include="DALClass\PosDalClass.cs" />
+    <Compile Include="DALClass\PrinterSetupDAL.cs" />
+    <Compile Include="DALClass\PurchaseDALClass.cs" />
+    <Compile Include="DALClass\PurchaseItemPanelDAL.cs" />
+    <Compile Include="DALClass\PurchaseReturnDAL.cs" />
+    <Compile Include="DALClass\ReceiveReceiptDAL.cs" />
+    <Compile Include="DALClass\ReportDAL.cs" />
+    <Compile Include="DALClass\SalaryPaymentDAL.cs" />
+    <Compile Include="DALClass\SaleDAL.cs" />
+    <Compile Include="DALClass\SaleInvoiceDALClass.cs" />
+    <Compile Include="DALClass\SaleReturnDAL.cs" />
+    <Compile Include="DALClass\ShiftEndDAL.cs" />
+    <Compile Include="DALClass\SpendingDALClass.cs" />
+    <Compile Include="DALClass\StoredProcedurers.cs" />
+    <Compile Include="DALClass\TimeAttendanceStampDAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonHelper\CommonHelper.csproj">
+      <Project>{ADAE9F43-DC6B-4BA3-B4FA-04E1E6729AD5}</Project>
+      <Name>CommonHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ObjectHelper\ObjectHelper.csproj">
+      <Project>{72A64860-3FC7-489B-8CD4-8987BBBA925B}</Project>
+      <Name>ObjectHelper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

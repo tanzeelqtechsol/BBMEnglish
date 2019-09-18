@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{631D31FC-49BF-4E69-B4BF-E65F293F396B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BALHelper</RootNamespace>
+    <AssemblyName>BALHelper</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>true</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>true</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\SamplesAmpos\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\SamplesAmpos\bin\Debug\CrystalDecisions.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AgentDetailBALClass.cs" />
+    <Compile Include="BalanceSheetBAL.cs" />
+    <Compile Include="BALClass.cs" />
+    <Compile Include="BankDepositBALClass.cs" />
+    <Compile Include="BankWithdrawBALClass.cs" />
+    <Compile Include="CashCapitalBALClass.cs" />
+    <Compile Include="CleanDBInformationBAL.cs" />
+    <Compile Include="ComCatBALClass.cs" />
+    <Compile Include="CustomReportBALLClass.cs" />
+    <Compile Include="DBLoginBAL.cs" />
+    <Compile Include="DebtAdjustBALClass.cs" />
+    <Compile Include="DiscountBALClass.cs" />
+    <Compile Include="EmployeeBALClass.cs" />
+    <Compile Include="EndofDayBal.cs" />
+    <Compile Include="EndShiftBAL.cs" />
+    <Compile Include="FindSaleInvoiceBAL.cs" />
+    <Compile Include="InventoryAdjustBALClass.cs" />
+    <Compile Include="ItemCardBALClass.cs" />
+    <Compile Include="LoginBALHelper.cs" />
+    <Compile Include="MasterDataBALClass.cs" />
+    <Compile Include="OpeningStockBAL.cs" />
+    <Compile Include="OptionSettingBAL.cs" />
+    <Compile Include="OrderInvoiceBALClass.cs" />
+    <Compile Include="PayReceiptBAL.cs" />
+    <Compile Include="PerformanceBAL.cs" />
+    <Compile Include="PosScreenBAL.cs" />
+    <Compile Include="PosShortcutBAL.cs" />
+    <Compile Include="PrinterSetupBAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PurchaseBALClass.cs" />
+    <Compile Include="PurchaseItemPanelBAL.cs" />
+    <Compile Include="PurchaseReturnBAL.cs" />
+    <Compile Include="ReceiveReceiptBAL.cs" />
+    <Compile Include="ReportBAL.cs" />
+    <Compile Include="SalaryPaymentBAL.cs" />
+    <Compile Include="SaleInvoiceBAL.cs" />
+    <Compile Include="SaleReturnInvoiceBAL.cs" />
+    <Compile Include="SpendingBALClass.cs" />
+    <Compile Include="TimeAttendanceSheetBAL.cs" />
+    <Compile Include="TimeAttendanceStampBAL.cs" />
+    <Compile Include="UserFavoriteQueryBALClass.cs" />
+    <Compile Include="UserTrackingBAL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonHelper\CommonHelper.csproj">
+      <Project>{ADAE9F43-DC6B-4BA3-B4FA-04E1E6729AD5}</Project>
+      <Name>CommonHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataBaseHelper\DataBaseHelper.csproj">
+      <Project>{499AAB51-6A85-4437-BC03-CC9A100C741D}</Project>
+      <Name>DataBaseHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ObjectHelper\ObjectHelper.csproj">
+      <Project>{72A64860-3FC7-489B-8CD4-8987BBBA925B}</Project>
+      <Name>ObjectHelper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

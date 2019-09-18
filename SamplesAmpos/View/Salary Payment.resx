@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Btn_UndoPayment.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAACMRJREFUWEfFl3ss
+        nOkex6dF1dnGtksv9JzuanqjpReUtjqUPa3bYF1bQhVLQ9udZtWpDNVUidu6BJOWDA3bIC6LYHWCgxx7
+        mDOCVGk0SJ1yyMgQ/tg0zeZ7fs+zZ2wv03b3rzPJZ973fbzz+36f3/N73+dHsLq6+n9F6+Db2NjY6AqF
+        wmLi36dPn35F/Ew8o+skbff/EbQOvo6Dg0MqGcC5c+fg7e0NkUjE8fDwAJmAra3tq5MnT7Zq++3vQeug
+        hsOHD+9m4p6enhx3d3ecPXuWm3F1deXXDDIJMvHEyclpg7Y4H0LroAZK8b+YEBNnwjRbWFpagozBxcWF
+        G2EwE+za2dm5XlucD6F1kEEz32RlZQUywQLjyJEj2LNnD/bv3w9zc3PY2dlxcbYUDGYyLi7OSlusD6F1
+        kEEGYpnYvn37OBrxhIQEPHv2DAMDA2hsbIRUKuV0d3cjPDzcRlusD6F1kEEGvmOCTFgDm/n4+DimpqYw
+        PT2N58+fY3l5GXQ/ZmZmEBoaGv12nI+hdZBBBsSvG9i7dy9P+9OnT3kGJicnuRGVSsUNLCwsMAPZb8f5
+        GFoHGdbW1hYHDhzg4uzIzCQmJmJ0dJRngRmZmJjA7OwsN7C4uMgMlL8d52NoHdRAJlbZzFnqc3Nz0dvb
+        C6VSiaGhIYyMjODx48c8C3Qvz0RISEjN2zE+xjsDVEzbNOf0oilmM2fEx8ejvb2dF1tfXx/6+/uhUCh4
+        JlZWVngNRMZc6rvbHFeQ2hr1JKM9AozC7ggUdUfxY25HBG63XuxJaYwJ12i8Ic4Q1wZDUn/5PzlNKT/I
+        Wotvenl58SWQSCSoqalBW1sb5HI5Ojo60NnZyTOhVqsxPDyM62nhyJJfRKY8DDmdkeidrMPIi250T1Sj
+        YbiQxqOQ1ByIhCZ/ljXtBsIr3BBZ5Y7LNSJcq/OBuNYXvr6+uH37Nn/cqqurUVdXtwZbhrm5ObS0tEBc
+        EIy/UfCERj8MveiBamkOSytqTKrGMDanRMdEPcX1RBTF1+i9Y8D7nhP8Sp0QVOaCi5VukA1k41amBHl5
+        eUhPT0dBQQFkMtkarChZMTKDNxrCEFHpipHZAb4s6mUVlleW+fnKKi2TehoPlIXwuef4fgMu+SfgnH8c
+        Ca1XaAYLUAwqcOHCBVZgqKioQHJyMtLS0pCVlYXMzEy+JCwrxaVFSJffRO1QOf+daulXcfWymrO8ssSL
+        tWeyAyLpmfcbiKl1RF6PCLUjUWgYiUP9YzGqlN8guzEYAdeFuHr1KjIyMpCSksJhb8ZESSJGpodxpeJr
+        dI13cMEp1SQSqq9DmGSPOfUsLcUSz8S8eh4uOcJ3DUQ2WzpJB3yeVCi9kf8PR0g6HXBdLoS4wxl3er0h
+        G7qCxtEUJFcHw2SvMbZv24apoCCEhYXBz88PwbHBsAo6hOqfqrG0vATFlAJfpfnAPMIcnaMdXHxxaZFn
+        4c+XTN80ENJsJSxWBk7LBgNQoAhE85QMz9VTPIWT6klUTlRA3BuF9IE4NE4U4W5LFGxtzLCyZQtuXLmC
+        IDLCNi7ajvFtyrd4MfcCMwszaFG0oFRegkX1IhbUC9wYi/mZ55Y3DcR3OvSVjUSgciwJquV57nJI9RjN
+        z7ugWBjl17NL80hS3kX6YDJqJwpxrZjSaGCABzExiI2N5SaoJ+DNiqxMxt8Z5Q/KIb0vRYmsBKVlpXxp
+        jkUfg77dxt8MiOosrkm6ha9qJjKxSFU7TwbE/RIcq/WCRZUv9lcE4Hx3GmbIwBwVV+pgHkpG83Gz2w3N
+        9p+ij7biwMBA3g+wrfvEiROIjIyEpOgGSnsKUTVQhnrlQ7QPN8GflmSjjT70jmz4zYBXg8WPl9pt0TP9
+        iM9UorwFh8YgWNdewsHqKOyruoy9hH9XNv97+0wfEhXJCGlzQEKsCeZMTTUdERdnHRRrUKLiL8Jf6oGv
+        ij1+Cbwngq/UDQFSamxyHWEvsWaFuJ4b8Ky3nHatt8Lw+DAGVUMI6rgGt/Z4ODYn4VRzGuyaMnC8KRMn
+        mzPQM/+UMrQI97ZonK6xg6j4ECgE/E6dwtGjR3nToiGGlkZPT89HIBCc1GC8w8gnMNXnkXe+2yoZ2MQN
+        /LXO6qVTvQ0GBweR13Uf57tuwbczCx7yQrhSAX3ZLoMzo60EI6pZvKDdz6TUG+YVZ2BTbocsIyPcsLbG
+        wYMHYWFhwTcu9upme4eBgYE/CVv8DyviCHGMOMTEuYFT1TYvbavsIf+pC/c6v8f+hxE4VHsTxxrzYN98
+        DzZNJTCvLYZZZTZ6R4bQM6yEYdF57LzvDvNSIczMzGBDW/bu3bvXYE8Dvb7/yYSITa+xmdhBmK4ZOFwu
+        nDUvO4FkeS7f4U49TIR+XgR0cuIgaaiCTuZ1CNLFcK2mDNDGc6unFRtzL8CoQIRdd87AxMQEplQHO3fu
+        xOeff86LUSwWw9DQ8CYJfUGsJ17/6BJr3bPAXOraaiZ1oHT6obb/EZyqUqGbE43stga+9W4uSEFw/fcY
+        pN1OOT6GLVTdeql+MMzywI5QWxgbG2Pr1q28caGGhBXjgI6OTjyJCInPmKK2z5qBv5SL/HdJXX7ZnmmH
+        nfkibMwKQFZXC68J1nz003FsbAz9E+P4ojQV6yR+0JV4YFOGN4wsd/FZs9adUr5Ay/EDxQ4nHAiWal2N
+        0PvgX2YFotbtRS74JMkWeomOMMr9GhWKXt73dYwOw62hBHopwRB840wIoXPnPEwj3fh/SpTySVqGShKL
+        JrwIVmxs5h8VZ/Cv7aU+B3YUez7anOsKvXg7rL9qDx2xM6QKOT5N9oMgxh6C6OMQxAkhSA7FFnHIqpnN
+        4b/r6+unkhCbsSfBqtuU2Ei8I/Q+1k625blbbM7xqTTIO/+zTpII6+JINNT8V6LtIEjwhSAl5qUg0PVH
+        geEnsaThTrBUs0eMpftPBH+5/BHevKAA+ikBvrq3w0rXpcYMCTLEq/QErApS4oYE4nCZwOfLMLpnF8Fm
+        akwYEhuIN+L8flYF/wWpGahC1LSJXgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Btn_Variables.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        1v5z0gAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <metadata name="Select.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="EmployeeID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="EmployeeName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="CalType.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="BaseSalary.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="OverTimeSalary.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="HolidaySalary.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="EmpSalary.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="EmpOverSalary.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="EmpHolidaySalary.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Advances.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Punishment.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Neglet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Reward.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Incentives.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Others.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DrawingAmount.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Latency.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Avarage.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="NetSalary.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="TotalDays.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="EmpPresentDays.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="OverTiming.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="HolidayOverTime.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="PerDaySalary.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="PerHourSalary.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Select.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="EmployeeID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="EmployeeName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="CalType.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="BaseSalary.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="OverTimeSalary.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="HolidaySalary.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="EmpSalary.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="EmpOverSalary.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="EmpHolidaySalary.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Advances.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Punishment.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Neglet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Reward.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Incentives.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Others.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DrawingAmount.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Latency.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Avarage.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="NetSalary.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="TotalDays.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="EmpPresentDays.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="OverTiming.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="HolidayOverTime.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="PerDaySalary.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="PerHourSalary.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

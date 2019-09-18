@@ -1,0 +1,3003 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Accountant" xml:space="preserve">
+    <value>الحسابات</value>
+  </data>
+  <data name="AddressPhoneBook" xml:space="preserve">
+    <value>دليل العناوين و الهاتف</value>
+  </data>
+  <data name="AdministrativeSpending" xml:space="preserve">
+    <value>مصروفات إدارية </value>
+  </data>
+  <data name="Administrator" xml:space="preserve">
+    <value>الادارة</value>
+  </data>
+  <data name="Adminofficer" xml:space="preserve">
+    <value>متقدم</value>
+  </data>
+  <data name="Advance" xml:space="preserve">
+    <value>سلف</value>
+  </data>
+  <data name="AgentBalanceSheet" xml:space="preserve">
+    <value>كشف حساب عميل</value>
+  </data>
+  <data name="AgentDetails" xml:space="preserve">
+    <value>بيانات العميل</value>
+  </data>
+  <data name="AlertChangePassword" xml:space="preserve">
+    <value>عذرا! هل فعلا ترغب في تغيير كلمة السر</value>
+  </data>
+  <data name="AlertChangeUser" xml:space="preserve">
+    <value>عذار! هل فعلا ترغب في تغيير المستخدم</value>
+  </data>
+  <data name="AlertCleanDb" xml:space="preserve">
+    <value>عذرا! هل فعلا ترغب في مسح قاعدة البيانات</value>
+  </data>
+  <data name="AlertClearScreen" xml:space="preserve">
+    <value>عذرا! هل فعلا ترغب في افراغ محتويات الشاشة</value>
+  </data>
+  <data name="AlertCloseApplication" xml:space="preserve">
+    <value>عذرا! هل فعلا ترغب في الخروج من النظام</value>
+  </data>
+  <data name="AlertCloseInvoice" xml:space="preserve">
+    <value>عذرا! هل فعلا ترغب في اغلاق الفاتورة</value>
+  </data>
+  <data name="AlertContinue" xml:space="preserve">
+    <value>عذرا! هل ترغب في الاستمرار </value>
+  </data>
+  <data name="AlertDbBackUp" xml:space="preserve">
+    <value>عذرا! هل فعلا ترغب في حفظ نسخة احتياطية للبيانات</value>
+  </data>
+  <data name="AlertDbRestore" xml:space="preserve">
+    <value>عذرا! هل حقا ترغب في استعادة البيانات</value>
+  </data>
+  <data name="AlertDefaultValues" xml:space="preserve">
+    <value>عذار! هل فعلا ترغب في إستعادة القيم الافتراضية</value>
+  </data>
+  <data name="AlertDeleteAgent" xml:space="preserve">
+    <value>عذرا! هل فعلا ترغب في الغاء بيانات العميل</value>
+  </data>
+  <data name="AlertDeleteBarcode" xml:space="preserve">
+    <value>عذرا! هل فعلا ترغب في الغاء الباركود</value>
+  </data>
+  <data name="AlertDeleteEmployee" xml:space="preserve">
+    <value>عذرا! هل فعلا ترغب في الغاء هذا الموظف</value>
+  </data>
+  <data name="AlertDeleteItem" xml:space="preserve">
+    <value>عذرا! هل فعلا ترغب في الغاء الصنف</value>
+  </data>
+  <data name="AlertDeleteReceipt" xml:space="preserve">
+    <value>عذرا! هل فعلا ترغب في الغاء هذا الايصال</value>
+  </data>
+  <data name="AlertDeleteSelectedRow" xml:space="preserve">
+    <value>عذرا! هل فعلا ترغب في الغاء الصنف</value>
+  </data>
+  <data name="AlertDeleteSpending" xml:space="preserve">
+    <value>عذرا! هل فعلا ترغب في الغاء بيانات المصاريف</value>
+  </data>
+  <data name="AlertDeleteWholeRow" xml:space="preserve">
+    <value>عذرا! هل فعلا ترغب في الغاء كافة الاصناف</value>
+  </data>
+  <data name="AlertDeliveryOrder" xml:space="preserve">
+    <value>عذرا! هل فعلا ترغب في تسليم هذا الطلب</value>
+  </data>
+  <data name="AlertDisabletheExpiry" xml:space="preserve">
+    <value>عذرا! هل فعلا ترغب في عدم تطبيق الصلاحية لهذا الصنف</value>
+  </data>
+  <data name="AlertDiscount1" xml:space="preserve">
+    <value>عذرا! لم اتمكن من تطبيق التخفيظ الاول</value>
+  </data>
+  <data name="AlertDiscount2" xml:space="preserve">
+    <value>عذرا! لم اتمكن من تطبيق التخفيظ الثاني</value>
+  </data>
+  <data name="AlertDiscount3" xml:space="preserve">
+    <value>عذرا! لم اتمكن من تطبيق التخفيظ الثالث</value>
+  </data>
+  <data name="AlertInventoryAdj" xml:space="preserve">
+    <value>عذرا! هل فعلا ترغب في تعديل المخزون</value>
+  </data>
+  <data name="AlertInvoiceModified" xml:space="preserve">
+    <value>عذرا! هل فعلا ترغب في التراجع عن كل التغييرات</value>
+  </data>
+  <data name="AlertModifyInvoice" xml:space="preserve">
+    <value>عذار! هل فعلا ترغب في تعديل الفاتورة</value>
+  </data>
+  <data name="AlertRestartApplication" xml:space="preserve">
+    <value>عذرا! لتغيير اللغة يجب اعادة تشغيل المنظومة</value>
+  </data>
+  <data name="AlertRestartApplicationDatabase" xml:space="preserve">
+    <value> عذرا! سيتم اعادة تشغيل النظام لتفعيل الاعدادات الجديدة</value>
+  </data>
+  <data name="AlertSaveDiscount1" xml:space="preserve">
+    <value>نجحت في تطبيق التخفيظ الاول</value>
+  </data>
+  <data name="AlertSaveDiscount2" xml:space="preserve">
+    <value>نجحت في تطبيق التخفيظ الثاني</value>
+  </data>
+  <data name="AlertSaveDiscount3" xml:space="preserve">
+    <value>نجحت في تطبيق التخفيظ الثالث</value>
+  </data>
+  <data name="AlertSaveSettings" xml:space="preserve">
+    <value>عذرا! هل فعلا ترغب في حفظ هذه الاعدادات</value>
+  </data>
+  <data name="AlertSellingPrice" xml:space="preserve">
+    <value>عذرا! هل فعلا ترغب في بيع الصنف بهذا السعر</value>
+  </data>
+  <data name="AlertStartNewYear" xml:space="preserve">
+    <value>عذرا! هل فعلا ترغب في بدء سنة تعدادية جديدة</value>
+  </data>
+  <data name="AlertWantDeleteSelectedRow" xml:space="preserve">
+    <value>عذرا! هل فعلا ترغب في الغاء البيان</value>
+  </data>
+  <data name="AlertWantDeleteWholeRow" xml:space="preserve">
+    <value>عذرا! هل فعلا ترغب في الغاء كافة البيانات </value>
+  </data>
+  <data name="AlertWithdrawAmount" xml:space="preserve">
+    <value>عذرا! قيمة السحب يجب ان لا تفوق رصيدك بالمصرف</value>
+  </data>
+  <data name="AllAgent" xml:space="preserve">
+    <value>كل العملاء</value>
+  </data>
+  <data name="AllCategory" xml:space="preserve">
+    <value>الكل</value>
+  </data>
+  <data name="AllCompany" xml:space="preserve">
+    <value>الكل</value>
+  </data>
+  <data name="AlreadyDelete" xml:space="preserve">
+    <value>عذرا! هذه البيانات الغيت مسبقا</value>
+  </data>
+  <data name="AlreadyDeletedDetailstoSave" xml:space="preserve">
+    <value>عذرا! سبق الغاء هذا البيان لا يمكن حفظه </value>
+  </data>
+  <data name="AlreadyFileExists" xml:space="preserve">
+    <value>هذا الملف موجود مسبقا بإسم</value>
+  </data>
+  <data name="AlreadyInvoiceClosed" xml:space="preserve">
+    <value>عذرا! هذه الفاتورة حفظت مسبقا</value>
+  </data>
+  <data name="AlreadyLogin" xml:space="preserve">
+    <value>عذرا! تم الدخول بهذا المستخدم من جهاز اخر حدد اسم مستخدم اخر
+</value>
+  </data>
+  <data name="AlreadyMovedInvoice" xml:space="preserve">
+    <value>عذرا! هذه الفاتورة تم نقلها مسبقا</value>
+  </data>
+  <data name="AlreadyPaidSalary" xml:space="preserve">
+    <value>عذرا! سبق وان صرف المرتب لهذا الموظف</value>
+  </data>
+  <data name="AlreadyQtyEnteredinProforma" xml:space="preserve">
+    <value>تذكير! الكمية محجوزة بفاتورة مبدئية هل ترغب في الاستمرار</value>
+  </data>
+  <data name="AlreadyReceiptSaved" xml:space="preserve">
+    <value>عذرا! هذا الايصال حفظ مسبقا</value>
+  </data>
+  <data name="AlreadyRegistered" xml:space="preserve">
+    <value>عذرا! سبق تسجيل هذه النسخة </value>
+  </data>
+  <data name="AlreadySavedDetails" xml:space="preserve">
+    <value>عذرا! هذه البيانات تم حفظها مسبقا </value>
+  </data>
+  <data name="AlreadySavedItemDetails" xml:space="preserve">
+    <value>عذرا! بيانات الصنف حفظت مسبقا</value>
+  </data>
+  <data name="AMPOS" xml:space="preserve">
+    <value>المقر لتقنيات الحاسب الالي</value>
+  </data>
+  <data name="AMPOSEvalution" xml:space="preserve">
+    <value>المقر لادارة الاعمال التجارية - نسخة تجريبية </value>
+  </data>
+  <data name="AnnualInventory" xml:space="preserve">
+    <value>الجرد السنوي</value>
+  </data>
+  <data name="AnotherDeliverySet" xml:space="preserve">
+    <value>عذرا! لقد تم تحديد موعد بنفس التاريخ هل فعلا ترغب في الاستمرار</value>
+  </data>
+  <data name="AnotherPaymentSetThisDate" xml:space="preserve">
+    <value>عذرا! لقد تم تحديد مستلم اخر بنفس هذا التاريخ هل فعلا ترغب في الاستمرار</value>
+  </data>
+  <data name="AtleastAgentType" xml:space="preserve">
+    <value>عذرا! قم بتحديد نوع العميل باختيار نوع واحد على الاقل</value>
+  </data>
+  <data name="AtleastPhoneNo" xml:space="preserve">
+    <value>رجاء! حدد رقم هاتف واحد على الاقل</value>
+  </data>
+  <data name="AvailabeBarcode" xml:space="preserve">
+    <value>سبق حفظ هذا الباركود تأكد من صحة إدخالك</value>
+  </data>
+  <data name="AvailabeQty" xml:space="preserve">
+    <value>عذرا! الكمية المتوفرة بالمخزن حاليا  هي </value>
+  </data>
+  <data name="AvailableStockParticularExpiry" xml:space="preserve">
+    <value>عذرا! لا تتوفر كامل الكمية من صلاحية واحدة عليك ادخال الباقي من صلاحية اخرى</value>
+  </data>
+  <data name="BalanceSheet" xml:space="preserve">
+    <value>كشف الحساب</value>
+  </data>
+  <data name="Bank" xml:space="preserve">
+    <value>المصرف</value>
+  </data>
+  <data name="BankDeposit" xml:space="preserve">
+    <value>ايداع مصرفي</value>
+  </data>
+  <data name="BankDepositDetails" xml:space="preserve">
+    <value>بيانات ايداع مصرفي</value>
+  </data>
+  <data name="BankStatement" xml:space="preserve">
+    <value>كشف حساب مصرف</value>
+  </data>
+  <data name="BankWithdraw" xml:space="preserve">
+    <value>سحب مصرفي</value>
+  </data>
+  <data name="BankWithDrawDetails" xml:space="preserve">
+    <value>بيانات سحب مصرفي</value>
+  </data>
+  <data name="BarcodeNotSaved" xml:space="preserve">
+    <value>عذرا! لم يتم حفظ هذا الصنف مسبقا هل ترغب في حفظه؟  سيتم فتح شاشة بطاقة صنف لتقوم بحفظ البيانات</value>
+  </data>
+  <data name="BarcodePrint" xml:space="preserve">
+    <value>طباعة باركود</value>
+  </data>
+  <data name="BBM" xml:space="preserve">
+    <value>بومدين لإدارة الأعمال التجارية </value>
+  </data>
+  <data name="BBMEvaluation" xml:space="preserve">
+    <value>بومدين لإدارة الأعمال التجارية (نسخة تجريبية)</value>
+  </data>
+  <data name="BestClientList" xml:space="preserve">
+    <value>قائمة افضل الزبائن</value>
+  </data>
+  <data name="BestWorstSalePeriod" xml:space="preserve">
+    <value>أفضل - اسوأ فترة مبيعات</value>
+  </data>
+  <data name="Box" xml:space="preserve">
+    <value>علبة F9</value>
+  </data>
+  <data name="Branch" xml:space="preserve">
+    <value>فرع</value>
+  </data>
+  <data name="BranchBalanceSheet" xml:space="preserve">
+    <value>كشف حساب فرع</value>
+  </data>
+  <data name="BranchList" xml:space="preserve">
+    <value>قائمة الفروع</value>
+  </data>
+  <data name="BranchMovement" xml:space="preserve">
+    <value>تحركات فرع</value>
+  </data>
+  <data name="BranchReturningList" xml:space="preserve">
+    <value>قائمة ترجيعات فرع</value>
+  </data>
+  <data name="BusinessStatement" xml:space="preserve">
+    <value>حركة النشاط " المشتريات ، المبيعات ، الارباح و المصاريف</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>إلغاء الأمر</value>
+  </data>
+  <data name="CantChangeEndTime" xml:space="preserve">
+    <value>عذرا! لا يمكن تغيير وقت الانتهاء</value>
+  </data>
+  <data name="CantDeleteafterClosingInvoice" xml:space="preserve">
+    <value>عذرا لا يمكن إلغاء صنف من فاتورة مغلقة، قم بتعديلها أولا</value>
+  </data>
+  <data name="CantDeleteSerialNo" xml:space="preserve">
+    <value>عذرا! لا يمكن الغاء رقم تسلسلي تابع لصنف به مخزون</value>
+  </data>
+  <data name="CantInsertafterClosingInvoice" xml:space="preserve">
+    <value>عذرا! لم اتمكن من اضافة الصنف ، فالفاتورة مغلقة</value>
+  </data>
+  <data name="CantModifyClosedInvoice" xml:space="preserve">
+    <value>عذرا! لم اتمكن من التعديل ، الفاتورة مغلقة</value>
+  </data>
+  <data name="CantUpdateOverTime" xml:space="preserve">
+    <value>عذرا! لم اتمكن من تحديث وقت البداية للاضافي</value>
+  </data>
+  <data name="Cash" xml:space="preserve">
+    <value>نقدا</value>
+  </data>
+  <data name="CashCapital" xml:space="preserve">
+    <value>ايداع رأس المال</value>
+  </data>
+  <data name="CashCapitalDetails" xml:space="preserve">
+    <value>بيانات رأس المال</value>
+  </data>
+  <data name="CashClient" xml:space="preserve">
+    <value>زبون نقدي</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>المجموعة </value>
+  </data>
+  <data name="CategoryName" xml:space="preserve">
+    <value>اسم المجموعة</value>
+  </data>
+  <data name="ChangeCalendarType" xml:space="preserve">
+    <value>رجاء! قم بتغيير نظام التقويم للجهاز الى التقويم الميلادي الانجليزي من لوحة تحكم الجهاز </value>
+  </data>
+  <data name="CheckAgentInfo" xml:space="preserve">
+    <value>الرجاء! اختيار الحفاظ على بيانات العملاء</value>
+  </data>
+  <data name="CheckAnyOne" xml:space="preserve">
+    <value>رجاء! حدد اختيارك</value>
+  </data>
+  <data name="CheckAnyOneAmountCutOption" xml:space="preserve">
+    <value>رجاء! حدد احدى خيارات الخصم</value>
+  </data>
+  <data name="CheckAnyOnegroup" xml:space="preserve">
+    <value>رجاء! حدد احدى المجموعات</value>
+  </data>
+  <data name="CheckBreakTime" xml:space="preserve">
+    <value>رجاء! راجع تفاصيل تسجيل الاستراحة</value>
+  </data>
+  <data name="CheckEndTime" xml:space="preserve">
+    <value>رجاء! راجع تفاصيل تسجيل الانتهاء من العمل</value>
+  </data>
+  <data name="CheckErrorLog" xml:space="preserve">
+    <value>رجاء! اطلع على تسجيل الاخطاء لتصحيح هذا الخطأ</value>
+  </data>
+  <data name="CheckReport" xml:space="preserve">
+    <value>رجاء! حدد احد التقارير</value>
+  </data>
+  <data name="CheckStartTime" xml:space="preserve">
+    <value>رجاء! راجع تفاصيل تسجيل الدخول</value>
+  </data>
+  <data name="CleanDbSuccess" xml:space="preserve">
+    <value>نجحت في عملية مسح البيانات</value>
+  </data>
+  <data name="Cleaning" xml:space="preserve">
+    <value>مصاريف النظافة العامة</value>
+  </data>
+  <data name="ClearLogin" xml:space="preserve">
+    <value>تسجيل خروج المستخدمين</value>
+  </data>
+  <data name="Client" xml:space="preserve">
+    <value>الزبون </value>
+  </data>
+  <data name="ClientLatePayment" xml:space="preserve">
+    <value>الدفعات المتأخرة الدفع " زبائن</value>
+  </data>
+  <data name="ClientList" xml:space="preserve">
+    <value>قائمة الزبائن</value>
+  </data>
+  <data name="ClientPaymentList" xml:space="preserve">
+    <value>حركة مدفوعات زبون</value>
+  </data>
+  <data name="ClientPurchaseList" xml:space="preserve">
+    <value>حركة مسحوبات زبون</value>
+  </data>
+  <data name="CloseInvoice" xml:space="preserve">
+    <value>رجاء! اغلق الفاتورة</value>
+  </data>
+  <data name="CloseOpeningStock" xml:space="preserve">
+    <value>نجحت في عملية حفظ بيانات بضاعة أول المدة </value>
+  </data>
+  <data name="CloseOrder" xml:space="preserve">
+    <value>نجحت في حفظ الفاتورة</value>
+  </data>
+  <data name="ClosePOS" xml:space="preserve">
+    <value>نجحت في حفظ الفاتورة</value>
+  </data>
+  <data name="CloseProforma" xml:space="preserve">
+    <value>نجحت في عملية حفظ الفاتورة</value>
+  </data>
+  <data name="ClosePurchase" xml:space="preserve">
+    <value>نجحت في عملية حفظ الفاتورة</value>
+  </data>
+  <data name="ClosePurchaseReturn" xml:space="preserve">
+    <value>نجحت في حفظ بيانات فاتورة ارجاع مشتريات </value>
+  </data>
+  <data name="CloseRentBack" xml:space="preserve">
+    <value>نجحت في عملية حفظ بيانات ترجيع التأجير</value>
+  </data>
+  <data name="CloseRenting" xml:space="preserve">
+    <value>نجحت في عمليية حفظ الفاتورة</value>
+  </data>
+  <data name="CloseSale" xml:space="preserve">
+    <value>نجحت في حفظ الفاتورة</value>
+  </data>
+  <data name="CloseSaleReturn" xml:space="preserve">
+    <value>نجحت في حفظ الفاتورة</value>
+  </data>
+  <data name="CloseSpoiled" xml:space="preserve">
+    <value>نجحت في حفظ الفاتورة</value>
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>الشركة </value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>الاسم التجاري</value>
+  </data>
+  <data name="CompareDeliveryDateReturnDate" xml:space="preserve">
+    <value>رجاء! تاريخ الارجاع يجب ان لا يكون سابقا لتاريخ التسليم</value>
+  </data>
+  <data name="CompareFromDateToDate" xml:space="preserve">
+    <value>عذرا! الفترة من تاريخ يجب ان تكون اقل من فترة الى تاريخ</value>
+  </data>
+  <data name="ConfigurePrinter" xml:space="preserve">
+    <value>عذرا! لم تقم بتحديد طابعة للاستمعال الافتراضي . حدد طابعة اولا</value>
+  </data>
+  <data name="ConnectionFailed" xml:space="preserve">
+    <value>لم انجح في عملية التوصيل</value>
+  </data>
+  <data name="ConnectionSucceeded" xml:space="preserve">
+    <value>نجحت في عملية التوصيل </value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>استمر</value>
+  </data>
+  <data name="CostGreaterthanSalePrice" xml:space="preserve">
+    <value>عذرا! سعر الشراء اعلى من سعر البيع هل فعلا ترغب في الاستمرار ... هذاسنتج عنه خسائر في ارباح المبيعات ان كان سعر الشراء اعلى من سعر البيع رجاء راجع قبل الاستمرار</value>
+  </data>
+  <data name="CurrentCulturenotSupported" xml:space="preserve">
+    <value>عذرا! للاستمرار يجب تغيير تقويم الجهاز الى "التقويم الميلادي الانجليزي" من لوحة التحكم قائمة الاعدادات و الخيارات الاقليمية اضغط هنا للذهاب الى الشاشة للتمكن من تغيير التقويم والاستمرار في العمل ...يمكنك الاتصال بالدعم الفني عند الحاجة للمساعدة</value>
+  </data>
+  <data name="Customs" xml:space="preserve">
+    <value>مصاريف جمارك</value>
+  </data>
+  <data name="DailyJournalBook" xml:space="preserve">
+    <value>كشف التحركات</value>
+  </data>
+  <data name="DaysLeft" xml:space="preserve">
+    <value>يوم (ايام) متبقية </value>
+  </data>
+  <data name="DbBackUpFailed" xml:space="preserve">
+    <value>عذرا! الم أتمكن من حفظ النسخة الاحتياطية. راجع انكان القرص قد امتلأ أو أن المسار غير صحيح</value>
+  </data>
+  <data name="DbBackUpSuccess" xml:space="preserve">
+    <value>نجحت في عملية حفظ نسخة احتياطية للبيانات</value>
+  </data>
+  <data name="DbRestoreFailed" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية استرجاع البيانات</value>
+  </data>
+  <data name="DbRestoreSuccess" xml:space="preserve">
+    <value>نجحت في عملية استرجاع البيانات</value>
+  </data>
+  <data name="DebtAdjustment" xml:space="preserve">
+    <value>تعديل ارصدة</value>
+  </data>
+  <data name="DebtAdjustmentList" xml:space="preserve">
+    <value>تعديل ارصدة</value>
+  </data>
+  <data name="DebtList" xml:space="preserve">
+    <value>قائمة الديون</value>
+  </data>
+  <data name="DebttobePaid" xml:space="preserve">
+    <value>ديون مستحقة الدفع</value>
+  </data>
+  <data name="DeleteAdditionButton" xml:space="preserve">
+    <value>نجحت في الغاء البيانات</value>
+  </data>
+  <data name="DeleteAgent" xml:space="preserve">
+    <value>نجحت في الغاء البيانات</value>
+  </data>
+  <data name="DeleteBank" xml:space="preserve">
+    <value>نجحت في الغاء البيانات</value>
+  </data>
+  <data name="DeleteBankDeposite" xml:space="preserve">
+    <value>نجحت في الغاء البيانات</value>
+  </data>
+  <data name="DeleteBankWidthDraw" xml:space="preserve">
+    <value>نجحت في الغاء البيانات</value>
+  </data>
+  <data name="DeleteBarcode" xml:space="preserve">
+    <value>نجحت في الغاء البيانات</value>
+  </data>
+  <data name="DeleteBarcodePrint" xml:space="preserve">
+    <value>نجحت في الغاء البيانات</value>
+  </data>
+  <data name="DeleteBranch" xml:space="preserve">
+    <value>نجحت في الغاء البيانات</value>
+  </data>
+  <data name="DeleteButton" xml:space="preserve">
+    <value>نجحت في الغاء بيانات الزر</value>
+  </data>
+  <data name="DeleteCashCapital" xml:space="preserve">
+    <value>نجحت في الغاء البيانات</value>
+  </data>
+  <data name="DeleteCategory" xml:space="preserve">
+    <value>نجحت في الغاء البيانات</value>
+  </data>
+  <data name="DeleteCompany" xml:space="preserve">
+    <value>نجحت في الغاء البيانات</value>
+  </data>
+  <data name="DeleteDebtAdj" xml:space="preserve">
+    <value>نجحت في الغاء البيانات</value>
+  </data>
+  <data name="DeleteDiscount" xml:space="preserve">
+    <value>نجحت في الغاء البيانات</value>
+  </data>
+  <data name="DeleteInvoice" xml:space="preserve">
+    <value>نجحت في الغاء البيانات</value>
+  </data>
+  <data name="DeleteItem" xml:space="preserve">
+    <value>نجحت في الغاء البيانات</value>
+  </data>
+  <data name="DeleteItemPlace" xml:space="preserve">
+    <value>نجحت في الغاء البيانات</value>
+  </data>
+  <data name="DeleteOption" xml:space="preserve">
+    <value>نجحت في الغاء البيانات</value>
+  </data>
+  <data name="DeletePayement" xml:space="preserve">
+    <value>نجحت في الغاء البيانات</value>
+  </data>
+  <data name="DeletePayReceipt" xml:space="preserve">
+    <value>نجحت في الغاء البيانات</value>
+  </data>
+  <data name="DeletePhoneBook" xml:space="preserve">
+    <value>نجحت في الغاء البيانات</value>
+  </data>
+  <data name="DeleteReceiptPrint" xml:space="preserve">
+    <value>عذرا! هذا الايصال ملغي لا يمكن طباعته</value>
+  </data>
+  <data name="DeleteReceiveReceipt" xml:space="preserve">
+    <value>نجحت في عملية الغاء الايصال</value>
+  </data>
+  <data name="DeleteSerialNo" xml:space="preserve">
+    <value>نجحت في الغاء البيانات</value>
+  </data>
+  <data name="DeleteSpending" xml:space="preserve">
+    <value>نجحت في الغاء البيانات</value>
+  </data>
+  <data name="DeleteTimeAttendance" xml:space="preserve">
+    <value>نجحت في الغاء البيانات</value>
+  </data>
+  <data name="DeleteUser" xml:space="preserve">
+    <value>نجحت في الغاء البيانات</value>
+  </data>
+  <data name="DidntSaveInventoryDetails" xml:space="preserve">
+    <value>عذرا! لم تحفظ الفاتورة هل ترغب في حفظها الان</value>
+  </data>
+  <data name="DisbursementSalary" xml:space="preserve">
+    <value>صرف المرتبات</value>
+  </data>
+  <data name="DiscountedItems" xml:space="preserve">
+    <value>أصناف مخفضة </value>
+  </data>
+  <data name="Drawing" xml:space="preserve">
+    <value>مسحوبات</value>
+  </data>
+  <data name="Electricity" xml:space="preserve">
+    <value>مصاريف كهرباء</value>
+  </data>
+  <data name="EmployeeVariables" xml:space="preserve">
+    <value>متغيرات</value>
+  </data>
+  <data name="EmptyAction" xml:space="preserve">
+    <value>رجاء حدد الحركة التي ترغب في البحث عنها</value>
+  </data>
+  <data name="EmptyAdditionDescription" xml:space="preserve">
+    <value>رجاء! حدد وصف زر الاضافة</value>
+  </data>
+  <data name="EmptyAddress" xml:space="preserve">
+    <value>رجاء! حدد العنوان</value>
+  </data>
+  <data name="EmptyAgentName" xml:space="preserve">
+    <value>رجاء! حدد اسم المورد</value>
+  </data>
+  <data name="EmptyAmount" xml:space="preserve">
+    <value>رجاء! القيمة يجب ان لا تكون فارغة</value>
+  </data>
+  <data name="EmptyBank" xml:space="preserve">
+    <value>عذرا! يجب كتابة اسم المصرف</value>
+  </data>
+  <data name="EmptyBarcode" xml:space="preserve">
+    <value>رجاء! يجب عدم ترك خانة الباركود فارغة</value>
+  </data>
+  <data name="EmptyBranch" xml:space="preserve">
+    <value>رجاء! يجب عدم ترك اسم الفرع فارغا</value>
+  </data>
+  <data name="EmptyCategory" xml:space="preserve">
+    <value>رجاء! يجب عدم ترك اسم المجموعة فارغا</value>
+  </data>
+  <data name="EmptyClientName" xml:space="preserve">
+    <value>رجاء! حدد اسم الزبون</value>
+  </data>
+  <data name="EmptyCompany" xml:space="preserve">
+    <value>رجا! يجب عدم ترك اسم الشركة فارغا</value>
+  </data>
+  <data name="EmptyConfirmPassword" xml:space="preserve">
+    <value>عذرا! تأكيد كلمة المرور يجب ان لا يترك فارغا</value>
+  </data>
+  <data name="EmptyCost" xml:space="preserve">
+    <value>رجاء! حدد سعر التكلفة</value>
+  </data>
+  <data name="EmpCurPsw" xml:space="preserve">
+    <value>عذرا! كلمة المرور الحالية يجب ان لا تترك فارغة</value>
+  </data>
+  <data name="EmptyDailyJournalAccount" xml:space="preserve">
+    <value>عذرا! حساب الكشف اليومي يجب ان لا يكون فارغا</value>
+  </data>
+  <data name="EmptyDate" xml:space="preserve">
+    <value>رجاء! يجب عدم ترك التاريخ فارغا</value>
+  </data>
+  <data name="EmptyDays" xml:space="preserve">
+    <value>رجاء! عدد الايام يجب ان لا يكون فارغا</value>
+  </data>
+  <data name="EmptyDeliveryDate" xml:space="preserve">
+    <value>رجاء! حدد تاريخ التسليم</value>
+  </data>
+  <data name="EmptydepositDoneBy" xml:space="preserve">
+    <value>رجاء! حدد اسم المودع</value>
+  </data>
+  <data name="EmptyDescription" xml:space="preserve">
+    <value>رجاء! حدد البيان</value>
+  </data>
+  <data name="EmptyEmployeeName" xml:space="preserve">
+    <value>رجاء! حدد اسم الموظف</value>
+  </data>
+  <data name="EmptyEndTime" xml:space="preserve">
+    <value>رجاء! حدد وقت الانتهاء</value>
+  </data>
+  <data name="EmptyExpiry" xml:space="preserve">
+    <value>رجاء! تاريخ انتهاء الصلاحية يجب ان لا يكون فارغا</value>
+  </data>
+  <data name="EmptyFromDate" xml:space="preserve">
+    <value>رجاء! حدد الفترة من تاريخ</value>
+  </data>
+  <data name="EmptyFromTime" xml:space="preserve">
+    <value>رجاء! حدد قيمة الفترة من</value>
+  </data>
+  <data name="EmptyGroupName" xml:space="preserve">
+    <value>رجاء! حدد اسم المجموعة</value>
+  </data>
+  <data name="EmptyInvoiceList" xml:space="preserve">
+    <value>عذرا! بيانات الفاتورة فارغة</value>
+  </data>
+  <data name="EmptyInvoiceNo" xml:space="preserve">
+    <value>عذرا! رقم الفاتورة يجب ان لا يكون فارغا</value>
+  </data>
+  <data name="EmptyItemName" xml:space="preserve">
+    <value>رجاء! اختر اسم الصنف</value>
+  </data>
+  <data name="EmptyItemNo" xml:space="preserve">
+    <value>عذرا! رقم الصنف يجب ان لايكون فارغا</value>
+  </data>
+  <data name="EmptyItemPlace" xml:space="preserve">
+    <value>رجاء! يجب تحديد مكان الصنف</value>
+  </data>
+  <data name="EmptyMessage" xml:space="preserve">
+    <value>عذرا! يجب ان لا تكون الرسالة فارغة</value>
+  </data>
+  <data name="EmptyMonthlyCut" xml:space="preserve">
+    <value>رجاء! قيمة الاستقطاع الشهري يجب ان لا تكون فارغة</value>
+  </data>
+  <data name="EmptyNewPassword" xml:space="preserve">
+    <value>عذرا! كلمة المرور الجديدة يجب ان لا تكون فارغة</value>
+  </data>
+  <data name="EmptyNooftime" xml:space="preserve">
+    <value>رجاء! عدد المرات يجب ان لا يكون فارغا</value>
+  </data>
+  <data name="EmptyNote" xml:space="preserve">
+    <value>رجاء! الملاحظة يجب ان لا تكون فارغة</value>
+  </data>
+  <data name="EmptyNotes" xml:space="preserve">
+    <value>رجاء! الملاحظة يجب ان لا تكون فارغة</value>
+  </data>
+  <data name="EmptyNumber" xml:space="preserve">
+    <value>رجاء! حدد قيمة البداية "من"</value>
+  </data>
+  <data name="EmptyOverTime" xml:space="preserve">
+    <value>عذرا! وقت البداية للوقت الاضافي يجب ان لا يكون فارغا</value>
+  </data>
+  <data name="EmptyPayTo" xml:space="preserve">
+    <value>رجاء! يجب تحديد الجهة القابضة</value>
+  </data>
+  <data name="EmptyPhoneBookName" xml:space="preserve">
+    <value>رجاء! يجب عدم ترك الاسم فارغا</value>
+  </data>
+  <data name="EmptyPhoneNo" xml:space="preserve">
+    <value>رجاء! رقم الهاتف يجب ان لا يكون فارغا</value>
+  </data>
+  <data name="EmptyPrice" xml:space="preserve">
+    <value>رجاء! سعر البيع يجب ان لا يكون فارغا</value>
+  </data>
+  <data name="EmptyQty" xml:space="preserve">
+    <value>رجاء! تحديد الكمية</value>
+  </data>
+  <data name="EmptyReason" xml:space="preserve">
+    <value>رجاء! يجب تحديد السبب</value>
+  </data>
+  <data name="EmptyReceiptNo" xml:space="preserve">
+    <value>رجاء! يجب تحديد رقم الايصال</value>
+  </data>
+  <data name="EmptyReceivedFrom" xml:space="preserve">
+    <value>رجاء! يجب تحديد جهة الاستلام</value>
+  </data>
+  <data name="EmptyReturnDate" xml:space="preserve">
+    <value>رجاء! حدد تاريخ الترجيع</value>
+  </data>
+  <data name="EmptyReturnQty" xml:space="preserve">
+    <value>رجاء! يجب تحديد الكمية المراد ترجيعها</value>
+  </data>
+  <data name="EmptySerialNumber" xml:space="preserve">
+    <value>رجاء! حدد الرقم التسلسلي</value>
+  </data>
+  <data name="EmptyShortCut" xml:space="preserve">
+    <value>رجاء! يجب تحديد بيانات الاختصار</value>
+  </data>
+  <data name="EmptySortingType" xml:space="preserve">
+    <value>رجاء! حدد نوع الترتيب</value>
+  </data>
+  <data name="EmptyStartTime" xml:space="preserve">
+    <value>رجاء! حدد وقت البداية</value>
+  </data>
+  <data name="EmptySupplierName" xml:space="preserve">
+    <value>رجاء! حدد اسم المورد</value>
+  </data>
+  <data name="EmptyToDate" xml:space="preserve">
+    <value>رجاء! حدد الفترة حتى التاريخ</value>
+  </data>
+  <data name="EmptyToTime" xml:space="preserve">
+    <value>رجاء! حدد الفترة الى تاريخ</value>
+  </data>
+  <data name="EmptyUser" xml:space="preserve">
+    <value>رجاء! ادخل اسما للمستخدم</value>
+  </data>
+  <data name="EmptyUserGroup" xml:space="preserve">
+    <value>رجاء! اختر اسما للمجموعة</value>
+  </data>
+  <data name="EmptyValue" xml:space="preserve">
+    <value>رجاء! يجب تحديد القيمة</value>
+  </data>
+  <data name="EmptyVariableAmount" xml:space="preserve">
+    <value>رجاء! تحديد المتغير</value>
+  </data>
+  <data name="EmtyZeroReturnValue" xml:space="preserve">
+    <value>رجاء! اجمالي الترجيع يجب ان لا يكون صفرا او فارغا</value>
+  </data>
+  <data name="EndBreakTime" xml:space="preserve">
+    <value>انهاء وقت الاستراحة</value>
+  </data>
+  <data name="EndofDay" xml:space="preserve">
+    <value>حساب اخر اليوم </value>
+  </data>
+  <data name="EnterDescription" xml:space="preserve">
+    <value>رجاء! حدد البيان </value>
+  </data>
+  <data name="EnterPayaleReceivable" xml:space="preserve">
+    <value>رجاء! ادخل قيمة مدين له او عليه</value>
+  </data>
+  <data name="EqualPrice" xml:space="preserve">
+    <value>عذرا! السعر يجب ان يكون اكبر من او يساوي اقل سعر</value>
+  </data>
+  <data name="ErrorOccured" xml:space="preserve">
+    <value>عذرا! هناك خطأ ما</value>
+  </data>
+  <data name="Establishment" xml:space="preserve">
+    <value>مصاريف تأسيس</value>
+  </data>
+  <data name="EvaluationExpired" xml:space="preserve">
+    <value>عذرا! انتهت فترة النسخة التجريبية. وجب الإتصال بالدعم الفني لتفعيل النسخة</value>
+  </data>
+  <data name="EvaluationVersion" xml:space="preserve">
+    <value>نسخة تجريبية</value>
+  </data>
+  <data name="ExceedClientDebtLimit" xml:space="preserve">
+    <value>عذرا! لقد تجاوز العميل السقف المحدد له للديون</value>
+  </data>
+  <data name="ExceedClientDebtLimitforCloseInvoice" xml:space="preserve">
+    <value>عذرا! لقد تجاوز العميل السقف المحدد له للديون ، ولا يمكن اغلاق الفاتورة</value>
+  </data>
+  <data name="ExistsAgentName" xml:space="preserve">
+    <value>عذرا! هذا الاسم مسجل مسبقا</value>
+  </data>
+  <data name="ExistsBank" xml:space="preserve">
+    <value>عذرا! يوجد قيد بنفس هذا الاسم</value>
+  </data>
+  <data name="ExistsBarcode" xml:space="preserve">
+    <value>عذرا! هذا الباركود تم تسجيله مسبقا</value>
+  </data>
+  <data name="ExistsBranch" xml:space="preserve">
+    <value>عذرا! هذا الاسم تم تسجيله مسبقا</value>
+  </data>
+  <data name="ExistsBreakTime" xml:space="preserve">
+    <value>عذرا! سبق تسجيل وقت الاستراحة</value>
+  </data>
+  <data name="ExistsCatecoryName" xml:space="preserve">
+    <value>عذرا! عثرت على هذا الاسم مسجلا مسبقا</value>
+  </data>
+  <data name="ExistsCategory" xml:space="preserve">
+    <value>عذرا! هذا السجل تم تسجيله سابقا</value>
+  </data>
+  <data name="ExistsCompany" xml:space="preserve">
+    <value>عذرا! هذا السجل تم تسجيله سابقا</value>
+  </data>
+  <data name="ExistsCompanyName" xml:space="preserve">
+    <value>عذرا! عثرت على هذا الاسم مسجلا مسبقا</value>
+  </data>
+  <data name="ExistsItemName" xml:space="preserve">
+    <value>عذرا! اسم الصنف مستخدم مسبقا</value>
+  </data>
+  <data name="ExistsItemNo" xml:space="preserve">
+    <value>عذرا! رقم الصنف مستخدم مسبقا</value>
+  </data>
+  <data name="ExistsItemPlace" xml:space="preserve">
+    <value>عذرا! مكان الصنف مستخدم مسبقا</value>
+  </data>
+  <data name="ExistsOverTimeofBreakTime" xml:space="preserve">
+    <value>عذرا! سبق وسجلت وقت الاستراحة للوقت الاضافي</value>
+  </data>
+  <data name="ExistsUserGroup" xml:space="preserve">
+    <value>عذرا! اسم المجموعة الذي اخترت موجود مسبقا </value>
+  </data>
+  <data name="ExistsUserName" xml:space="preserve">
+    <value>عذار! هذا الاسم مستخدم مسبقا</value>
+  </data>
+  <data name="ExpensesDetailList" xml:space="preserve">
+    <value>المصاريف</value>
+  </data>
+  <data name="ExpiryListatDate" xml:space="preserve">
+    <value>قائمة انتهاء الصلاحية حتى تاريخ</value>
+  </data>
+  <data name="ExportDetailsSucces" xml:space="preserve">
+    <value>نجحت في عملية تصدير البيانات</value>
+  </data>
+  <data name="ExtraCost" xml:space="preserve">
+    <value>مصاريف اضافية على الفاتورة </value>
+  </data>
+  <data name="FailedCleanDb" xml:space="preserve">
+    <value>عذرا! لم انجح في اتمام عملية مسح البيانات</value>
+  </data>
+  <data name="FailedDeleteAdditionButton" xml:space="preserve">
+    <value>عذرا! لم انجح في الغاء بيانات زر الاضافات</value>
+  </data>
+  <data name="FailedDeleteAgent" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية الغاء بيانات العميل</value>
+  </data>
+  <data name="FailedDeleteBank" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية الغاء بيانات المصرف</value>
+  </data>
+  <data name="FailedDeleteBankDeposite" xml:space="preserve">
+    <value>عذر! لم انجح في عملية الغاء بيانات ايداع مصرفي</value>
+  </data>
+  <data name="FailedDeleteBankWidthDraw" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية الغاء بيانات سحب مصرفي</value>
+  </data>
+  <data name="FailedDeleteBarcode" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية الغاء الباركود</value>
+  </data>
+  <data name="FailedDeleteBarcodePrint" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية الغاء بيانات طباعة الباركود</value>
+  </data>
+  <data name="FailedDeleteBranch" xml:space="preserve">
+    <value>عذرا لم انجح في عملية الغاء بيانات فرع</value>
+  </data>
+  <data name="FailedDeleteButton" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية الغاء بيانات الزر</value>
+  </data>
+  <data name="FailedDeleteCashCapital" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية الغاء بيانات ايداع رأس المال</value>
+  </data>
+  <data name="FailedDeleteCategory" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية الغاء بيانات المجموعة</value>
+  </data>
+  <data name="FailedDeleteCompany" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية الغاء بيانات الشركة</value>
+  </data>
+  <data name="FailedDeleteDebtAdj" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية الغاء بيانات تعديل رصيد عميل</value>
+  </data>
+  <data name="FailedDeleteInvoice" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية الغاء بيانات الفاتورة</value>
+  </data>
+  <data name="FailedDeleteItem" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية الغاء بيانات الصنف</value>
+  </data>
+  <data name="FailedDeleteItemPlace" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية الغاء بيانات مكان الصنف</value>
+  </data>
+  <data name="FailedDeleteOption" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية الغاء بيانات الاعدادات</value>
+  </data>
+  <data name="FailedDeletePayement" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية الغاء بيانات الدفع</value>
+  </data>
+  <data name="FailedDeletePayReceipt" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية الغاء بيانات ايصال الصرف</value>
+  </data>
+  <data name="FailedDeletePhoneBook" xml:space="preserve">
+    <value>عذر! لم انجح في عملية الغاء بيانات دليل الهاتف</value>
+  </data>
+  <data name="FailedDeleteReceiveReceipt" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية الغاء بيانات ايصال قبض</value>
+  </data>
+  <data name="FailedDeleteSerialNo" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية الغاء بيانات الرقم التسلسلي</value>
+  </data>
+  <data name="FailedDeleteSpending" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية الغاء بيان المصروفات</value>
+  </data>
+  <data name="FailedDeleteTimeAttendance" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية الغاء بيان تسجيل الدخول</value>
+  </data>
+  <data name="FailedDeleteUser" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية الغاء بيانات المستخدم</value>
+  </data>
+  <data name="FailedDeletItem" xml:space="preserve">
+    <value>عذرا! لم أنجح في عملية حذف الصنف</value>
+  </data>
+  <data name="FailedExport" xml:space="preserve">
+    <value>عذار! لم اتمكن من اتمام عملية التصدير</value>
+  </data>
+  <data name="FailedInsertValue" xml:space="preserve">
+    <value>عذرا! لم انجح في ادخال القيمة للفاتورة </value>
+  </data>
+  <data name="FailedInventoryAdjUpdate" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية تحديث المخزون</value>
+  </data>
+  <data name="FailedSaveAdditionButton" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية حفظ بيانات زر الاضافة</value>
+  </data>
+  <data name="FailedSaveAgent" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية حفظ بيانات العميل</value>
+  </data>
+  <data name="FailedSaveBank" xml:space="preserve">
+    <value>عذرا! لم انجح في علمية حفظ بيانات المصرف</value>
+  </data>
+  <data name="FailedSaveBankDeposite" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية حفظ بيانات ايداع مصرفي</value>
+  </data>
+  <data name="FailedSaveBankWidthDraw" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية حفظ بيانات سحب مصرفي</value>
+  </data>
+  <data name="FailedSaveBarcode" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية حفظ الباركود</value>
+  </data>
+  <data name="FailedSaveBarcodePrint" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية حفظ بيانات طباعة الباركود</value>
+  </data>
+  <data name="FailedSaveBranch" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية حفظ بيانات الفرع</value>
+  </data>
+  <data name="FailedSaveButton" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية حفظ بيانات الازرار</value>
+  </data>
+  <data name="FailedSaveCashCapital" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية حفظ بيانات ايداع رأس المال</value>
+  </data>
+  <data name="FailedSaveCategory" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية حفظ بيانات المجموعة</value>
+  </data>
+  <data name="FailedSaveCompany" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية حفظ بيانات الشركة</value>
+  </data>
+  <data name="FailedSaveDebtAdj" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية حفظ بيانات تعديل رصيد عميل</value>
+  </data>
+  <data name="FailedSaveInvoice" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية حفظ بيانات الفاتورة</value>
+  </data>
+  <data name="FailedSaveItem" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية حفظ بيانات الصنف</value>
+  </data>
+  <data name="FailedSaveItemPlace" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية حفظ بيانات مكان الصنف</value>
+  </data>
+  <data name="FailedSaveOption" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية حفظ بيانات الاعدادات</value>
+  </data>
+  <data name="FailedSavePayement" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية حفظ بيانات الدفع</value>
+  </data>
+  <data name="FailedSavePayReceipt" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية حفظ بيانات ايصال صرف</value>
+  </data>
+  <data name="FailedSavePhoneBook" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية حفظ بيانات دليل الهاتف</value>
+  </data>
+  <data name="FailedSaveReceiveReceipt" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية حفظ بيانات ايصال قبض</value>
+  </data>
+  <data name="FailedSaveSerialNo" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية حفظ بيانات الرقم التسلسلي</value>
+  </data>
+  <data name="FailedSaveSpending" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية حفظ بيانات الصرف</value>
+  </data>
+  <data name="FailedSaveTimeAttendance" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية حفظ بيانات الدخول</value>
+  </data>
+  <data name="FailedSaveUser" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية حفظ بيانات المستخدم</value>
+  </data>
+  <data name="FieldName" xml:space="preserve">
+    <value>البيان</value>
+  </data>
+  <data name="FindPurchaseInvoice" xml:space="preserve">
+    <value>بحث عن فاتورة مشتريات</value>
+  </data>
+  <data name="FindSaleInvoice" xml:space="preserve">
+    <value>بحث عن فاتورة مبيعات</value>
+  </data>
+  <data name="FoodandBeverages" xml:space="preserve">
+    <value>مصاريف إعاشة ومشروبات</value>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>الجمعة</value>
+  </data>
+  <data name="Fuel" xml:space="preserve">
+    <value>مصاريف وقود</value>
+  </data>
+  <data name="FutureValidity" xml:space="preserve">
+    <value>رجاء! حدد تاريخ صلاحية الفاتورة </value>
+  </data>
+  <data name="GeneratedBarcodeList" xml:space="preserve">
+    <value>اصناف بدون باركود</value>
+  </data>
+  <data name="GiveTimeOut" xml:space="preserve">
+    <value>رجاء! وقت مستقطع</value>
+  </data>
+  <data name="GovernmentPaper" xml:space="preserve">
+    <value>مصاريف أوراق رسمية</value>
+  </data>
+  <data name="GreaterthanZeroAmount" xml:space="preserve">
+    <value>عذرا! القيمة يجب ان تكون اكبر من صفر</value>
+  </data>
+  <data name="HealthInsurance" xml:space="preserve">
+    <value>مصاريف التأمين الطبي</value>
+  </data>
+  <data name="Hi" xml:space="preserve">
+    <value>السلام عليكم </value>
+  </data>
+  <data name="Hourly" xml:space="preserve">
+    <value>بالساعة </value>
+  </data>
+  <data name="HourlyEmployeeCreateUserAccount" xml:space="preserve">
+    <value>عذرا! محاسبة هذا الموظف بالساعة ويجب انشاء حساب مستخدم له ليتم حساب وقت الدخول و الخروج و عدد الساعات التي عملها </value>
+  </data>
+  <data name="HourlySales" xml:space="preserve">
+    <value>حركة المبيعات حسب الساعات</value>
+  </data>
+  <data name="Incentives" xml:space="preserve">
+    <value>حوافز</value>
+  </data>
+  <data name="IncompatibleFile" xml:space="preserve">
+    <value>عذرا! لقد قمت باختيار ملف غير متوافق رجاء حدد ملف قمت بتصديره من فاتورة المبيعات</value>
+  </data>
+  <data name="InformationSenttoPOS" xml:space="preserve">
+    <value>نجحت في عملية التواصل مع شاشة المبيعات</value>
+  </data>
+  <data name="InsCleanDb" xml:space="preserve">
+    <value>تنبيه! رجاء تنبه أنه سيتم مسح البيانات الحالية من قاعدة البيانات، وإحتياطا قم بحفظ نسخة إحتياطية للبيانات قبل الإستمرار بهذه العملية.</value>
+  </data>
+  <data name="InsDbRestore" xml:space="preserve">
+    <value>تنبيه! سيتم استرجاع البيانات واستبدال البيانات الحالية بالبيانات الجديدة. راجع إن كنت بحاجة لحفظ نسخة إحتياطية للبيانات الحالية قبل إتمام عملية الإسترجاع.</value>
+  </data>
+  <data name="Internet" xml:space="preserve">
+    <value>مصاريف انترنت</value>
+  </data>
+  <data name="InvalidDate" xml:space="preserve">
+    <value>رجاء! حدد تاريخ صحيح</value>
+  </data>
+  <data name="InvalidOperation" xml:space="preserve">
+    <value>رجاء! حدد قيمة الرقم التسلسلي</value>
+  </data>
+  <data name="InvalidOption" xml:space="preserve">
+    <value>عذرا! قمت بتحديد إعدادات خاطئة </value>
+  </data>
+  <data name="InvalidPath" xml:space="preserve">
+    <value>عذرا! المسار غير صحيح، رجاء تأكد من صحة المسار وحاول مرة أخرى.  </value>
+  </data>
+  <data name="Inventory" xml:space="preserve">
+    <value>المخزون</value>
+  </data>
+  <data name="InventoryAdjustment" xml:space="preserve">
+    <value>تعديل المخزون</value>
+  </data>
+  <data name="InventoryAtDate" xml:space="preserve">
+    <value>جرد المخزن بتاريخ...</value>
+  </data>
+  <data name="InventoryList" xml:space="preserve">
+    <value>قائمة الجرد</value>
+  </data>
+  <data name="InventoryValue" xml:space="preserve">
+    <value>اجمالي قيمة المخزون</value>
+  </data>
+  <data name="ItemcardInOutStock" xml:space="preserve">
+    <value>تقرير صنف وارد صادر مخزون </value>
+  </data>
+  <data name="ItemCostGreaterthanZero" xml:space="preserve">
+    <value>عذرا! لقد اخترت ان تكون قيمة شراء هذا الصنف صفر هل حقا ترغب في الاستمرار</value>
+  </data>
+  <data name="ItemExistInCategory" xml:space="preserve">
+    <value>عذرا! هذا الصنف تابع لهذه المجموعة</value>
+  </data>
+  <data name="ItemExistInCompany" xml:space="preserve">
+    <value>عذرا! هذا الصنف تابع لهذه الشركة</value>
+  </data>
+  <data name="ItemList" xml:space="preserve">
+    <value>قائمة الاصناف</value>
+  </data>
+  <data name="ItemNotRegisteredInformAdmin" xml:space="preserve">
+    <value>لم يتم تسجيل هذا الصنف ضمن قائمة الاصناف ليتم التعامل معه اعلم الادارة بذلك</value>
+  </data>
+  <data name="ItemPlace" xml:space="preserve">
+    <value>مكان الصنف</value>
+  </data>
+  <data name="ItemPriceList" xml:space="preserve">
+    <value>قائمة اسعار البيع</value>
+  </data>
+  <data name="ItemPurchaseSaleMovement" xml:space="preserve">
+    <value>حركة بيع وشراء صنف</value>
+  </data>
+  <data name="ItemSerialNo" xml:space="preserve">
+    <value>المقاس</value>
+  </data>
+  <data name="LessthanSellingPricethanCost" xml:space="preserve">
+    <value>تنبيه! سعر البيع اقل من التكلفة تأكد أنك حقا ترغب في الإستمرار أم لا </value>
+  </data>
+  <data name="LessthanSellingPricethanMinimumPrice" xml:space="preserve">
+    <value>عذرا! لا يمكن البيع بأقل من اقل سعر بيع تم تحديده... راجع الادارة</value>
+  </data>
+  <data name="LessthanTotalCost" xml:space="preserve">
+    <value>تنبيه! قيمة الفاتورة أقل من التكلفة ، سيتسبب ذلك في عجز في الأرباح أو خطأ في الحسابات.رجاء راجع الإدارة للتأكد من صحة الإدخال </value>
+  </data>
+  <data name="LikeStartNewSession" xml:space="preserve">
+    <value>عذرا! هل فعلا ترغب في بدء فترة عمل جديدة</value>
+  </data>
+  <data name="LiketoAddNote" xml:space="preserve">
+    <value>عذرا! هل ترغب في اضافة ملاحظة</value>
+  </data>
+  <data name="Limited" xml:space="preserve">
+    <value>محدود</value>
+  </data>
+  <data name="LocalSystemBackup" xml:space="preserve">
+    <value>عذرا! يجب حفظ النسخ الاحتياطية في القرص الصلب الخاص بك</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>تسجيل الخروج </value>
+  </data>
+  <data name="LogoutFailed" xml:space="preserve">
+    <value>لم انجح في تسجيل خروج المستخدم </value>
+  </data>
+  <data name="LogoutSuccess" xml:space="preserve">
+    <value>نجحت في تسجيل خروج المستخدم </value>
+  </data>
+  <data name="Maintenance" xml:space="preserve">
+    <value>مصاريف صيانة</value>
+  </data>
+  <data name="MaintenancePriceList" xml:space="preserve">
+    <value>قائمة اسعار الصيانة</value>
+  </data>
+  <data name="MarketingandPublications" xml:space="preserve">
+    <value>مصاريف دعاية وإعلان</value>
+  </data>
+  <data name="MarketingPercentage" xml:space="preserve">
+    <value>مصاريف نسبة تسويق</value>
+  </data>
+  <data name="MessageSendSuccess" xml:space="preserve">
+    <value>نجحت في عملية ارسال الرسالة</value>
+  </data>
+  <data name="MinimumPriceLessthanWholeSalePrice" xml:space="preserve">
+    <value>عذرا! اقل سعر يجب ان يكون اقل من سعر الجملة</value>
+  </data>
+  <data name="ModifyBtnClick" xml:space="preserve">
+    <value>عذار! لا يمكن اضافة صنف الا بعد التعديل</value>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>الاثنين</value>
+  </data>
+  <data name="MonthComparision" xml:space="preserve">
+    <value>مقارنة بين الاشهر</value>
+  </data>
+  <data name="Monthly" xml:space="preserve">
+    <value>شهري</value>
+  </data>
+  <data name="MonthlyCutAmountLessthanvariableAmount" xml:space="preserve">
+    <value>عذرا! الاستقطاع الشهري يجب ان لا يكون اعلى من قيمة المتغير</value>
+  </data>
+  <data name="MoveInvoiceSuccess" xml:space="preserve">
+    <value>نجحت في عملية نقل الفاتورة</value>
+  </data>
+  <data name="MustCloseOrderInvoice" xml:space="preserve">
+    <value>رجاء! يجب اغلاق فاتورة الطلب</value>
+  </data>
+  <data name="MustClosePurchaseInvoice" xml:space="preserve">
+    <value>رجاء! يجب اغلاق فاتورة الشراء</value>
+  </data>
+  <data name="MustSaveInvoice" xml:space="preserve">
+    <value>رجاء! يجب حفظ الفاتورة</value>
+  </data>
+  <data name="MustSaveItemSerialNo" xml:space="preserve">
+    <value>رجاء! يجب حفظ بيانات المقاس </value>
+  </data>
+  <data name="MustSelectOneRow" xml:space="preserve">
+    <value>رجاء! اختر احد الصفوف لعرض التفاصيل</value>
+  </data>
+  <data name="MustSelectReturnType" xml:space="preserve">
+    <value>رجاء! اختر احد طرق الإرجاع</value>
+  </data>
+  <data name="Neglect" xml:space="preserve">
+    <value>اهمال</value>
+  </data>
+  <data name="NetProfit" xml:space="preserve">
+    <value>صافي الدخل</value>
+  </data>
+  <data name="NewReceiptNo" xml:space="preserve">
+    <value>عذرا! هذا الايصال جديد اختر ايصال اخر</value>
+  </data>
+  <data name="NewYearFailed" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية بدء سنة تعدادية جديدة</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="NoAdminRights" xml:space="preserve">
+    <value>عذرا! لا يوجد حساب لهذا العميل</value>
+  </data>
+  <data name="NoBalanceAgent" xml:space="preserve">
+    <value>عذرا! لا يوجد حركة حساب لهذا العميل</value>
+  </data>
+  <data name="NoBarcodeDetailstoPrint" xml:space="preserve">
+    <value>عذرا! لم اتمكن من العثور على بيانات باركود لطباعتها</value>
+  </data>
+  <data name="NoDataDelete" xml:space="preserve">
+    <value>عذرا! لم اتمكن من العثور على بيانات لإلغائها</value>
+  </data>
+  <data name="NoDatetoExport" xml:space="preserve">
+    <value>عذرا! لم اتمكن من العثور علي بيانات لتصديرها</value>
+  </data>
+  <data name="NoDatetoUndo" xml:space="preserve">
+    <value>عذرا! لم اتمكن من العثور على بيانات للتراجع</value>
+  </data>
+  <data name="NoDiscount" xml:space="preserve">
+    <value>عذرا! لم يتم اختيار فترة تخفيض للالغاء </value>
+  </data>
+  <data name="NoEmployee" xml:space="preserve">
+    <value>عذرا! لا يوجد موظفين  </value>
+  </data>
+  <data name="NoGeneratedBarcodeItems" xml:space="preserve">
+    <value>عذرا! لم اتمكن من العثور على اصناف بها باركود عشوائي</value>
+  </data>
+  <data name="NoItem" xml:space="preserve">
+    <value>عذرا! لم اتمكن من العثور على اصناف</value>
+  </data>
+  <data name="NoIteminBarcodeList" xml:space="preserve">
+    <value>عذرا! لم اتمكن من العثور على بيانات بقائمة الباركود</value>
+  </data>
+  <data name="NoIteminInventory" xml:space="preserve">
+    <value>عذرا! لم اتمكن من العثور على مخزون للاصناف</value>
+  </data>
+  <data name="NoIteminInvoice" xml:space="preserve">
+    <value>عذرا! يجب ادراج صنف واحد على الاقل</value>
+  </data>
+  <data name="NoItemtoDelete" xml:space="preserve">
+    <value>عذرا! لم اتمكن من العثور على بيانات لإلغائها</value>
+  </data>
+  <data name="NoItemtoExport" xml:space="preserve">
+    <value>عذرا! لم اتمكن من العثور على بيانات للتصدير</value>
+  </data>
+  <data name="NoItemtoSave" xml:space="preserve">
+    <value>عذرا! لم اتمكن من العثور على بيانات لحفظها</value>
+  </data>
+  <data name="NoItemtoUndo" xml:space="preserve">
+    <value>عذرا! لم اتمكن من العثور على بيانات للتراجع</value>
+  </data>
+  <data name="NonMovingItems" xml:space="preserve">
+    <value>اصناف راكدة "اصناف لم تتحرك منذ..."</value>
+  </data>
+  <data name="NoNotes" xml:space="preserve">
+    <value>لا توجد أي ملاحظات </value>
+  </data>
+  <data name="NoOptiontoCalculatetheSalary" xml:space="preserve">
+    <value>عذرا! لم تحدد اسلوب حساب المرتب</value>
+  </data>
+  <data name="NoPurchaseMovementforItem" xml:space="preserve">
+    <value>عذرا! لم اتمكن من  العثور على حركة مشتريات لهذا الصنف</value>
+  </data>
+  <data name="NoQtyPurchaseIt" xml:space="preserve">
+    <value>عذرا! لا يتوفر مخزون لهذا الصنف ، قم بشرائه اولا لتتمكن من بيعه</value>
+  </data>
+  <data name="NoRecordsFound" xml:space="preserve">
+    <value>عذرا! لم اتمكن من ايجاد أي سجلات</value>
+  </data>
+  <data name="NoReminderMessage" xml:space="preserve">
+    <value>عذرا! لا توجد أي تنبيهات</value>
+  </data>
+  <data name="NoRightsMinimumPrice" xml:space="preserve">
+    <value>عذرا! لا تملك الصلاحية للبيع بأقل سعر</value>
+  </data>
+  <data name="NoRightstoOpenTab" xml:space="preserve">
+    <value>عذرا! لا تملك الصلاحية لفتح هذه الشاشة</value>
+  </data>
+  <data name="NoRightsUser" xml:space="preserve">
+    <value>عذرا! لا تملك الصلاحية لاستعمال هذه الشاشة</value>
+  </data>
+  <data name="NoRightsWholesalePrice" xml:space="preserve">
+    <value>عذرا! لا تملك الصلاحية للبيع بسعر الجملة</value>
+  </data>
+  <data name="Normal" xml:space="preserve">
+    <value>المبيعات </value>
+  </data>
+  <data name="NoSaleMovementforItem" xml:space="preserve">
+    <value>عذرا! لم اتمكن من العثور على حركة مبيعات لهذا الصنف</value>
+  </data>
+  <data name="NoStock" xml:space="preserve">
+    <value>عذرا! لم اتمكن من العثور على اصناف بالمخزن</value>
+  </data>
+  <data name="NoStockItem" xml:space="preserve">
+    <value>عذرا! لا يوجد مخزون لهذا الصنف</value>
+  </data>
+  <data name="NotAllowableDebtSelling" xml:space="preserve">
+    <value>عذرا! تم ايقاف البيع بالاجل</value>
+  </data>
+  <data name="NotAllowablePayReceipt" xml:space="preserve">
+    <value>عذرا! تم اصدار ايصال صرف تلقائيا لهذا الزبون</value>
+  </data>
+  <data name="NotAllowDifferentSupplier" xml:space="preserve">
+    <value>عذرا! لا يمكن السماح بأكثر من مورد</value>
+  </data>
+  <data name="NotAvailableBarcode" xml:space="preserve">
+    <value>عذرا! لم يسبق تعريف هذا الصنف هل ترغب في حفظ بياناته؟</value>
+  </data>
+  <data name="NotAvailableReceiptNo" xml:space="preserve">
+    <value>عذرا! رقم الايصال غير متوفر</value>
+  </data>
+  <data name="NotClosedInvoice" xml:space="preserve">
+    <value>عذرا! الفاتورة لم تحفظ بعد</value>
+  </data>
+  <data name="NotificationDates" xml:space="preserve">
+    <value>تواريخ التنبيهات</value>
+  </data>
+  <data name="NotPossibeInsertItem" xml:space="preserve">
+    <value>عذرا! لم انجح في عملية ادراج الصنف</value>
+  </data>
+  <data name="NotPossibleReturnInvoice" xml:space="preserve">
+    <value>عذرا! لا يمكن استرجاع اصناف لاكثر من عميل في نفس الفاتورة ، رجاء افتح فاتورة جديدة</value>
+  </data>
+  <data name="NotPossibleUndoReturn" xml:space="preserve">
+    <value>عذرا! لا يمكنني الارجاع لفاتورة مغلقة</value>
+  </data>
+  <data name="NotPossibleUndoReturnNow" xml:space="preserve">
+    <value>عذرا! التراجع عن الارجاع غير متاح الان</value>
+  </data>
+  <data name="NotSavedSaleInvoicewithAgent" xml:space="preserve">
+    <value>عذرا! لم يتم حفظ فاتورة بهذا الرقم او العميل بعد</value>
+  </data>
+  <data name="NotSavedSaleInvoicewithInvoiceNo" xml:space="preserve">
+    <value>عذرا! لم يتم حفظ فاتورة بهذا الرقم بعد</value>
+  </data>
+  <data name="NotSaveReceipt" xml:space="preserve">
+    <value>عذرا! لم يتم حفظ الايصال بعد</value>
+  </data>
+  <data name="NotSelectRowtoDelete" xml:space="preserve">
+    <value>رجاء! اختر صنفا لإلغائه</value>
+  </data>
+  <data name="NotSelectRowtoReturn" xml:space="preserve">
+    <value>رجاء! اختر صفا لإتمام عملية الإرجاع </value>
+  </data>
+  <data name="NotUserGroupHaveDefaultvalues" xml:space="preserve">
+    <value>عذرا! لا توجد اعدادات افتراضية لهذه المجموعة</value>
+  </data>
+  <data name="NotValidCurrentPassword" xml:space="preserve">
+    <value>عذرا! كلمة المرور الحالية غير صالحة</value>
+  </data>
+  <data name="NotValidItemPOS" xml:space="preserve">
+    <value>عذرا! لم يتم حفظ هذا الصنف مسبقا. هل ترغب في حفظ بياناته؟</value>
+  </data>
+  <data name="NotValidItemRenting" xml:space="preserve">
+    <value>عذرا! الصنف الذي اخترته ليس من النوع الذي يمكن تأجيره</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>موافق</value>
+  </data>
+  <data name="OnlyNumbersAllowed" xml:space="preserve">
+    <value>عذرا! استخدم ارقاما فقط</value>
+  </data>
+  <data name="OpenForm" xml:space="preserve">
+    <value>اختر فاتورة الارجاع </value>
+  </data>
+  <data name="OpeningStock" xml:space="preserve">
+    <value>بضاعة اول المدة</value>
+  </data>
+  <data name="Option" xml:space="preserve">
+    <value>إعدادات و خيارات</value>
+  </data>
+  <data name="OrderedNotPurchased" xml:space="preserve">
+    <value>اصناف تحت الطلب</value>
+  </data>
+  <data name="OrderInvoice" xml:space="preserve">
+    <value>فاتورة طلب توريد</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>مصاريف أخرى</value>
+  </data>
+  <data name="Others" xml:space="preserve">
+    <value>اخرى</value>
+  </data>
+  <data name="OtherStaff" xml:space="preserve">
+    <value>مصروفات نثرية </value>
+  </data>
+  <data name="OutofStock" xml:space="preserve">
+    <value>عذرا! لا تتوفر كمية لهذا الصنف </value>
+  </data>
+  <data name="Packagepiecezero" xml:space="preserve">
+    <value>عذرا! العبوة يجب ان تكون اكبر من صفر</value>
+  </data>
+  <data name="PaidLessthanTotal" xml:space="preserve">
+    <value>عذرا! المبلغ المدفوع اقل من إجمالي الفاتورة </value>
+  </data>
+  <data name="PasswordChangeSuccess" xml:space="preserve">
+    <value>نجحت في عملية تغيير كلمة السر</value>
+  </data>
+  <data name="PasswordMismatched" xml:space="preserve">
+    <value>عذرا! كلمة السر و تأكيد كلمة السر غير متطابقة</value>
+  </data>
+  <data name="PastDateNoteAllowed" xml:space="preserve">
+    <value>عذرا! لا يجب تحديد تاريخ في الماضي </value>
+  </data>
+  <data name="PastDeliveryDate" xml:space="preserve">
+    <value>عذرا! يجب تحديد تاريخ مستقبلي لموعد التسليم </value>
+  </data>
+  <data name="Payable" xml:space="preserve">
+    <value>المدفوعات</value>
+  </data>
+  <data name="Payables" xml:space="preserve">
+    <value>المدفوعات</value>
+  </data>
+  <data name="PaymentDate" xml:space="preserve">
+    <value>موعد الدفع</value>
+  </data>
+  <data name="PayReceipt" xml:space="preserve">
+    <value>ايصال صرف</value>
+  </data>
+  <data name="Payrent" xml:space="preserve">
+    <value>دفع الايجار</value>
+  </data>
+  <data name="Percent" xml:space="preserve">
+    <value>مصاريف عمولة </value>
+  </data>
+  <data name="Percentage" xml:space="preserve">
+    <value>نسبة </value>
+  </data>
+  <data name="PersonalSpending" xml:space="preserve">
+    <value>مصاريف شخصية </value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>مصاريف الهاتف</value>
+  </data>
+  <data name="Piece" xml:space="preserve">
+    <value>قطعة F9</value>
+  </data>
+  <data name="POSInvoice" xml:space="preserve">
+    <value>فاتورة البيع السريع </value>
+  </data>
+  <data name="POSMessage" xml:space="preserve">
+    <value>رسالة البائع</value>
+  </data>
+  <data name="PriceChanging" xml:space="preserve">
+    <value>تغير الاسعار
+</value>
+  </data>
+  <data name="PriceGreaterthanZero" xml:space="preserve">
+    <value>عذرا! سعر البيع يجب ان يكون اعلى من صفر</value>
+  </data>
+  <data name="Pricing" xml:space="preserve">
+    <value>التسعيرة 
+</value>
+  </data>
+  <data name="ProformaInvoice" xml:space="preserve">
+    <value>فاتورة عرض</value>
+  </data>
+  <data name="Punishment" xml:space="preserve">
+    <value>عقوبة</value>
+  </data>
+  <data name="PurchaseExtracost" xml:space="preserve">
+    <value>مصاريف اضافية لفاتورة المشتريات</value>
+  </data>
+  <data name="PurchaseInvoice" xml:space="preserve">
+    <value>فاتورة مشتريات</value>
+  </data>
+  <data name="PurchaseInvoicelist" xml:space="preserve">
+    <value>قائمة فواتير الشراء</value>
+  </data>
+  <data name="PurchaseMovement" xml:space="preserve">
+    <value>حركة شراء</value>
+  </data>
+  <data name="PurchaseReturnInvoice" xml:space="preserve">
+    <value>ترجيع مشتريات </value>
+  </data>
+  <data name="PurchaseReturnMovement" xml:space="preserve">
+    <value>حركة ارجاع مشتريات</value>
+  </data>
+  <data name="PurchaseSaleProfitforeachMonth" xml:space="preserve">
+    <value>الارباح و المبيعات والمشتريات عن كل شهر</value>
+  </data>
+  <data name="Purchasesperson" xml:space="preserve">
+    <value>مشتريات</value>
+  </data>
+  <data name="QuantityValue" xml:space="preserve">
+    <value>عذرا! الكمية المرجعة يجب ان لا تتجاوز الكمية بالفاتورة</value>
+  </data>
+  <data name="RatiooftheSaletoReturningandProfit" xml:space="preserve">
+    <value>نسبة المبيعات الى الترجعيات و المربح</value>
+  </data>
+  <data name="RatioWorkingHourstotheSalary" xml:space="preserve">
+    <value>معدل ساعات العمل للمرتبات</value>
+  </data>
+  <data name="ReachedMaxmOrder" xml:space="preserve">
+    <value>تنبيه! وصل هذا الصنف الى الحد الاعلى للمخزون</value>
+  </data>
+  <data name="Receipt" xml:space="preserve">
+    <value>الايصال</value>
+  </data>
+  <data name="Receivable" xml:space="preserve">
+    <value>المقبوضات</value>
+  </data>
+  <data name="Receivables" xml:space="preserve">
+    <value>المقبوضات</value>
+  </data>
+  <data name="ReceiveReceipt" xml:space="preserve">
+    <value>ايصال قبض</value>
+  </data>
+  <data name="RegisteredSuccess" xml:space="preserve">
+    <value>تهانينا ... نجحت في تسجيل نسختك ... شكرا لك لإختيارك هذا المنتج</value>
+  </data>
+  <data name="RegisteredVersion" xml:space="preserve">
+    <value>نسخة مسجلة</value>
+  </data>
+  <data name="RenewingtheLicense" xml:space="preserve">
+    <value>مصاريف تجديد الترخيص </value>
+  </data>
+  <data name="Rent" xml:space="preserve">
+    <value>قائمة باسعار الايجار</value>
+  </data>
+  <data name="RentBack" xml:space="preserve">
+    <value>بيانات ارجاع الاصناف المؤجرة</value>
+  </data>
+  <data name="RentBackSpending" xml:space="preserve">
+    <value>مصاريف ارجاع اصناف مؤجرة </value>
+  </data>
+  <data name="Renting" xml:space="preserve">
+    <value>مصاريف الإيجار</value>
+  </data>
+  <data name="RentingClient" xml:space="preserve">
+    <value>مؤجر</value>
+  </data>
+  <data name="RentingDebt" xml:space="preserve">
+    <value>ديون ايجار</value>
+  </data>
+  <data name="RentingInvoice" xml:space="preserve">
+    <value>فاتورة ايجار</value>
+  </data>
+  <data name="RentingMovement" xml:space="preserve">
+    <value>حركة تأجير صنف</value>
+  </data>
+  <data name="RentInvoice" xml:space="preserve">
+    <value>فاتورة ايجار</value>
+  </data>
+  <data name="RentPriceList" xml:space="preserve">
+    <value>قائمة اسعار الاجار</value>
+  </data>
+  <data name="ReorderItemList" xml:space="preserve">
+    <value>قائمة النواقص</value>
+  </data>
+  <data name="ReorderItems" xml:space="preserve">
+    <value>تنبيه! هذا الصنف وصل الى نقطة اعادة الطلب</value>
+  </data>
+  <data name="Residential" xml:space="preserve">
+    <value>مصاريف سكن</value>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>ارجاع</value>
+  </data>
+  <data name="ReturnPurchaseItemSuccess" xml:space="preserve">
+    <value>نجحت في عملية ارجاع الصنف</value>
+  </data>
+  <data name="ReturnQtyEqual" xml:space="preserve">
+    <value>عذرا! الكمية المرجعة يجب ان تكون اقل او تساوي الكمية المباعة</value>
+  </data>
+  <data name="ReturnSaleInvoicePayReceipt" xml:space="preserve">
+    <value>عذرا! تم بالفعل اصدار ايصال صرف لهذا العميل</value>
+  </data>
+  <data name="Reward" xml:space="preserve">
+    <value>مكافأة </value>
+  </data>
+  <data name="RightsModifyInvoice" xml:space="preserve">
+    <value>عذرا! تملك صلاحية لتعديل فواتير اليوم فقط</value>
+  </data>
+  <data name="RushOrderReady" xml:space="preserve">
+    <value>تم تجهيز الطلب المستعجل</value>
+  </data>
+  <data name="SalariesandWages" xml:space="preserve">
+    <value>مصروفات مرتبات </value>
+  </data>
+  <data name="SalaryPaidSuccess" xml:space="preserve">
+    <value>نجحت في صرف المرتبات</value>
+  </data>
+  <data name="SalaryPayment" xml:space="preserve">
+    <value>صرف مرتبات </value>
+  </data>
+  <data name="SalaryPerHour" xml:space="preserve">
+    <value>المرتب بالساعة </value>
+  </data>
+  <data name="SaleInvoice" xml:space="preserve">
+    <value>فاتورة مبيعات</value>
+  </data>
+  <data name="SaleInvoiceList" xml:space="preserve">
+    <value>قائمة فواتير البيع </value>
+  </data>
+  <data name="SaleMovement" xml:space="preserve">
+    <value>حركة بيع </value>
+  </data>
+  <data name="SaleReturnInvoice" xml:space="preserve">
+    <value>ترجيع مبيعات </value>
+  </data>
+  <data name="SaleReturnMovement" xml:space="preserve">
+    <value>حركة ارجاع مبيعات</value>
+  </data>
+  <data name="SalesaccordingtoCategory" xml:space="preserve">
+    <value>حركة بيع حسب المجموعة</value>
+  </data>
+  <data name="SalesaccordingtoCompany" xml:space="preserve">
+    <value>حركة بيع حسب الشركة</value>
+  </data>
+  <data name="Salesperson" xml:space="preserve">
+    <value>مبيعات</value>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>السبت</value>
+  </data>
+  <data name="SaveAdditionButton" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="SaveAgent" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="SaveanyonePayableReceivable" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="SaveBank" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="SaveBankDeposite" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="SaveBankWidthDraw" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="SaveBarcode" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="SaveBarcodePrint" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="SaveBranch" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="SaveButton" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="SaveCashCapital" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="SaveCategory" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="SaveCompany" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="SaveDebtAdj" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="SaveDiscount" xml:space="preserve">
+    <value>نجحت في تطبيق التغيير للفترة و الاصناف التي تم تحديدها. يمكنك إلغاء التغيير بحذفه من الجدول </value>
+  </data>
+  <data name="SaveInventoryAdj" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="SaveInvoice" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="SaveItem" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="SaveItemPlace" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="SaveOption" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="SavePayement" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="SavePayReceipt" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="SavePhoneBook" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="SaveReceiveReceipt" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="SaveSerialNo" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="SaveSpending" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="SaveTimeAttendance" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="SaveUser" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="SaveVariableDetails" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="SecondHand" xml:space="preserve">
+    <value>مقاسات</value>
+  </data>
+  <data name="Security" xml:space="preserve">
+    <value>مصاريف حراسة</value>
+  </data>
+  <data name="SelectCashDrawerType" xml:space="preserve">
+    <value>رجاء! حدد نوع صندوق النقد</value>
+  </data>
+  <data name="SelectDiscount" xml:space="preserve">
+    <value>رجاء! اختر فترة تخفيض للالغاء</value>
+  </data>
+  <data name="SelectEmployeeforSalary" xml:space="preserve">
+    <value>رجاء اختر الموظف لصرف المرتب</value>
+  </data>
+  <data name="SelectEmployeeforUndoSalary" xml:space="preserve">
+    <value>رجاء اختر الموظف للتراجع عن صرف المرتب</value>
+  </data>
+  <data name="SelectInvoice" xml:space="preserve">
+    <value>رجاء! حدد احدى الفواتير ثم اضغط</value>
+  </data>
+  <data name="SelectItem" xml:space="preserve">
+    <value>رجاء! اختر الصنف </value>
+  </data>
+  <data name="SelectOnlyInvoiceforButton" xml:space="preserve">
+    <value>رجا! اختر فاتورة </value>
+  </data>
+  <data name="SelectPayofEmployee" xml:space="preserve">
+    <value>رجاء! حدد نوع المحاسبة لصرف المرتب</value>
+  </data>
+  <data name="SelectReceipt" xml:space="preserve">
+    <value>رجاء! حدد احدى الايصالات ثم اضغط</value>
+  </data>
+  <data name="SelectReturnInvoice" xml:space="preserve">
+    <value>رجاء! اختر احدى الفواتير ثم اضغط</value>
+  </data>
+  <data name="SelectRowtodelete" xml:space="preserve">
+    <value>رجاء! حدد احد الصفوف للالغاء</value>
+  </data>
+  <data name="SelectShortCut" xml:space="preserve">
+    <value>رجاء! حدد الاختصار لالغائه</value>
+  </data>
+  <data name="SendInfoSuccess" xml:space="preserve">
+    <value>نجحت في عملية التواصل مع شاشة المبيعات</value>
+  </data>
+  <data name="SetValidDate" xml:space="preserve">
+    <value>رجا! يجب تحديد تاريخ اليوم او ما بعده </value>
+  </data>
+  <data name="Shipping" xml:space="preserve">
+    <value>مصاريف شحن </value>
+  </data>
+  <data name="SocialSecurity" xml:space="preserve">
+    <value>مصاريف الضمان الاجتماعي</value>
+  </data>
+  <data name="Spending" xml:space="preserve">
+    <value>المصاريف</value>
+  </data>
+  <data name="Spoiled" xml:space="preserve">
+    <value>تالف</value>
+  </data>
+  <data name="SpoiledInvoice" xml:space="preserve">
+    <value>فاتورة تالف </value>
+  </data>
+  <data name="SpoiledItems" xml:space="preserve">
+    <value>اصناف تالفة </value>
+  </data>
+  <data name="StartBreakTime" xml:space="preserve">
+    <value>رجاء! ابداء وقت الاستراحة</value>
+  </data>
+  <data name="StartUpComming" xml:space="preserve">
+    <value>تنبيه! الاستمرار في استلام الطلبات</value>
+  </data>
+  <data name="Stationary" xml:space="preserve">
+    <value>مصاريف قرطاسيه</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>ايقاف</value>
+  </data>
+  <data name="StopOrder" xml:space="preserve">
+    <value>رجاء! ايقاف الطلبات</value>
+  </data>
+  <data name="StopupComming" xml:space="preserve">
+    <value>عذرا! اوقفت الطبات الجديدة مؤقتا</value>
+  </data>
+  <data name="NoUndoSalaryPayment" xml:space="preserve">
+    <value>عذرا! لم اتمكن من التراجع عن صرف المرتبات</value>
+  </data>
+  <data name="MustEnterValue" xml:space="preserve">
+    <value>رجاء! ادخل قيمة في خانة اقل من</value>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>الاحد</value>
+  </data>
+  <data name="Supplier" xml:space="preserve">
+    <value>مورد</value>
+  </data>
+  <data name="SupplierLatePayment" xml:space="preserve">
+    <value>الدفعات متأخرة الدفع " موردين" </value>
+  </data>
+  <data name="SupplierList" xml:space="preserve">
+    <value>قائمة الموردين</value>
+  </data>
+  <data name="SureLogout" xml:space="preserve">
+    <value>عذرا! هل فعلا ترغب في تسجيل خروج المستخدم</value>
+  </data>
+  <data name="Tax" xml:space="preserve">
+    <value>مصاريف ضرائب</value>
+  </data>
+  <data name="TaxList" xml:space="preserve">
+    <value>قائمة الضريبة</value>
+  </data>
+  <data name="TechnicalDisclosure" xml:space="preserve">
+    <value>الكشف الفني</value>
+  </data>
+  <data name="TemprovarilyUserSuspended" xml:space="preserve">
+    <value>عذرا!هذا الموظف موقوف مؤقتا</value>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>الخميس</value>
+  </data>
+  <data name="Tickets" xml:space="preserve">
+    <value>مصاريف مخالفات </value>
+  </data>
+  <data name="TimeAttendance" xml:space="preserve">
+    <value>الحضور والانصراف</value>
+  </data>
+  <data name="TodayDeliveryDate" xml:space="preserve">
+    <value>تنبيه! موعد تسليم</value>
+  </data>
+  <data name="TodayPaymentDate" xml:space="preserve">
+    <value>تنبيه! اليوم يوم دفع</value>
+  </data>
+  <data name="Tools" xml:space="preserve">
+    <value>مصاريف أدوات </value>
+  </data>
+  <data name="TotalDiscount" xml:space="preserve">
+    <value>اجمالي التخفيضات</value>
+  </data>
+  <data name="TotaldiscountfromClient" xml:space="preserve">
+    <value>اجمالي تخفيضات الزبون</value>
+  </data>
+  <data name="TotalDiscountfromSupplier" xml:space="preserve">
+    <value>اجمالي تخفيضات مورد</value>
+  </data>
+  <data name="TotalPayementstoSupplier" xml:space="preserve">
+    <value>اجمالي المدفوعات لمورد ...</value>
+  </data>
+  <data name="TotalPurchaseofBranch" xml:space="preserve">
+    <value>اجمالي مشتريات فرع</value>
+  </data>
+  <data name="TotalPurchaseofeachSupplier" xml:space="preserve">
+    <value>اجمالي توريدات مورد</value>
+  </data>
+  <data name="TotalRentExpenses" xml:space="preserve">
+    <value>اجمالي تكاليف الايجار</value>
+  </data>
+  <data name="TotalReturningPurchase" xml:space="preserve">
+    <value>اجمالي مرتجعات " المشتريات</value>
+  </data>
+  <data name="TotalReturningSale" xml:space="preserve">
+    <value>اجمالي مرتجعات المبيعات</value>
+  </data>
+  <data name="TotalSuppliesofSupplier" xml:space="preserve">
+    <value>اجمالي توريدات مورد</value>
+  </data>
+  <data name="Transportation" xml:space="preserve">
+    <value>مصاريف نقل</value>
+  </data>
+  <data name="Travel" xml:space="preserve">
+    <value>مصاريف سفر</value>
+  </data>
+  <data name="TravelingTickets" xml:space="preserve">
+    <value>مصاريف تذاكر سفر</value>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>الثلاثاء</value>
+  </data>
+  <data name="UndoReturnQtylessthanReturnedQty" xml:space="preserve">
+    <value>عذرا! الكمية المتراجع عن ترجيعها اقل من الكمية المرجعة</value>
+  </data>
+  <data name="UndoReturnSuccess" xml:space="preserve">
+    <value>نجحت في التراجع عن إرجاع صنف</value>
+  </data>
+  <data name="UndoSalarySuccess" xml:space="preserve">
+    <value>نجحت في التراجع عن صرف المرتبات</value>
+  </data>
+  <data name="UnionParticipation" xml:space="preserve">
+    <value>مصاريف اشتراك النقابة </value>
+  </data>
+  <data name="UpdateData" xml:space="preserve">
+    <value>نجحت في تحديث البيانات</value>
+  </data>
+  <data name="UpdateDeliveryDate" xml:space="preserve">
+    <value>نجحت في تحديد تاريخ التسليم</value>
+  </data>
+  <data name="UpdatePaymentDate" xml:space="preserve">
+    <value>نجحت في تحديد موعد الدفع</value>
+  </data>
+  <data name="UploadFileSuccess" xml:space="preserve">
+    <value>نجحت في تحميل الملف</value>
+  </data>
+  <data name="UsedAgent" xml:space="preserve">
+    <value>عذرا! يوجد سجلات باسم هذا العميل ، لايمكن الغاءه ولكن بامكانك اخفاء بياناته بالضغط على "اخفاء عميل"</value>
+  </data>
+  <data name="UserCantModifyInvoice" xml:space="preserve">
+    <value>عذرا! لا يمكنك تعديل هذه الفاتورة</value>
+  </data>
+  <data name="UserProductivity" xml:space="preserve">
+    <value>انتاجية المستخدمين " مبيعات وارباح كل مستخدم</value>
+  </data>
+  <data name="UserTracking" xml:space="preserve">
+    <value>تحركات المستخدم</value>
+  </data>
+  <data name="ValidDate" xml:space="preserve">
+    <value>رجاء! حدد تاريخ ووقت صحيحين</value>
+  </data>
+  <data name="ValidDiscountPercentage" xml:space="preserve">
+    <value>عذرا! قيمة التخفيض يجب ان تكون اقل او تساوي 100%</value>
+  </data>
+  <data name="ValidEmail" xml:space="preserve">
+    <value>عذرا! لم تقم بادخال بريد الكتروني صحيح</value>
+  </data>
+  <data name="ValidItemQty" xml:space="preserve">
+    <value>عذرا! الكمية يجب ان لا تكون اعلى من المخزون</value>
+  </data>
+  <data name="ValidUserNamePassword" xml:space="preserve">
+    <value>رجاء! حدد اسم مستخدم وكلمة مرور صحيحة</value>
+  </data>
+  <data name="ValidWebSite" xml:space="preserve">
+    <value>عذرا! عنوان الموقع الالكتروني غير صحيحة</value>
+  </data>
+  <data name="ValueofPurchaseandPaidforeachSupplier" xml:space="preserve">
+    <value>قيمة المشتريات و المدفوع منها لكل مورد</value>
+  </data>
+  <data name="ValueofSaleandPaidforeachClient" xml:space="preserve">
+    <value>قيمة المبيعات و المدفوع منها لكل زبون</value>
+  </data>
+  <data name="WantSaveItem" xml:space="preserve">
+    <value>هل حقا ترغب في حفظ الصنف؟</value>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>الاربعاء</value>
+  </data>
+  <data name="Weekly" xml:space="preserve">
+    <value>اسبوعي</value>
+  </data>
+  <data name="WellMovingItems" xml:space="preserve">
+    <value>الاكثر مبيعا </value>
+  </data>
+  <data name="WholeSalePriceLessthanPrice" xml:space="preserve">
+    <value>عذرا! سعر الجملة يجب ان يكون اقل من سعر البيع</value>
+  </data>
+  <data name="Workers" xml:space="preserve">
+    <value>مصاريف عمالة</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="Zakat" xml:space="preserve">
+    <value>الزكاة</value>
+  </data>
+  <data name="ZeroQty" xml:space="preserve">
+    <value>رجاء! الكمية يجب ان تكون اكبر من صفر</value>
+  </data>
+  <data name="Additionalbarcodecannotaddedfornewitem" xml:space="preserve">
+    <value>عليك بحفظ الصنف اولا ثم محاولة ادراج باركود اضافي له</value>
+  </data>
+  <data name="ItemnameAlreadyExist" xml:space="preserve">
+    <value>عذرا! الصنف سبق حفظه </value>
+  </data>
+  <data name="Itemcannotbedeleted" xml:space="preserve">
+    <value>عذرا لم أنجح في الغاء الصنف ...تاكد ان كان قد تم ترجيعه...</value>
+  </data>
+  <data name="ItemCard" xml:space="preserve">
+    <value>بطاقة صنف</value>
+  </data>
+  <data name="ItemDeletedSuccessfully" xml:space="preserve">
+    <value>نجحت في حذف الصنف</value>
+  </data>
+  <data name="ItemNamesisRequired" xml:space="preserve">
+    <value>رجاء! حدد اسم الصنف</value>
+  </data>
+  <data name="Selectaitemtobedeleted" xml:space="preserve">
+    <value>رجاء! حدد البند المراد حذفه </value>
+  </data>
+  <data name="ExpiryListToADate" xml:space="preserve">
+    <value>قائمة انتهاء حتى تاريخ</value>
+  </data>
+  <data name="ItemPurchaseMovement" xml:space="preserve">
+    <value>حركة شراء صنف</value>
+  </data>
+  <data name="ItemSaleMovement" xml:space="preserve">
+    <value>حركة بيع صنف</value>
+  </data>
+  <data name="PriceList" xml:space="preserve">
+    <value>قائمة الاسعار</value>
+  </data>
+  <data name="SecondHandPriceList" xml:space="preserve">
+    <value>قائمة أسعار المقاسات </value>
+  </data>
+  <data name="TotalPurchaseReturning" xml:space="preserve">
+    <value>اجمالي  مرتجعات المشتريات</value>
+  </data>
+  <data name="YouhavetorestarttheapplicationtochangetheLanguage" xml:space="preserve">
+    <value>سيتم إعادة تشغيل النظام لتفعيل تغييرات اللغة </value>
+  </data>
+  <data name="AgentNameIsRequired" xml:space="preserve">
+    <value>رجاء! أدخل اسم العميل</value>
+  </data>
+  <data name="AlreadyReseted" xml:space="preserve">
+    <value>عذرا! تم إعداة ضبط سنة جديدة مسبقا</value>
+  </data>
+  <data name="AmountShouldnotbeEmpty" xml:space="preserve">
+    <value>رجاء! حدد القيمة</value>
+  </data>
+  <data name="AmountshouldnotbelessthanBankBalance" xml:space="preserve">
+    <value>لا ينبغي ان يكون المبلغ أقل من رصيد المصرف</value>
+  </data>
+  <data name="Areyousuretochangetheuser" xml:space="preserve">
+    <value>عذرا! هل حقا ترغب في تغيير المستخدم؟</value>
+  </data>
+  <data name="Areyousuretosavethissettings" xml:space="preserve">
+    <value>عذرا! هل حقا ترغب في حفظ البيانات ؟</value>
+  </data>
+  <data name="BankShouldnotbeEmpty" xml:space="preserve">
+    <value>رجاء! حدد بيانات الباركود</value>
+  </data>
+  <data name="BanktoMoveShouldnotbeEmpty" xml:space="preserve">
+    <value>رجاء! حدد المصرف المراد التحويل اليه</value>
+  </data>
+  <data name="BillNOisNotincorrectformat" xml:space="preserve">
+    <value>عذرا! رقم الفاتورة ليس بالتنسيق الصحيح</value>
+  </data>
+  <data name="BranchShouldnotbeEmpty" xml:space="preserve">
+    <value>رجاء! حدد بيانات الفرع</value>
+  </data>
+  <data name="BranchtoMoveShouldnotbeEmpty" xml:space="preserve">
+    <value>رجاء حدد بينات الفرع المراد التحويل اليه</value>
+  </data>
+  <data name="BumedienBusinessManagement" xml:space="preserve">
+    <value>بومدين لإدارة الأعمال التجارية</value>
+  </data>
+  <data name="CashDrawerPassword" xml:space="preserve">
+    <value>كلمة مرور صندوق النقد</value>
+  </data>
+  <data name="CategoryNameisRequired" xml:space="preserve">
+    <value>رجاء! حدد اسم المجموعة</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>تغيير كلمة المرور</value>
+  </data>
+  <data name="CompanyNameIsRequired" xml:space="preserve">
+    <value>عذرا! اسم الشركة يجب ان لا يكون فارغا</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="DeleteReceiptCannotPrint" xml:space="preserve">
+    <value>عذرا! هذا الايصال ملغي لا يمكن طباعته</value>
+  </data>
+  <data name="DepositDoneByShouldnotbeEmpty" xml:space="preserve">
+    <value>رجاء!حدد اسم المودع</value>
+  </data>
+  <data name="DescriptionShouldnotbeEmpty" xml:space="preserve">
+    <value>رجاء! حدد البيان</value>
+  </data>
+  <data name="DetailsdeletedSuccessfully" xml:space="preserve">
+    <value>نجحت في الغاء البيانات</value>
+  </data>
+  <data name="DetailsNotDeleted" xml:space="preserve">
+    <value>عذر! لم يتم حذف البيانات</value>
+  </data>
+  <data name="DetailsNotSaved" xml:space="preserve">
+    <value>عذرا! لم يتم حفظ البيانات</value>
+  </data>
+  <data name="DetailsSavedSuccessfully" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="DoYouWanttoChangeDBConnection" xml:space="preserve">
+    <value>هل حقا ترغب في الربط بقاعدة بيانات اخرى؟</value>
+  </data>
+  <data name="DoyouwanttoRestorethedefaultvalues" xml:space="preserve">
+    <value>هل حقا ترغب في إستعادة القيم الإفتراضية؟</value>
+  </data>
+  <data name="Employeedetailsaresaved" xml:space="preserve">
+    <value>نجحت في حفظ بيانات الموظف</value>
+  </data>
+  <data name="EmployeenameisRequired" xml:space="preserve">
+    <value>رجاء! عدم ترك اسم الموظف فارغا </value>
+  </data>
+  <data name="Enter" xml:space="preserve">
+    <value>دخول</value>
+  </data>
+  <data name="ErrorinSavingDetails" xml:space="preserve">
+    <value>عذرا! حدث خطأ اثناء حفظ البيانات</value>
+  </data>
+  <data name="FromDateIsRequired" xml:space="preserve">
+    <value>رجاء! حدد قيمة "من تاريخ"</value>
+  </data>
+  <data name="FromTimeIsREquired" xml:space="preserve">
+    <value>رجاء! حدد قيمة "من الوقت"</value>
+  </data>
+  <data name="GroupNameisRequired" xml:space="preserve">
+    <value>رجاء! حدد اسم المجموعة</value>
+  </data>
+  <data name="GroupnameorEmployeenameisRequired" xml:space="preserve">
+    <value>رجاء! حدد اسم الموظف او اسم المجموعة</value>
+  </data>
+  <data name="ItemNameIsRequired" xml:space="preserve">
+    <value>رجاء! حدد اسم الصنف</value>
+  </data>
+  <data name="Thebarcodealreadyexistspleasegeneratenewbarcode" xml:space="preserve">
+    <value>عذرا! ولكن هذا الباركود محفوظ مسبقا ، رجاء إستبدله أو قم بتوليد باركود عشوائي جديد</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>تسجيل الدخول</value>
+  </data>
+  <data name="LoginForm" xml:space="preserve">
+    <value>شاشة الدخول</value>
+  </data>
+  <data name="LoginStatus" xml:space="preserve">
+    <value>حالة الدخول</value>
+  </data>
+  <data name="NoBarcode" xml:space="preserve">
+    <value>عذرا! لا يوجد بيانات باركود</value>
+  </data>
+  <data name="NumberIsRequired" xml:space="preserve">
+    <value>رجاء! حدد العدد</value>
+  </data>
+  <data name="Optiondetailssavedsuccessfully" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="OptionSetting" xml:space="preserve">
+    <value>الاعدادات و الخيارات</value>
+  </data>
+  <data name="PasswordandConfirmpasswordmismatched" xml:space="preserve">
+    <value>كلمة المرور و تأكيد كلمة المرور غير متطابقة</value>
+  </data>
+  <data name="PasswordChangedSuccessfully" xml:space="preserve">
+    <value>نجحت في عملية تغيير كلمة المرور </value>
+  </data>
+  <data name="PasswordisRequired" xml:space="preserve">
+    <value>رجاء! ادخل كلمة المرور</value>
+  </data>
+  <data name="PasswordMismatch" xml:space="preserve">
+    <value>عذرا! كلمتي المرور غيرمتطابقتين</value>
+  </data>
+  <data name="PasswordMismatchError" xml:space="preserve">
+    <value>خطأ عدم تطابق كلمة المرور</value>
+  </data>
+  <data name="Pleasecheckanyoneoftheusergroup" xml:space="preserve">
+    <value>رجاء! حدد احد مجموعات المستخدمين</value>
+  </data>
+  <data name="Pleaseselectvaliddate" xml:space="preserve">
+    <value>رجاء! اختر تاريخ صحيح</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>طباعة</value>
+  </data>
+  <data name="ReasonShouldnotbeEmpty" xml:space="preserve">
+    <value>رجاء! حدد السبب ...</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>تقارير</value>
+  </data>
+  <data name="RestoreDBLogin" xml:space="preserve">
+    <value>الدخول لاستعادة البيانات</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="SelectProperDate" xml:space="preserve">
+    <value>رجاء! حدد تاريخ صحيح</value>
+  </data>
+  <data name="SelectTheTypeOfSorting" xml:space="preserve">
+    <value>رجاء! حدد طريقة ترتيب الاصناف</value>
+  </data>
+  <data name="StartNewYear" xml:space="preserve">
+    <value>تنبيه! هل حقا ترغب في بداية دورة سنوية جديدة؟</value>
+  </data>
+  <data name="ThisReceiptNodoesntexist" xml:space="preserve">
+    <value>عذرا! لا يوجد ايصال بهذا الرقم</value>
+  </data>
+  <data name="ToDateIsRequired" xml:space="preserve">
+    <value>عذرا! يجب تحديد التاريخ </value>
+  </data>
+  <data name="TotalBarcodeCountis" xml:space="preserve">
+    <value>عدد الباركود في النظام هو </value>
+  </data>
+  <data name="ToTimeIsRequired" xml:space="preserve">
+    <value>رجاء! حدد الوقت "الى"</value>
+  </data>
+  <data name="UserAlreadyLoggedInWorkStation" xml:space="preserve">
+    <value>عذرا! هذا المستخدم مسجل الدخول في جهاز اخر، قم بتسجيل الخروج أولا</value>
+  </data>
+  <data name="Usergroupalreadyexist" xml:space="preserve">
+    <value>عذرا! هذه المجموعة موجودة مسبقا</value>
+  </data>
+  <data name="UsergroupisRequired" xml:space="preserve">
+    <value>رجاء! حدد اسم المجموعة</value>
+  </data>
+  <data name="UserNamealreadyexist" xml:space="preserve">
+    <value>عذرا! سبق حفظ مستخدم بذات الإسم </value>
+  </data>
+  <data name="UserNameIsRequired" xml:space="preserve">
+    <value>رجاء! حدد اسم المستخدم</value>
+  </data>
+  <data name="UserShouldNotBeEmpty" xml:space="preserve">
+    <value>عذرا! اسم المستخدم يجب ان  لا يكون فارغا</value>
+  </data>
+  <data name="ValueIsRequired" xml:space="preserve">
+    <value>رجاء! حدد المتغير</value>
+  </data>
+  <data name="youareahourlyemployeeYoumustcreateauseraccount" xml:space="preserve">
+    <value>عذرا! موظف بالساعة يجب ان يكون مسجلا كمستخدم في النظام</value>
+  </data>
+  <data name="AgentDetailsareDeleted" xml:space="preserve">
+    <value>نجحت في الغاء البيانات</value>
+  </data>
+  <data name="Agentdetailsaresaved" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="AgentdetailsareUpdated" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="AgentNameisalreadyExist" xml:space="preserve">
+    <value>هذا الاسم موجود مسبقا</value>
+  </data>
+  <data name="AgentTypeisRequired" xml:space="preserve">
+    <value>رجاء حدد نوع العميل قبل الحفظ</value>
+  </data>
+  <data name="AmountcutmonthlyisRequired" xml:space="preserve">
+    <value>رجاء! حدد قيمة الخصم الشهري</value>
+  </data>
+  <data name="AmountisRequired" xml:space="preserve">
+    <value>رجاء! حدد القيمة</value>
+  </data>
+  <data name="BarCodeisalreadyExsit" xml:space="preserve">
+    <value>عذرا! سبق حفظ صنف بذات الباركود.</value>
+  </data>
+  <data name="Categorydetailsaved" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="Categorynameisalreadyexits" xml:space="preserve">
+    <value>سبق ادخال هذا الاسم</value>
+  </data>
+  <data name="DescriptionisRequired" xml:space="preserve">
+    <value>رجاء! حدد البيان</value>
+  </data>
+  <data name="DetailsareSavedSuccessfully" xml:space="preserve">
+    <value>نجحت في عملية حفظ البيانات</value>
+  </data>
+  <data name="DetailsareUpdatedSuccessfully" xml:space="preserve">
+    <value>نجحت في عملية حفظ البيانات</value>
+  </data>
+  <data name="DoYouWanttoClear" xml:space="preserve">
+    <value>هل حقا ترغب في المسح ؟</value>
+  </data>
+  <data name="DoYouWantToClose" xml:space="preserve">
+    <value>هل حقا ترغب في الاغلاق؟</value>
+  </data>
+  <data name="DoYouWantToDelete" xml:space="preserve">
+    <value>هل حقا ترغب في الحذف؟</value>
+  </data>
+  <data name="DoyouwanttoDisabletheExpiry" xml:space="preserve">
+    <value>هل حقا ترغب في عدم استعمال الصلاحيات؟</value>
+  </data>
+  <data name="DoyouwanttoEnabletheExpiry" xml:space="preserve">
+    <value>هل حقا ترغب في تفعيل استخدام الصلاحيات؟</value>
+  </data>
+  <data name="DoYouWanttoUpdatetheDetails" xml:space="preserve">
+    <value>هل حقاترغب في تحديث التفاصيل</value>
+  </data>
+  <data name="Employeedetailsnotsaved" xml:space="preserve">
+    <value>عذرا! لم أنجح في حفظ بيانات الموظف</value>
+  </data>
+  <data name="Itemaresavedsuccessfully" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="ItemtypeIsRequired" xml:space="preserve">
+    <value>رجاء! حدد نوع الصنف</value>
+  </data>
+  <data name="Nodefaultvaluesforthisusergroup" xml:space="preserve">
+    <value>عذرا! لم يتم العثور على قيم إفتراضية لهذه المجموعة </value>
+  </data>
+  <data name="Norightstochangeadminprivileges" xml:space="preserve">
+    <value>عذرا لا تملك الصلاحية للقيام بهذه العملية </value>
+  </data>
+  <data name="Norightstoopenthistab" xml:space="preserve">
+    <value>عذرا! لا تملك صلاحيات فتح هذه الجزئية</value>
+  </data>
+  <data name="Pleasecheckanyoneofmonthlycutoption" xml:space="preserve">
+    <value>رجاء! حدد احد خيارات الخصم الشهري</value>
+  </data>
+  <data name="Pleasecheckanyoneofthegroup" xml:space="preserve">
+    <value>رجاء! حدد احد المجموعات</value>
+  </data>
+  <data name="ShouldnotbeEmpty" xml:space="preserve">
+    <value>البند لا ينبغي أن يترك فارغا </value>
+  </data>
+  <data name="ThereisnoRecord" xml:space="preserve">
+    <value>لا يوجد سجل</value>
+  </data>
+  <data name="VariableisRequired" xml:space="preserve">
+    <value>عذرا! يجب أن لا يترك المتغير فارغا </value>
+  </data>
+  <data name="YouCanOnlyEntertheNumericValues" xml:space="preserve">
+    <value>عذرا! الخانة تقبل أرقام فقط</value>
+  </data>
+  <data name="AlterForExpiry" xml:space="preserve">
+    <value>هل حقا ترغب في تغيير الصلاحية؟</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>معلومات</value>
+  </data>
+  <data name="BankNamealreayexit" xml:space="preserve">
+    <value>عذرا! سبق ادخال هذا الاسم</value>
+  </data>
+  <data name="BankNameandBranchNameMandataryforBankPayment" xml:space="preserve">
+    <value>رجاء! حدد اسم المصرف و اسم الفرع</value>
+  </data>
+  <data name="BankNameisRequired" xml:space="preserve">
+    <value>رجاء! حدد اسم المصرف</value>
+  </data>
+  <data name="BankNameSaved" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="BranchDetailsSaved" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="BranchnameAlreadyexit" xml:space="preserve">
+    <value>هذا الاسم محفوظ مسبقا</value>
+  </data>
+  <data name="BranchNameisRequired" xml:space="preserve">
+    <value>رجاء! حدد اسم الفرع </value>
+  </data>
+  <data name="CompanyDetailsSaved" xml:space="preserve">
+    <value>نجحت في حفظ بيانات الشركة</value>
+  </data>
+  <data name="Companynameisalreadyexits" xml:space="preserve">
+    <value>سبق ادخال هذا الاسم</value>
+  </data>
+  <data name="EnterProperReceiptNO" xml:space="preserve">
+    <value>رجاء! ادخال رقم ايصال صحيح</value>
+  </data>
+  <data name="ItemDetailsSaved" xml:space="preserve">
+    <value>نجحت في حفظ البينات</value>
+  </data>
+  <data name="ItemPlacenameAlreadyexit" xml:space="preserve">
+    <value>عذرا! سبق حفظ هذا الاسم</value>
+  </data>
+  <data name="ItemplaceNameisRequired" xml:space="preserve">
+    <value>رجاء! حدد اسم المكان</value>
+  </data>
+  <data name="SelectModeOfPaymentBankCash" xml:space="preserve">
+    <value>رجاء! اختر طريقة الدفع ( بنك/نقد)</value>
+  </data>
+  <data name="DeleteItemUnit" xml:space="preserve">
+    <value>نجحت في الغاء البيانات</value>
+  </data>
+  <data name="EmptyUnitName" xml:space="preserve">
+    <value>اسم وحدة لا ينبغي فارغ</value>
+  </data>
+  <data name="ItemUnitSave" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="UnitNameRequired" xml:space="preserve">
+    <value>رجاء! حدد اسم العبوة</value>
+  </data>
+  <data name="UnitQuantityRequired" xml:space="preserve">
+    <value>رجاء! حدد العدد بالعبوة</value>
+  </data>
+  <data name="Confirmation" xml:space="preserve">
+    <value>تأكيد</value>
+  </data>
+  <data name="AgentDetailsUpdated" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="CategoryExist" xml:space="preserve">
+    <value>لم يتم العثور على اسم المجموعة</value>
+  </data>
+  <data name="CompanyExist" xml:space="preserve">
+    <value>عذرا! لم اتمكن من ايجاد بيانات الشركة</value>
+  </data>
+  <data name="Doyouwanttocontinue" xml:space="preserve">
+    <value>هل ترغب في الاستمرار</value>
+  </data>
+  <data name="Doyouwanttosavenewuser" xml:space="preserve">
+    <value>هل حقا ترغب في حفظ عميل جديد وفتح ملف له؟</value>
+  </data>
+  <data name="ItemExpired" xml:space="preserve">
+    <value>تنبيه! هذا الصنف منتهي الصلاحية لا يمكن شراءه</value>
+  </data>
+  <data name="ItemPlaceExist" xml:space="preserve">
+    <value>عذرا! مكان الصنف غير موجود</value>
+  </data>
+  <data name="OpenNewInvoice" xml:space="preserve">
+    <value>فتح فاتورة جديدة</value>
+  </data>
+  <data name="Recordnotfound" xml:space="preserve">
+    <value>رجاء! حدد رقم الفاتورة</value>
+  </data>
+  <data name="UpdateAgentDetails" xml:space="preserve">
+    <value>عذرا! هل فعلاترغب في تحديث البيانات</value>
+  </data>
+  <data name="AddallSpoiledItems" xml:space="preserve">
+    <value>هل ترغب في اضافة كل الاصناف التالفة للفاتورة؟</value>
+  </data>
+  <data name="AtleastOneDiscount" xml:space="preserve">
+    <value>رجاء! حدد على الاقل اختيار واحدللتخفيض</value>
+  </data>
+  <data name="CloseOpenedFile" xml:space="preserve">
+    <value>رجاء! اغلاق الملف المفتوح</value>
+  </data>
+  <data name="ConflictDate" xml:space="preserve">
+    <value>عذرا! تاريخ متعارض</value>
+  </data>
+  <data name="Discount" xml:space="preserve">
+    <value>خصم</value>
+  </data>
+  <data name="Discount1" xml:space="preserve">
+    <value>عذرا! يجب ان تكون نسبة التخفيض الاول أعلى من صفر</value>
+  </data>
+  <data name="Discount1Date" xml:space="preserve">
+    <value>عذرا! يجب ان تكون نسبة التخفيض الثاني أعلى من صفر</value>
+  </data>
+  <data name="Discount2" xml:space="preserve">
+    <value>عذرا! يجب ان تكون نسبة التخفيض الثاني أعلى من صفر</value>
+  </data>
+  <data name="Discount2Date" xml:space="preserve">
+    <value>عذرا! يجب ان يكون تاريخ انتهاء التخفيض الثاني بعد تاريخ البدء</value>
+  </data>
+  <data name="Discount3" xml:space="preserve">
+    <value>عذرا! يجب ان تكون نسبة التخفيض الثالث أعلى من صفر</value>
+  </data>
+  <data name="Discount3Date" xml:space="preserve">
+    <value>عذرا! يجب ان يكون تاريخ انتهاء التخفيض الثالث بعد تاريخ البدء</value>
+  </data>
+  <data name="EnterDiscountLessthan" xml:space="preserve">
+    <value>أدخل الخصم أقل من 100.%</value>
+  </data>
+  <data name="ExpiryDate" xml:space="preserve">
+    <value>لديه تواريخ انتهاء الصلاحية الآتية</value>
+  </data>
+  <data name="MaxOrderPoint" xml:space="preserve">
+    <value>تنبيه! وصل هذا الصنف الى الحد الاعلى للطلب حسب ادخالك في بطاقة الصنف</value>
+  </data>
+  <data name="ReturnQtyisZero" xml:space="preserve">
+    <value>عذرا! ولكن الكمية في الفاتورة صفر </value>
+  </data>
+  <data name="SelectItemsType" xml:space="preserve">
+    <value>حدد نوع العناصر لتطبيق الخصم</value>
+  </data>
+  <data name="TheItem" xml:space="preserve">
+    <value>البند</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SalesInvoice" xml:space="preserve">
+    <value>فاتورة المبيعات</value>
+  </data>
+  <data name="Buttondetailssavedsuccessfully" xml:space="preserve">
+    <value>نجحت في حفظ البيانات</value>
+  </data>
+  <data name="PaidRefund" xml:space="preserve">
+    <value>تم رد المبلغ</value>
+  </data>
+  <data name="PerformaInvoice" xml:space="preserve">
+    <value>فاتورة مبدئية</value>
+  </data>
+  <data name="POSScreen" xml:space="preserve">
+    <value>شاشة البيع السريع</value>
+  </data>
+  <data name="POSShortcuts" xml:space="preserve">
+    <value>اعدادات اختصارات البيع السريع</value>
+  </data>
+  <data name="AdditionButtondetailsdeletedsuccessfully" xml:space="preserve">
+    <value>نجحت في الغاء البيانات</value>
+  </data>
+  <data name="Amountalreadypaidforthissale" xml:space="preserve">
+    <value>عذرا! سبق إصدار إيصال لهذه الفاتورة</value>
+  </data>
+  <data name="AnotherUserUsingThisInvoice" xml:space="preserve">
+    <value>عذرا! هذه الفاتورة مستخدمة من قبل مستخدم آخر ، افتح فاتورة جديدة</value>
+  </data>
+  <data name="Buttondetailsdeletedsuccessfully" xml:space="preserve">
+    <value>نجحت في الغاء البيانات</value>
+  </data>
+  <data name="Entertheadditiondescription" xml:space="preserve">
+    <value>رجاء! ادخل وصفا اضافيا</value>
+  </data>
+  <data name="Itemdetailsexportedsuccessfully" xml:space="preserve">
+    <value>نجحت في تصدير البيانات</value>
+  </data>
+  <data name="NewAgentDetailsSavedSuccessfully" xml:space="preserve">
+    <value>نجحت في حفظ بيانات عميل جديد</value>
+  </data>
+  <data name="SelecttheItem" xml:space="preserve">
+    <value>رجاء! اختر الصنف</value>
+  </data>
+  <data name="SelecttheShortCut" xml:space="preserve">
+    <value>رجاء! حدد الاختصار</value>
+  </data>
+  <data name="SelecttheShortCuttodelete" xml:space="preserve">
+    <value>رجاءحدد الاختصار ليتم حذفه</value>
+  </data>
+  <data name="Thereisnoiteminstock" xml:space="preserve">
+    <value>عذرا! لا يتوفر مخزون لهذا الصنف ، قم بشرائه أولا لتتمكن من بيعه</value>
+  </data>
+  <data name="NoRightstoDiscount" xml:space="preserve">
+    <value>عذرا! لاتملك صلاحيات تطبيق التخفيض</value>
+  </data>
+  <data name="PleaseSelectUnitTypes" xml:space="preserve">
+    <value>رجاء! حدد نوع العبوة</value>
+  </data>
+  <data name="InventoryAdjust" xml:space="preserve">
+    <value>تعديل المخزون</value>
+  </data>
+  <data name="AgentInvalidOperation" xml:space="preserve">
+    <value>عذرا! قمت بعملية خاطئة</value>
+  </data>
+  <data name="CHECKANYONEGROUPTYPE" xml:space="preserve">
+    <value>رجاء! اختر مجموعات المستخدمين</value>
+  </data>
+  <data name="ETA" xml:space="preserve">
+    <value>الحضور والانصراف</value>
+  </data>
+  <data name="GROUPNAMEEMPLOYEENAMEREQUIRED" xml:space="preserve">
+    <value>رجاء! حدد اسم الموظف او المجموعة</value>
+  </data>
+  <data name="GROUPNAMEREQUIRED" xml:space="preserve">
+    <value>رجاء! حدد اسم المجموعة</value>
+  </data>
+  <data name="InvolvedInInvoice" xml:space="preserve">
+    <value>عذرا! لم انجح في الغاء المستخدم بسبب وجود قيودات باسمه ، يمكنك إخفاءه إن لم تكن ترغب في إستعماله بعد اليوم </value>
+  </data>
+  <data name="MonthlyCutAmountlessthanVariable" xml:space="preserve">
+    <value>عذرا! الاستقطاع الشهري يجب ان لا يكون اعلى من قيمة المتغير</value>
+  </data>
+  <data name="SelecttheEmployeeforSalaryPayment" xml:space="preserve">
+    <value>رجاء! حدد الموظف المراد صرف المرتب له</value>
+  </data>
+  <data name="StartNewSession" xml:space="preserve">
+    <value>تنبيه! هل حقا ترغب في بداية دورة سنوية جديدة؟</value>
+  </data>
+  <data name="UserAdministrator" xml:space="preserve">
+    <value>مستخدم رئيسي</value>
+  </data>
+  <data name="Youcouldnothaveundosalarypayment" xml:space="preserve">
+    <value>عذرا! لم اتمكن من التراجع عن صرف المرتبات</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="PrintBarcode" xml:space="preserve">
+    <value>طباعة باركود</value>
+  </data>
+  <data name="EndoftheDay" xml:space="preserve">
+    <value>حساب اخر اليوم</value>
+  </data>
+  <data name="ShouldSelectUnitNames" xml:space="preserve">
+    <value>رجاء! حدد العبوة</value>
+  </data>
+  <data name="ShouldSelectUnitTypes" xml:space="preserve">
+    <value>عذرا! يجب اختيار نوع عبوة واحد</value>
+  </data>
+  <data name="ShouldSelectUnitQuantity" xml:space="preserve">
+    <value>رجاء! حدد العدد بالعبوة</value>
+  </data>
+  <data name="DBConnection" xml:space="preserve">
+    <value>اتصال قاعدة البيانات</value>
+  </data>
+  <data name="SelectDBName" xml:space="preserve">
+    <value>حدد اسم قاعدة البيانات</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>إنتهت الصلاحية </value>
+  </data>
+  <data name="LicenceRegistration" xml:space="preserve">
+    <value>تسجيل النسخة</value>
+  </data>
+  <data name="Registrationfailedpleaseenterthevalidactivationkeyandserialnumber" xml:space="preserve">
+    <value>عذرا! لم أتمكن من التعرف على الرقم الذي تم إدخاله. رجاء التأكد من صحة الرقم والمحاولة مرة أخرى </value>
+  </data>
+  <data name="AreYouSuretoChangePassword" xml:space="preserve">
+    <value>عذرا!هل حقا ترغب في تغيير كلمة المرور</value>
+  </data>
+  <data name="ConfirmPasswordEmpty" xml:space="preserve">
+    <value>رجا! أدخل تأكيد كلمة المرور</value>
+  </data>
+  <data name="NewPasswordEmpty" xml:space="preserve">
+    <value>رجاء! حدد كلمة المرور الجديدة</value>
+  </data>
+  <data name="CashClientName" xml:space="preserve">
+    <value>زبون نقدي</value>
+  </data>
+  <data name="CashClientNameisRequired" xml:space="preserve">
+    <value>رجاء! حدد اسم العميل</value>
+  </data>
+  <data name="DoYouWantToPrintTheCashClientName" xml:space="preserve">
+    <value>هل فعلا ترغب في طباعة اسم الزبون؟</value>
+  </data>
+  <data name="Thisproducthasexpiredcannotbesold" xml:space="preserve">
+    <value>تنبيه! هذا الصنف منتهي الصلاحية لايمكن بيعه</value>
+  </data>
+  <data name="Thisproducthasexpiredcannotbuyit" xml:space="preserve">
+    <value>تنبيه! هذا الصنف منتهي الصلاحية لايمكن شرائه</value>
+  </data>
+  <data name="CheckItemBarcode" xml:space="preserve">
+    <value>رجاء! راجع بيانات الصنف و الباركود</value>
+  </data>
+  <data name="CleanDB" xml:space="preserve">
+    <value>مسح البيانات</value>
+  </data>
+  <data name="Tables" xml:space="preserve">
+    <value>الجداول</value>
+  </data>
+  <data name="TableShortcuts" xml:space="preserve">
+    <value>اختصارات الجدول</value>
+  </data>
+  <data name="DoYouWantToReturnTheItem" xml:space="preserve">
+    <value>نجحت في إرجاع الصنف وإصدار فاتورة إرجاع له</value>
+  </data>
+  <data name="InvoiceNoIsRequired" xml:space="preserve">
+    <value>رجاء! حدد رقم الفاتورة</value>
+  </data>
+  <data name="ReturnOrderPopUp" xml:space="preserve">
+    <value>إرجاع صنف</value>
+  </data>
+  <data name="ReturnQuantityIsRequired" xml:space="preserve">
+    <value>رجاء! حدد الكمية المراد ترجيعها</value>
+  </data>
+  <data name="ClientNoIsRequired" xml:space="preserve">
+    <value>رجاء! حدد رقم العميل</value>
+  </data>
+  <data name="ThisBarcodeisnotavailabe" xml:space="preserve">
+    <value>عذرا لم يتم حفظ هذا الباركود مسبقا </value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="serverisdisconnected" xml:space="preserve">
+    <value>هذه مشكلة متعلقة بقاعدة البيانات التي لم أتمكن من ربطها بالخادم لتتمكن من إستخدام النظام ، تأكد أن القاعدة البيانات موجودة و صحيحة وأنها لم تتضرر لأي سبب ما وإن كان الجهاز فرعيا فتأكد من وجود إتصال بالشبكة والجهاز الرئيسي </value>
+  </data>
+  <data name="AdditionalBarcode" xml:space="preserve">
+    <value>باركود اضافي</value>
+  </data>
+  <data name="DatabaseBackup" xml:space="preserve">
+    <value>النسخ الاحتياطي</value>
+  </data>
+  <data name="RowsandColumnshouldnotbezero" xml:space="preserve">
+    <value>الصفوف والأعمدة لا ينبغي أن تكون صفرا</value>
+  </data>
+  <data name="Thisbarcodealreadyavailable" xml:space="preserve">
+    <value>عذرا! سبق حفظ صنف بذات الباركود</value>
+  </data>
+  <data name="BarcodeIsNotSaved" xml:space="preserve">
+    <value>عذرا! لم يتم حفظ هذا الصنف مسبقا</value>
+  </data>
+  <data name="InvalidInvoiceNo" xml:space="preserve">
+    <value>عذرا! لا يوجد فاتورة بهذا الرقم</value>
+  </data>
+  <data name="DBLogin" xml:space="preserve">
+    <value>تسجيل الدخول لقاعدة البيانات</value>
+  </data>
+  <data name="UserCantModifyQuickReturnInvoice" xml:space="preserve">
+    <value>عذرا! لا تملك الصلاحية لتعديل بيانات الارجاع السريع</value>
+  </data>
+  <data name="CantReturnTheItem" xml:space="preserve">
+    <value>عذرا! لايمكن ارجاع هذا الصنف</value>
+  </data>
+  <data name="Changeswillapplyforall" xml:space="preserve">
+    <value>سيتم تطبيق التغييرات لجميع فئات المستخدمين. هل ترغب في المتابعة المتابعة؟</value>
+  </data>
+  <data name="ItemUnitDetailsDoesnotExist" xml:space="preserve">
+    <value>عذرا! بيانات العبوة غير متوفرة</value>
+  </data>
+  <data name="RestartToChangeDateFormat" xml:space="preserve">
+    <value>عذرا! سيحتاج الامر الى اعادة تشغيل المنظومة لتفعيل صيغة التاريخ الجديدة</value>
+  </data>
+  <data name="CategoryUsed" xml:space="preserve">
+    <value>سبق حفظ مجموعة بذات الإسم </value>
+  </data>
+  <data name="ItemCardInOut" xml:space="preserve">
+    <value>تقرير صنف وارد صادر مخزون</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>اشهر</value>
+  </data>
+  <data name="ThereisExpiryItem" xml:space="preserve">
+    <value>تنبيه! لديك اصناف ستنتهي صلاحيتها خلال</value>
+  </data>
+  <data name="BarcodeShouldNotBeEmpty" xml:space="preserve">
+    <value>رجاء! حدد بيانات الباركود</value>
+  </data>
+  <data name="Itemsarereturnsuccessfully" xml:space="preserve">
+    <value>نجحت في عملية إرجاع الصنف</value>
+  </data>
+  <data name="DatabaseRestore" xml:space="preserve">
+    <value>استرجاع نسخة احتياطية</value>
+  </data>
+  <data name="AllGroups" xml:space="preserve">
+    <value>الكل</value>
+  </data>
+  <data name="Deleted" xml:space="preserve">
+    <value>الغاء</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>جديد</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="QuickPriceInformation" xml:space="preserve">
+    <value>شاشة الإستعلام عن الأسعار </value>
+  </data>
+  <data name="ThisItemhavetheStockDoyouWanttoUpdate" xml:space="preserve">
+    <value>هذا البند دينا مخزون هل تريد تحديث</value>
+  </data>
+  <data name="ThisItemHavetheStockYouCantUpdate" xml:space="preserve">
+    <value>لا يمكن ازالة استخدام الصلاحية من صنف له كمية بالمخزن</value>
+  </data>
+  <data name="Doyouwanttoaddrandomquantitytotheitems" xml:space="preserve">
+    <value>هل حقا ترغب في اضافة كميات عشوائية للاصناف؟</value>
+  </data>
+  <data name="ItemQuantityUpdateSuccessfully" xml:space="preserve">
+    <value>نجحت في اضافة الكميات العشوائي للأصناف ، يمكنك الآن إستعمالها </value>
+  </data>
+  <data name="ReminderPassword" xml:space="preserve">
+    <value>تذكير كلمة المرور</value>
+  </data>
+  <data name="Purchasesinvoiceextracost" xml:space="preserve">
+    <value>تكلفة اضافية لفاتورة المشتريات</value>
+  </data>
+  <data name="Restarttheapplication" xml:space="preserve">
+    <value>بحاجة لاعادة تشغيل التطبيق سيتم اغلاقه و فتحه من جديد</value>
+  </data>
+  <data name="ServerDisconnected" xml:space="preserve">
+    <value>انفصل الاتصال بالجهاز الرئيسي رجاء تأكد من الاتصال بالشبكة و اعد تشغيل النظام</value>
+  </data>
+  <data name="SaleInvoiceNo" xml:space="preserve">
+    <value>فاتورة مبيعات رقم</value>
+  </data>
+  <data name="Pleaseclosetheinvoicefirst" xml:space="preserve">
+    <value>رجاء أغلق الفاتورة لتتمكن من طباعتها</value>
+  </data>
+  <data name="SaleReturnNo" xml:space="preserve">
+    <value>ترجيع مبيعات رقم</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>توريد </value>
+  </data>
+  <data name="BrowseFile" xml:space="preserve">
+    <value>رجاء اختر الملف الذي يحتوي البيانات المراد توريدها</value>
+  </data>
+  <data name="ChooseImportOption" xml:space="preserve">
+    <value>رجاء حدد نوع التوريد من القائمة</value>
+  </data>
+  <data name="ItemImportedSuccessfully" xml:space="preserve">
+    <value>نجحت في عملية توريد الأصناف</value>
+  </data>
+  <data name="FileFormat" xml:space="preserve">
+    <value>رجاء! حدد ملف بصيغة صحيحة </value>
+  </data>
+  <data name="Backup" xml:space="preserve">
+    <value>هل حقا ترغب في حفظ نسخة إحتياطية؟</value>
+  </data>
+  <data name="NoRecordFound" xml:space="preserve">
+    <value>عذرا! لم اتمكن من ايجاد أي سجلات</value>
+  </data>
+  <data name="PurchaseImportedSucce" xml:space="preserve">
+    <value>نجحت في توريد فاتورة مشتريات </value>
+  </data>
+  <data name="ChooseSupplier" xml:space="preserve">
+    <value>رجاء! حدد اسم المورد</value>
+  </data>
+  <data name="PurchaseImportedSuccessfully" xml:space="preserve">
+    <value>نجحت في عملية توريد الفاتورة</value>
+  </data>
+  <data name="BackupImport" xml:space="preserve">
+    <value>ننصح بحفظ نسخة احتياطية قبل التنفيذ ما رأيك؟</value>
+  </data>
+  <data name="ClickOnImportButton" xml:space="preserve">
+    <value>رجاء اضغط زر ( التوريد) للبدء في عملية التوريد</value>
+  </data>
+  <data name="Stockareupdate" xml:space="preserve">
+    <value>عذرا! لا يمكن تحديث هذا الصنف فقد تم بيع الكمية</value>
+  </data>
+  <data name="Doyouwanttoexportitems" xml:space="preserve">
+    <value>هل حقا ترغب في تصدير بيانات الأصناف؟</value>
+  </data>
+  <data name="Itemsexportedsuccessfully" xml:space="preserve">
+    <value>نجحت في عملية تصدير بيانات الأصناف</value>
+  </data>
+  <data name="PleaseconfiguretheCOMPortSetting" xml:space="preserve">
+    <value>رجاء! أعد ضبط إعدادات المنفذ</value>
+  </data>
+  <data name="PleaseselecttheCOMPortName" xml:space="preserve">
+    <value>رجاء! اختر المنفذ الصحيح</value>
+  </data>
+  <data name="MachineIDMissMatch" xml:space="preserve">
+    <value>عذراً!... حدث تغير غير متوقع في بيانات الجهاز المخصص للنظام، رجاء الإتصال بالدعم الفني</value>
+  </data>
+  <data name="WouldYouReplace" xml:space="preserve">
+    <value>هل ترغب في تبديل الملف الحالي</value>
+  </data>
+  <data name="Barcodegeneratedsuccessfullyforallitems" xml:space="preserve">
+    <value>نجحت في إصدار باركود عشوائي لكل الأصناف التي لم يسبق إصدار باركود لها </value>
+  </data>
+  <data name="SelectItemRow" xml:space="preserve">
+    <value>رجاء إختر الصنف</value>
+  </data>
+  <data name="GenerateItemBarcodes" xml:space="preserve">
+    <value>نجحت في إصدار باركود عشوائي للأصناف التي لم يتم إصدار باركود لها مسبقا </value>
+  </data>
+  <data name="NoDuplicateBarcode" xml:space="preserve">
+    <value>لم يتم العثور على تكرار في الباركود </value>
+  </data>
+  <data name="stockfailedsmsg" xml:space="preserve">
+    <value>عذرا! هل فشلت في حفظ نسخة إحتياطية للبيانات؟</value>
+  </data>
+  <data name="stocksuccessmsg" xml:space="preserve">
+    <value>عذرا! هل نجحت في حفظ نسخة إحتياطية للبيانات؟</value>
+  </data>
+  <data name="wrongpassenter" xml:space="preserve">
+    <value>عذرا! كلمة المرور غير صحيحة. رجاء أدخل كلمة مرور صحيحة</value>
+  </data>
+  <data name="wrongstocksuccess" xml:space="preserve">
+    <value>تم مراجعة المخزون وتصحيحه</value>
+  </data>
+  <data name="ShiftEndMsg" xml:space="preserve">
+    <value>أنهيت ورديتك بنجاح نرجوا لك بقية يوم ممتع وزيادة في البركة</value>
+  </data>
+  <data name="EndShiftConfirm" xml:space="preserve">
+    <value>تنبيه!
+رجاء الإنتباه لأنك لن تتمكن من القيام بأي عمليات بيع بعد إنهاء ورديتك وسيتم تسجيل خروجك من النظام وإعادة تشغيله ، وذلك لإتمام عملية إنهاء الوردية بنجاح
+إن كنت ترغب في طباعة تقرير إنهاء ورديتك وحساباتك إضغط لا. وقم بالطباعة ومن ثم قم بإنهاء ورديتك ليتم تسجيل خروجك وإعادة التشغيل لدخول مستخدم آخر
+هل حقا ترغب في إنهاء الوردية؟</value>
+  </data>
+  <data name="ClientName" xml:space="preserve">
+    <value>إلى</value>
+  </data>
+  <data name="TotalDebt" xml:space="preserve">
+    <value>اجمالي الديون</value>
+  </data>
+  <data name="MinimumValue" xml:space="preserve">
+    <value>القيمة الدنيا هي 10</value>
+  </data>
+  <data name="PrintAllItem" xml:space="preserve">
+    <value>هل ترغب في إرسال كل الأصناف للطباعة ؟</value>
+  </data>
+  <data name="NoPrintItem" xml:space="preserve">
+    <value>عذرا! لم تقم باضافة أصناف جديدة لطباعتها</value>
+  </data>
+  <data name="EndShiftForUser" xml:space="preserve">
+    <value>هل حقا ترغب في إنهاء وردية هذا المستخدم؟</value>
+  </data>
+</root>

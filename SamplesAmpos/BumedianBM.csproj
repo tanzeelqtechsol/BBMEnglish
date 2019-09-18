@@ -1,0 +1,3276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1B0FA166-983A-42F5-A4B1-AB54B0FDA3A3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BumedianBM</RootNamespace>
+    <AssemblyName>BumedianBM</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>BBM</ProductName>
+    <PublisherName>BumedianBM</PublisherName>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>F468DDA31FEBFFFEC02AA5F626B969E7E50ABE0A</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>BumedianBM_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>AlmaqarPOS.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="GridLib">
+      <HintPath>C:\Users\Developer-2\Desktop\GridLib.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13\lib\itextsharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.BatchParser, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\manoj\Desktop\SQLDMO dll\Microsoft.SqlServer.BatchParser.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\manoj\Desktop\SQLDMO dll\Microsoft.SqlServer.ConnectionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Smo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\manoj\Desktop\SQLDMO dll\Microsoft.SqlServer.Smo.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.SqlEnum, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\manoj\Desktop\SQLDMO dll\Microsoft.SqlServer.SqlEnum.dll</HintPath>
+    </Reference>
+    <Reference Include="POSFrameWork">
+      <HintPath>C:\Users\mahender.s\Documents\My Received Files\POSFrameWork.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="SergeUtils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\SergeUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Management">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Channels" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArabicView\AddFavorite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\AddFavorite.Designer.cs">
+      <DependentUpon>AddFavorite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Additional Barcode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Additional Barcode.Designer.cs">
+      <DependentUpon>Additional Barcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Agent Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Agent Details.Designer.cs">
+      <DependentUpon>Agent Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\AttendanceSheet.cs" />
+    <Compile Include="ArabicView\attention.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\attention.Designer.cs">
+      <DependentUpon>attention.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\BalanceSheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\BalanceSheet.Designer.cs">
+      <DependentUpon>BalanceSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Bank Withdraw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Bank Withdraw.Designer.cs">
+      <DependentUpon>Bank Withdraw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\BankDeposit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\BankDeposit.Designer.cs">
+      <DependentUpon>BankDeposit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\CashDrawerSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\CashDrawerSetting.Designer.cs">
+      <DependentUpon>CashDrawerSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\CustomMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\CustomMessageBox.Designer.cs">
+      <DependentUpon>CustomMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\CustomReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\CustomReport.Designer.cs">
+      <DependentUpon>CustomReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\EndShift.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\EndShift.Designer.cs">
+      <DependentUpon>EndShift.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\ErrorMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\ErrorMessage.Designer.cs">
+      <DependentUpon>ErrorMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\expired_purcheses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\expired_purcheses.designer.cs">
+      <DependentUpon>expired_purcheses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\ExportMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\ExportMessage.Designer.cs">
+      <DependentUpon>ExportMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Find Purchase Invoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Find Purchase Invoice.Designer.cs">
+      <DependentUpon>Find Purchase Invoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\FormQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\FormQuery.Designer.cs">
+      <DependentUpon>FormQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\FrmNotes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\FrmNotes.designer.cs">
+      <DependentUpon>FrmNotes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Import.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Import.Designer.cs">
+      <DependentUpon>Import.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\PaymentTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\PaymentTypes.Designer.cs">
+      <DependentUpon>PaymentTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\PaymentTypesCharges.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\PaymentTypesCharges.Designer.cs">
+      <DependentUpon>PaymentTypesCharges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\PosItemPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\PosItemPrice.Designer.cs">
+      <DependentUpon>PosItemPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\PrinterSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\PrinterSetup.Designer.cs">
+      <DependentUpon>PrinterSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\PurchaseItemPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\PurchaseItemPanel.Designer.cs">
+      <DependentUpon>PurchaseItemPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\PurchaseSaleExpired.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\PurchaseSaleExpired.Designer.cs">
+      <DependentUpon>PurchaseSaleExpired.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\ReturnOrderPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\ReturnOrderPopUp.Designer.cs">
+      <DependentUpon>ReturnOrderPopUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Sales Invoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Sales Invoice.Designer.cs">
+      <DependentUpon>Sales Invoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\ShowFavoritesUserQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\ShowFavoritesUserQuery.Designer.cs">
+      <DependentUpon>ShowFavoritesUserQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\StockPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\StockPassword.Designer.cs">
+      <DependentUpon>StockPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\TablePOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\TablePOS.Designer.cs">
+      <DependentUpon>TablePOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\TableSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\TableSettings.Designer.cs">
+      <DependentUpon>TableSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Item Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Item Information.Designer.cs">
+      <DependentUpon>Item Information.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\LoadProgressForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\LoadProgressForm.Designer.cs">
+      <DependentUpon>LoadProgressForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\LoginDigitalPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\LoginDigitalPanel.Designer.cs">
+      <DependentUpon>LoginDigitalPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\MasterFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\MasterFrom.Designer.cs">
+      <DependentUpon>MasterFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\OldQuickPriceInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\OldQuickPriceInfo.Designer.cs">
+      <DependentUpon>OldQuickPriceInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Report.designer.cs">
+      <DependentUpon>Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\ReportsView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\ReportsView.Designer.cs">
+      <DependentUpon>ReportsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\TipOfDay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\TipOfDay.designer.cs">
+      <DependentUpon>TipOfDay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\UserBarcodeSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\UserBarcodeSelection.Designer.cs">
+      <DependentUpon>UserBarcodeSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BumedianReports.cs">
+      <DependentUpon>BumedianReports.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BumedianReports.Designer.cs">
+      <DependentUpon>BumedianReports.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="CashDrawer.cs" />
+    <Compile Include="CrystalReports\Rpt_EndShiftReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_EndShiftReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_Invoice_63mm1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_InvTemplate6.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_InvTemplate6.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_InvTemplate7.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_InvTemplate7.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_NetProfit2.cs">
+      <DependentUpon>Rpt_NetProfit2.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_BranchMovement.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_BranchMovement.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_BranchReturnList.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_BranchReturnList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_CategoryBasePrinter.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_CategoryBasePrinter.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\RptChart_BestWorstSalesPeriod.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RptChart_BestWorstSalesPeriod.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\RptChart_HourlySales.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RptChart_HourlySales.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\RptChart_UserProductivity.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RptChart_UserProductivity.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\RptChat_MonthlySales.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RptChat_MonthlySales.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_AgentBalanceSheet1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_AgentBalanceSheet.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_AgentDetail.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_AgentDetail.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_AllTimeAttendanceReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_AllTimeAttendanceReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_AttendanceReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_AttendanceReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_BalanceSheet1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_BalanceSheet.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_BankBalanceSheet1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_BankBalanceSheet.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_BankDeposit1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_BankDeposit.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_BankWithdraw1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_BankWithdraw.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_Barcode.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_Barcode.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_Barcode145.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_Barcode145.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_Barcode68.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_Barcode68.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_Barcode_BarcodePapper.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_Barcode_BarcodePapper.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_CashCapital.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_CashCapital.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_ClientList.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_ClientList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_ClientPaymentList.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_ClientPaymentList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_ClientsMovement.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_ClientsMovement.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_CompleteInvoice1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_CompleteInvoice.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_CompleteInvoice_A4Landscape1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_CompleteInvoice_A4Landscape.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_CompleteInvoice_A4Landscape_WithoutDiscount.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_CompleteInvoice_A4Landscape_WithoutDiscount.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_CompleteInvoice_A4Landscape_WithoutTax.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_CompleteInvoice_A4Landscape_WithoutTax.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_CompleteInvoice_A4Landscape_WithoutTaxDiscount1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_CompleteInvoice_A4Landscape_WithoutTaxDiscount.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_CompleteInvoice_A52.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_CompleteInvoice_A5.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_CompleteInvoice_A5_WithoutDiscount1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_CompleteInvoice_A5_WithoutDiscount.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_CompleteInvoice_A5_WithoutTax1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_CompleteInvoice_A5_WithoutTax.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_CompleteInvoice_A5_WithoutTaxDiscount1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_CompleteInvoice_A5_WithoutTaxDiscount.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_CompleteInvoice_WithoutDiscount1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_CompleteInvoice_WithoutDiscount.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_CompleteInvoice_WithoutTax1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_CompleteInvoice_WithoutTax.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_CompleteInvoice_WithoutTaxDiscount1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_CompleteInvoice_WithoutTaxDiscount.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_Debt Latency of Client11.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_Debt Latency of Client1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_DebtAdjustmentList.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_DebtAdjustmentList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_DeptList.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_DeptList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_DetailPurchaseInvoice1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_DetailPurchaseInvoice.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_DiscountAppliedItems1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_DiscountAppliedItems.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_DiscountforClients.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_DiscountforClients.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_Drawing1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_Drawing.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_EndOfDays.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_EndOfDays.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_ExpensesDetails1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_ExpensesDetails.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_ExpiredListbyDate1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_ExpiredListbyDate.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_ExpiryItems.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_ExpiryItems.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_FindPurchaseInvoice.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_FindPurchaseInvoice.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_FindsaleDetail.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_FindsaleDetail.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_findsalereport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_findsalereport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_findsalereport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_Inventory.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_Inventory.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_InventoryAdjustment.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_InventoryAdjustment.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_InventoryList1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_InventoryList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_InventoryValue.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_InventoryValue.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_InvoiceReceipt1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_InvoiceReceipt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_Invoice_80mm1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_Invoice_80mm.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_InvTemplate1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_InvTemplate1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_InvTemplate2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_InvTemplate21.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_InvTemplate2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_InvTemplate3.cs">
+      <DependentUpon>Rpt_InvTemplate3.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_InvTemplate4.cs">
+      <DependentUpon>Rpt_InvTemplate4.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_InvTemplate5.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_InvTemplate5.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_ItemCard1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_ItemCard.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_ItemList1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_ItemList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_ItemListPrint1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_ItemListPrint.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_ItemPurchaseMovement.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_ItemPurchaseMovement.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_ItemSerialNumber.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_ItemSerialNumber.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_ListOfPurchase.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_ListOfPurchase.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_ListOfSales.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_ListOfSales.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_List_of_Debts_to_pay.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_List_of_Debts_to_pay.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_List_of_purchase_and_profit_of_each_client.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_List_of_purchase_and_profit_of_each_client.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_NetProfit1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_NetProfit.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_PaidCash1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_PaidCash.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_PaidStamp1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_PaidStamp.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_PriceListBarcode.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_PriceListBarcode.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_Receipt31.cs">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_Receipt3.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_ReceivedCash1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_ReceivedCash.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_ReorderItems1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_ReorderItems.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_SalaryPaymentDetail.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_SalaryPaymentDetail.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_SalesAccordingToCCUT.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_SalesAccordingToCCUT.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_SecondHandPriceLists.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_SecondHandPriceLists.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_ItemSaleMovement.cs">
+      <DependentUpon>Rpt_ItemSaleMovement.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_PriceList1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_PriceList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_PurchaseReturnMovement.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_PurchaseReturnMovement.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_Purchase_Invoice_No1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_Purchase_Invoice_No.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_Purchase_Invoice_No_A4Landscape1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_Purchase_Invoice_No_A4Landscape.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_Purchase_Invoice_No_A4Landscape_WithoutDiscount.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_Purchase_Invoice_No_A4Landscape_WithoutDiscount.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_Purchase_Invoice_No_A4Landscape_WithoutTax1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_Purchase_Invoice_No_A4Landscape_WithoutTax.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_Purchase_Invoice_No_A4Landscape_WithoutTaxDiscount1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_Purchase_Invoice_No_A4Landscape_WithoutTaxDiscount.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_Purchase_Invoice_No_A5.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_Purchase_Invoice_No_A5.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_Purchase_Invoice_No_WithoutDiscount.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_Purchase_Invoice_No_WithoutDiscount.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_Purchase_Invoice_No_WithoutDiscount_A5.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_Purchase_Invoice_No_WithoutDiscount_A5.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_Purchase_Invoice_No_WithoutTax.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_Purchase_Invoice_No_WithoutTax.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_Purchase_Invoice_No_WithoutTaxDiscount.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_Purchase_Invoice_No_WithoutTaxDiscount.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_Purchase_Invoice_No_WithoutTaxDiscount_A5.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_Purchase_Invoice_No_WithoutTaxDiscount_A5.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_Purchase_Invoice_No_WithoutTax_A5.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_Purchase_Invoice_No_WithoutTax_A5.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_Receipt11.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_Receipt1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_SaleReturnMovement.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_SaleReturnMovement.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_SimpleInvoice1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_SimpleInvoice.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_SimpleInvoiceWithoutDiscount1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_SimpleInvoiceWithoutDiscount.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_SimpleInvoiceWithoutDiscount_A4Landscape1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_SimpleInvoiceWithoutDiscount_A4Landscape.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_SimpleInvoiceWithoutDiscount_A51.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_SimpleInvoiceWithoutDiscount_A5.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_SimpleInvoiceWithoutTax1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_SimpleInvoiceWithoutTax.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_SimpleInvoiceWithoutTaxDiscount1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_SimpleInvoiceWithoutTaxDiscount.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_SimpleInvoiceWithoutTaxDiscount_A4Landscape1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_SimpleInvoiceWithoutTaxDiscount_A4Landscape.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_SimpleInvoiceWithoutTaxDiscount_A51.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_SimpleInvoiceWithoutTaxDiscount_A5.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_SimpleInvoiceWithoutTax_A4Landscape1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_SimpleInvoiceWithoutTax_A4Landscape.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_SimpleInvoiceWithoutTax_A51.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_SimpleInvoiceWithoutTax_A5.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_SimpleInvoice_A4Landscape1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_SimpleInvoice_A4Landscape.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_SimpleInvoice_A51.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_SimpleInvoice_A5.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_SlowQuickMovingItem1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_SlowQuickMovingItem.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_SpoiledItems1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_SpoiledItems.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_SupplierList.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_SupplierList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_TaxList1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_TaxList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_TermsandCondition.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_TermsandCondition.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_TermsandConditions.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_TermsandConditions.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_TotalDiscounts1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_TotalDiscounts.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_TotalDiscount_provider.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_TotalDiscount_provider.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_TotalItemsTaken_By_Branch.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_TotalItemsTaken_By_Branch.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_TotalPurchaseReturning.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_TotalPurchaseReturning.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_TotalSaleReturn.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_TotalSaleReturn.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_UserTrackingList1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_UserTrackingList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_ZakatCalculationReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_ZakatCalculationReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\TestTemplates.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TestTemplates.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Interface\AccountAbstract.cs" />
+    <Compile Include="Interface\IAccountView.cs" />
+    <Compile Include="Interface\IPurchaseView.cs" />
+    <Compile Include="Interface\ISaleView.cs" />
+    <Compile Include="Interface\PurchaseViewAbstract.cs" />
+    <Compile Include="ArabicView\Item Serial Number.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Item Serial Number.Designer.cs">
+      <DependentUpon>Item Serial Number.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Barcode Print.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Barcode Print.Designer.cs">
+      <DependentUpon>Barcode Print.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Bumedian Business Management System.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Bumedian Business Management System.Designer.cs">
+      <DependentUpon>Bumedian Business Management System.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Cash Capital.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Cash Capital.Designer.cs">
+      <DependentUpon>Cash Capital.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Change Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Change Password.Designer.cs">
+      <DependentUpon>Change Password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Clear DataBase Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Clear DataBase Information.Designer.cs">
+      <DependentUpon>Clear DataBase Information.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\DB Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\DB Login.Designer.cs">
+      <DependentUpon>DB Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Debt Adjustment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Debt Adjustment.Designer.cs">
+      <DependentUpon>Debt Adjustment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Discount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Discount.Designer.cs">
+      <DependentUpon>Discount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\End of the Day.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\End of the Day.Designer.cs">
+      <DependentUpon>End of the Day.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\TimeAttandanceStamp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\TimeAttandanceStamp.Designer.cs">
+      <DependentUpon>TimeAttandanceStamp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Find Sales Invoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Find Sales Invoice.Designer.cs">
+      <DependentUpon>Find Sales Invoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Inventory Adjustment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Inventory Adjustment.Designer.cs">
+      <DependentUpon>Inventory Adjustment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\ItemCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\ItemCard.Designer.cs">
+      <DependentUpon>ItemCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Licence Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Licence Registration.Designer.cs">
+      <DependentUpon>Licence Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Opening Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Opening Stock.Designer.cs">
+      <DependentUpon>Opening Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Option Setting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Option Setting.Designer.cs">
+      <DependentUpon>Option Setting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Order Invoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Order Invoice.Designer.cs">
+      <DependentUpon>Order Invoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Paid Refund.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Paid Refund.Designer.cs">
+      <DependentUpon>Paid Refund.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Pay Receipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Pay Receipt.Designer.cs">
+      <DependentUpon>Pay Receipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Performance Invoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Performance Invoice.Designer.cs">
+      <DependentUpon>Performance Invoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\POS Screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\POS Screen.Designer.cs">
+      <DependentUpon>POS Screen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\POS Shortcuts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\POS Shortcuts.Designer.cs">
+      <DependentUpon>POS Shortcuts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\PrimaryInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\PrimaryInfo.Designer.cs">
+      <DependentUpon>PrimaryInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Purchase Invoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Purchase Invoice.Designer.cs">
+      <DependentUpon>Purchase Invoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Purchase Return Invoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Purchase Return Invoice.Designer.cs">
+      <DependentUpon>Purchase Return Invoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Quick Price Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Quick Price Information.Designer.cs">
+      <DependentUpon>Quick Price Information.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Receive Receipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Receive Receipt.Designer.cs">
+      <DependentUpon>Receive Receipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Salary Payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Salary Payment.Designer.cs">
+      <DependentUpon>Salary Payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Sales Return Invoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Sales Return Invoice.Designer.cs">
+      <DependentUpon>Sales Return Invoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Server Connection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Server Connection.Designer.cs">
+      <DependentUpon>Server Connection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Spending.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Spending.Designer.cs">
+      <DependentUpon>Spending.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Spoiled Item.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Spoiled Item.Designer.cs">
+      <DependentUpon>Spoiled Item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Time Attandance Sheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Time Attandance Sheet.Designer.cs">
+      <DependentUpon>Time Attandance Sheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\Employee.Designer.cs">
+      <DependentUpon>Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\User Tracking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\User Tracking.Designer.cs">
+      <DependentUpon>User Tracking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArabicView\ItemDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArabicView\ItemDetails.Designer.cs">
+      <DependentUpon>ItemDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceFile\Resources.ar-sa.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.ar-sa.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceFile\Resources.en-us.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.en-us.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\AddressPhoneBook.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AddressPhoneBook.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\SampleDeptList.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SampleDeptList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReports\Rpt_BranchLists.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_BranchLists.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ViewHelper\AddressPhoneBook.cs" />
+    <Compile Include="ViewHelper\AgentDetailHelperClass.cs" />
+    <Compile Include="ViewHelper\AttendanceSheetHelper.cs" />
+    <Compile Include="ViewHelper\BalanceSheetHelper.cs" />
+    <Compile Include="ViewHelper\BankDepositHelperClass.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ViewHelper\BankWithdrawHelperClass.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ViewHelper\BarcodePrintHelper.cs" />
+    <Compile Include="ViewHelper\CashCapitalHelper.cs" />
+    <Compile Include="ViewHelper\CleanDBInfoHelper.cs" />
+    <Compile Include="ViewHelper\ComCatHelper.cs" />
+    <Compile Include="ViewHelper\CustomReportHelper.cs" />
+    <Compile Include="ViewHelper\DBLoginHelper.cs" />
+    <Compile Include="ViewHelper\DebtAdjustHelperClass.cs" />
+    <Compile Include="ViewHelper\DiscountHelper.cs" />
+    <Compile Include="ViewHelper\EmployeeHelper.cs" />
+    <Compile Include="ViewHelper\EndOfDayHelper.cs" />
+    <Compile Include="ViewHelper\EndShiftHelper.cs" />
+    <Compile Include="ViewHelper\FindPurchaseInvoiceHelper.cs" />
+    <Compile Include="ViewHelper\InventoryAdjustHelper.cs" />
+    <Compile Include="ViewHelper\OrderInvoiceHelper.cs" />
+    <Compile Include="ViewHelper\PrinterSetupHelper.cs" />
+    <Compile Include="ViewHelper\PurchaseItemPanelHelper.cs" />
+    <Compile Include="ViewHelper\ReportHelper.cs" />
+    <Compile Include="ViewHelper\SalaryPaymentHelper.cs" />
+    <Compile Include="ViewHelper\SpoiledItemHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ViewHelper\TimeAttendanceSheetHelper.cs" />
+    <Compile Include="ViewHelper\TimeAttendanceStampHelper.cs" />
+    <Compile Include="ViewHelper\FindSaleInvoiceHelper.cs" />
+    <Compile Include="ViewHelper\ItemCardHelper.cs" />
+    <Compile Include="ViewHelper\ItemInformationHelper.cs" />
+    <Compile Include="ViewHelper\ItemSerialNoHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ViewHelper\LoginViewHelper.cs" />
+    <Compile Include="ViewHelper\OpeningStockHelper.cs" />
+    <Compile Include="ViewHelper\OptionSettingHelper.cs" />
+    <Compile Include="ViewHelper\PayReceiptHelper.cs" />
+    <Compile Include="ViewHelper\PerformanceHelper.cs" />
+    <Compile Include="ViewHelper\PosScreenHelper.cs" />
+    <Compile Include="ViewHelper\PosShortcutHelper.cs" />
+    <Compile Include="ViewHelper\PurchaseInvoiceHelper.cs" />
+    <Compile Include="ViewHelper\PurchaseReturnHelper.cs" />
+    <Compile Include="ViewHelper\QuickPriceHelper.cs" />
+    <Compile Include="ViewHelper\ReceiveReceiptHelper.cs" />
+    <Compile Include="ViewHelper\SalesInvoiceHelper.cs" />
+    <Compile Include="ViewHelper\SalesReturnHelper.cs" />
+    <Compile Include="ViewHelper\ServerConnViewHelper.cs" />
+    <Compile Include="ViewHelper\SpendingHelperClass.cs" />
+    <Compile Include="ViewHelper\TipOfDayHelper.cs" />
+    <Compile Include="ViewHelper\UserFavoriteQueryHelper.cs" />
+    <Compile Include="ViewHelper\UserTrackingHelper.cs" />
+    <Compile Include="View\AdditionalBarcode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\AdditionalBarcode.Designer.cs">
+      <DependentUpon>AdditionalBarcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\AgentDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\AgentDetail.Designer.cs">
+      <DependentUpon>AgentDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\AddressPhoneBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\AddressPhoneBook.Designer.cs">
+      <DependentUpon>AddressPhoneBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Balance Sheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Balance Sheet.Designer.cs">
+      <DependentUpon>Balance Sheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BankDeposit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BankDeposit.Designer.cs">
+      <DependentUpon>BankDeposit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BankWithDraw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BankWithDraw.Designer.cs">
+      <DependentUpon>BankWithDraw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Cash Capital.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Cash Capital.Designer.cs">
+      <DependentUpon>Cash Capital.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Debt Adjustment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Debt Adjustment.Designer.cs">
+      <DependentUpon>Debt Adjustment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Discount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Discount.Designer.cs">
+      <DependentUpon>Discount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\EndOfTheDay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\EndOfTheDay.Designer.cs">
+      <DependentUpon>EndOfTheDay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Entry Time Attandance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Entry Time Attandance.Designer.cs">
+      <DependentUpon>Entry Time Attandance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Find Purchase Invoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Find Purchase Invoice.Designer.cs">
+      <DependentUpon>Find Purchase Invoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Find Sales Invoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Find Sales Invoice.Designer.cs">
+      <DependentUpon>Find Sales Invoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Inventory Adjustment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Inventory Adjustment.Designer.cs">
+      <DependentUpon>Inventory Adjustment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ItemCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ItemCard.Designer.cs">
+      <DependentUpon>ItemCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewHelper\ValidationClass.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\Opening Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Opening Stock.Designer.cs">
+      <DependentUpon>Opening Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Order Invoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Order Invoice.Designer.cs">
+      <DependentUpon>Order Invoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Paid Refund.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Paid Refund.Designer.cs">
+      <DependentUpon>Paid Refund.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Pay Receipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Pay Receipt.Designer.cs">
+      <DependentUpon>Pay Receipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Performance Invoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Performance Invoice.Designer.cs">
+      <DependentUpon>Performance Invoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\POS Shortcuts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\POS Shortcuts.Designer.cs">
+      <DependentUpon>POS Shortcuts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\PrimaryInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\PrimaryInfo.Designer.cs">
+      <DependentUpon>PrimaryInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Print Barcode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Print Barcode.Designer.cs">
+      <DependentUpon>Print Barcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Purchase Invoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Purchase Invoice.Designer.cs">
+      <DependentUpon>Purchase Invoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Quick Price Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Quick Price Information.Designer.cs">
+      <DependentUpon>Quick Price Information.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Receive Receipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Receive Receipt.Designer.cs">
+      <DependentUpon>Receive Receipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Return Purchase Invoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Return Purchase Invoice.Designer.cs">
+      <DependentUpon>Return Purchase Invoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ReportViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ReportViewer.Designer.cs">
+      <DependentUpon>ReportViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Salary Payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Salary Payment.Designer.cs">
+      <DependentUpon>Salary Payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Sales Invoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Sales Invoice.Designer.cs">
+      <DependentUpon>Sales Invoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Sales Return Invoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Sales Return Invoice.Designer.cs">
+      <DependentUpon>Sales Return Invoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Sample.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Sample.Designer.cs">
+      <DependentUpon>Sample.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Spending.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Spending.Designer.cs">
+      <DependentUpon>Spending.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Spoiled Items Invoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Spoiled Items Invoice.Designer.cs">
+      <DependentUpon>Spoiled Items Invoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Time Attandance Sheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Time Attandance Sheet.Designer.cs">
+      <DependentUpon>Time Attandance Sheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\User Tracking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\User Tracking.Designer.cs">
+      <DependentUpon>User Tracking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UserAdministrator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\UserAdministrator.Designer.cs">
+      <DependentUpon>UserAdministrator.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ArabicView\AddFavorite.resx">
+      <DependentUpon>AddFavorite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Additional Barcode.resx">
+      <DependentUpon>Additional Barcode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Agent Details.resx">
+      <DependentUpon>Agent Details.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\attention.resx">
+      <DependentUpon>attention.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\BalanceSheet.resx">
+      <DependentUpon>BalanceSheet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Bank Withdraw.resx">
+      <DependentUpon>Bank Withdraw.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\BankDeposit.resx">
+      <DependentUpon>BankDeposit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\CashDrawerSetting.resx">
+      <DependentUpon>CashDrawerSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\CustomMessageBox.resx">
+      <DependentUpon>CustomMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\CustomReport.resx">
+      <DependentUpon>CustomReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\EndShift.resx">
+      <DependentUpon>EndShift.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\ErrorMessage.resx">
+      <DependentUpon>ErrorMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\expired_purcheses.resx">
+      <DependentUpon>expired_purcheses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\ExportMessage.resx">
+      <DependentUpon>ExportMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Find Purchase Invoice.resx">
+      <DependentUpon>Find Purchase Invoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\FormQuery.resx">
+      <DependentUpon>FormQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\FrmNotes.resx">
+      <DependentUpon>FrmNotes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Import.resx">
+      <DependentUpon>Import.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\PaymentTypes.resx">
+      <DependentUpon>PaymentTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\PaymentTypesCharges.resx">
+      <DependentUpon>PaymentTypesCharges.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\PosItemPrice.resx">
+      <DependentUpon>PosItemPrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\PrinterSetup.resx">
+      <DependentUpon>PrinterSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\PurchaseItemPanel.resx">
+      <DependentUpon>PurchaseItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\PurchaseSaleExpired.resx">
+      <DependentUpon>PurchaseSaleExpired.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\ReturnOrderPopUp.resx">
+      <DependentUpon>ReturnOrderPopUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Sales Invoice.resx">
+      <DependentUpon>Sales Invoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\ShowFavoritesUserQuery.resx">
+      <DependentUpon>ShowFavoritesUserQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\StockPassword.resx">
+      <DependentUpon>StockPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\TablePOS.resx">
+      <DependentUpon>TablePOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\TableSettings.resx">
+      <DependentUpon>TableSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Item Information.resx">
+      <DependentUpon>Item Information.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Item Serial Number.resx">
+      <DependentUpon>Item Serial Number.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\ItemDetails.resx">
+      <DependentUpon>ItemDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\LoadProgressForm.resx">
+      <DependentUpon>LoadProgressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\LoginDigitalPanel.resx">
+      <DependentUpon>LoginDigitalPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\MasterFrom.resx">
+      <DependentUpon>MasterFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\OldQuickPriceInfo.resx">
+      <DependentUpon>OldQuickPriceInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Report.resx">
+      <DependentUpon>Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\ReportsView.resx">
+      <DependentUpon>ReportsView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\TipOfDay.resx">
+      <DependentUpon>TipOfDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\UserBarcodeSelection.resx">
+      <DependentUpon>UserBarcodeSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_EndShiftReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_EndShiftReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_InvTemplate6.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_InvTemplate6.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_InvTemplate7.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_InvTemplate7.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_NetProfit2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_NetProfit2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_BranchMovement.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_BranchMovement.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_BranchReturnList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_BranchReturnList.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_CategoryBasePrinter.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_CategoryBasePrinter.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\RptChart_BestWorstSalesPeriod.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptChart_BestWorstSalesPeriod.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\RptChart_HourlySales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptChart_HourlySales.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\RptChart_UserProductivity.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptChart_UserProductivity.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\RptChat_MonthlySales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptChat_MonthlySales.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_AgentBalanceSheet.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_AgentBalanceSheet1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_AgentDetail.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_AgentDetail.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_AllTimeAttendanceReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_AllTimeAttendanceReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_AttendanceReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_AttendanceReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_BalanceSheet.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_BalanceSheet1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_BankBalanceSheet.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_BankBalanceSheet1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_BankDeposit.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_BankDeposit1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_BankWithdraw.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_BankWithdraw1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_Barcode.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_Barcode.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_Barcode145.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_Barcode145.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_Barcode68.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_Barcode68.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_Barcode_BarcodePapper.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_Barcode_BarcodePapper.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_CashCapital.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_CashCapital.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_ClientList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_ClientList.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_ClientPaymentList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_ClientPaymentList.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_ClientsMovement.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_ClientsMovement.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_CompleteInvoice.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_CompleteInvoice1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_CompleteInvoice_A4Landscape.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_CompleteInvoice_A4Landscape1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_CompleteInvoice_A4Landscape_WithoutDiscount.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_CompleteInvoice_A4Landscape_WithoutDiscount.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_CompleteInvoice_A4Landscape_WithoutTax.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_CompleteInvoice_A4Landscape_WithoutTax.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_CompleteInvoice_A4Landscape_WithoutTaxDiscount.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_CompleteInvoice_A4Landscape_WithoutTaxDiscount1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_CompleteInvoice_A5.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_CompleteInvoice_A52.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_CompleteInvoice_A5_WithoutDiscount.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_CompleteInvoice_A5_WithoutDiscount1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_CompleteInvoice_A5_WithoutTax.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_CompleteInvoice_A5_WithoutTax1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_CompleteInvoice_A5_WithoutTaxDiscount.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_CompleteInvoice_A5_WithoutTaxDiscount1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_CompleteInvoice_WithoutDiscount.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_CompleteInvoice_WithoutDiscount1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_CompleteInvoice_WithoutTax.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_CompleteInvoice_WithoutTax1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_CompleteInvoice_WithoutTaxDiscount.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_CompleteInvoice_WithoutTaxDiscount1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_Debt Latency of Client1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_Debt Latency of Client11.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_DebtAdjustmentList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_DebtAdjustmentList.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_DeptList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_DeptList.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_DetailPurchaseInvoice.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_DetailPurchaseInvoice1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_DiscountAppliedItems.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_DiscountAppliedItems1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_DiscountforClients.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_DiscountforClients.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_Drawing.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_Drawing1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_EndOfDays.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_EndOfDays.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_ExpensesDetails.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_ExpensesDetails1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_ExpiredListbyDate.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_ExpiredListbyDate1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_ExpiryItems.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_ExpiryItems.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_FindPurchaseInvoice.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_FindPurchaseInvoice.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_FindsaleDetail.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_FindsaleDetail.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_findsalereport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_findsalereport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_Inventory.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_Inventory.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_InventoryAdjustment.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_InventoryAdjustment.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_InventoryList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_InventoryList1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_InventoryValue.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_InventoryValue.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_InvoiceReceipt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_InvoiceReceipt1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_Invoice_63mm.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_Invoice_63mm.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_Invoice_80mm.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_Invoice_80mm1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_InvTemplate1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_InvTemplate1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_InvTemplate2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_InvTemplate21.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_InvTemplate3.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_InvTemplate3.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_InvTemplate4.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_InvTemplate4.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_InvTemplate5.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_InvTemplate5.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_ItemCard.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_ItemCard1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_ItemList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_ItemList1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_ItemListPrint.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_ItemListPrint1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_ItemPurchaseMovement.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_ItemPurchaseMovement.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_ItemSerialNumber.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_ItemSerialNumber.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_ListOfPurchase.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_ListOfPurchase.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_ListOfSales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_ListOfSales.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_List_of_Debts_to_pay.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_List_of_Debts_to_pay.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_List_of_purchase_and_profit_of_each_client.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_List_of_purchase_and_profit_of_each_client.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_NetProfit.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_NetProfit1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_PaidCash.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_PaidCash1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_PaidStamp.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_PaidStamp1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_PriceListBarcode.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_PriceListBarcode.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_Receipt3.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_Receipt31.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_ReceivedCash.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_ReceivedCash1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_ReorderItems.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_ReorderItems1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_SalaryPaymentDetail.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_SalaryPaymentDetail.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_SalesAccordingToCCUT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_SalesAccordingToCCUT.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_SecondHandPriceLists.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_SecondHandPriceLists.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_ItemSaleMovement.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_ItemSaleMovement.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_PriceList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_PriceList1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_PurchaseReturnMovement.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_PurchaseReturnMovement.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_Purchase_Invoice_No.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_Purchase_Invoice_No1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_Purchase_Invoice_No_A4Landscape.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_Purchase_Invoice_No_A4Landscape1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_Purchase_Invoice_No_A4Landscape_WithoutDiscount.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_Purchase_Invoice_No_A4Landscape_WithoutDiscount.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_Purchase_Invoice_No_A4Landscape_WithoutTax.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_Purchase_Invoice_No_A4Landscape_WithoutTax1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_Purchase_Invoice_No_A4Landscape_WithoutTaxDiscount.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_Purchase_Invoice_No_A4Landscape_WithoutTaxDiscount1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_Purchase_Invoice_No_A5.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_Purchase_Invoice_No_A5.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_Purchase_Invoice_No_WithoutDiscount.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_Purchase_Invoice_No_WithoutDiscount.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_Purchase_Invoice_No_WithoutDiscount_A5.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_Purchase_Invoice_No_WithoutDiscount_A5.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_Purchase_Invoice_No_WithoutTax.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_Purchase_Invoice_No_WithoutTax.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_Purchase_Invoice_No_WithoutTaxDiscount.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_Purchase_Invoice_No_WithoutTaxDiscount.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_Purchase_Invoice_No_WithoutTaxDiscount_A5.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_Purchase_Invoice_No_WithoutTaxDiscount_A5.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_Purchase_Invoice_No_WithoutTax_A5.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_Purchase_Invoice_No_WithoutTax_A5.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_Receipt1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_Receipt11.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_SaleReturnMovement.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_SaleReturnMovement.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_SimpleInvoice.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_SimpleInvoice1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_SimpleInvoiceWithoutDiscount.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_SimpleInvoiceWithoutDiscount1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_SimpleInvoiceWithoutDiscount_A4Landscape.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_SimpleInvoiceWithoutDiscount_A4Landscape1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_SimpleInvoiceWithoutDiscount_A5.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_SimpleInvoiceWithoutDiscount_A51.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_SimpleInvoiceWithoutTax.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_SimpleInvoiceWithoutTax1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_SimpleInvoiceWithoutTaxDiscount.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_SimpleInvoiceWithoutTaxDiscount1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_SimpleInvoiceWithoutTaxDiscount_A4Landscape.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_SimpleInvoiceWithoutTaxDiscount_A4Landscape1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_SimpleInvoiceWithoutTaxDiscount_A5.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_SimpleInvoiceWithoutTaxDiscount_A51.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_SimpleInvoiceWithoutTax_A4Landscape.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_SimpleInvoiceWithoutTax_A4Landscape1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_SimpleInvoiceWithoutTax_A5.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_SimpleInvoiceWithoutTax_A51.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_SimpleInvoice_A4Landscape.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_SimpleInvoice_A4Landscape1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_SimpleInvoice_A5.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_SimpleInvoice_A51.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_SlowQuickMovingItem.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_SlowQuickMovingItem1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_SpoiledItems.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_SpoiledItems1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_SupplierList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_SupplierList.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_TaxList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_TaxList1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_TermsandCondition.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_TermsandCondition.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_TermsandConditions.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_TermsandConditions.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_TotalDiscounts.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_TotalDiscounts1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_TotalDiscount_provider.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_TotalDiscount_provider.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_TotalItemsTaken_By_Branch.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_TotalItemsTaken_By_Branch.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_TotalPurchaseReturning.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_TotalPurchaseReturning.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_TotalSaleReturn.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_TotalSaleReturn.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_UserTrackingList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_UserTrackingList1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_ZakatCalculationReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_ZakatCalculationReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\TestTemplates.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TestTemplates.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResourceFile\Resources.ar-sa.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.ar-sa.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Barcode Print.resx">
+      <DependentUpon>Barcode Print.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Bumedian Business Management System.resx">
+      <DependentUpon>Bumedian Business Management System.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Cash Capital.resx">
+      <DependentUpon>Cash Capital.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Change Password.resx">
+      <DependentUpon>Change Password.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Clear DataBase Information.resx">
+      <DependentUpon>Clear DataBase Information.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\DB Login.resx">
+      <DependentUpon>DB Login.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Debt Adjustment.resx">
+      <DependentUpon>Debt Adjustment.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Discount.resx">
+      <DependentUpon>Discount.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\End of the Day.resx">
+      <DependentUpon>End of the Day.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\TimeAttandanceStamp.resx">
+      <DependentUpon>TimeAttandanceStamp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Find Sales Invoice.resx">
+      <DependentUpon>Find Sales Invoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Inventory Adjustment.resx">
+      <DependentUpon>Inventory Adjustment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\ItemCard.resx">
+      <DependentUpon>ItemCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Licence Registration.resx">
+      <DependentUpon>Licence Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Opening Stock.resx">
+      <DependentUpon>Opening Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Option Setting.resx">
+      <DependentUpon>Option Setting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Order Invoice.resx">
+      <DependentUpon>Order Invoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Paid Refund.resx">
+      <DependentUpon>Paid Refund.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Pay Receipt.resx">
+      <DependentUpon>Pay Receipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Performance Invoice.resx">
+      <DependentUpon>Performance Invoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\POS Screen.resx">
+      <DependentUpon>POS Screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\POS Shortcuts.resx">
+      <DependentUpon>POS Shortcuts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\PrimaryInfo.resx">
+      <DependentUpon>PrimaryInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Purchase Invoice.resx">
+      <DependentUpon>Purchase Invoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Purchase Return Invoice.resx">
+      <DependentUpon>Purchase Return Invoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Quick Price Information.resx">
+      <DependentUpon>Quick Price Information.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Receive Receipt.resx">
+      <DependentUpon>Receive Receipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Salary Payment.resx">
+      <DependentUpon>Salary Payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Sales Return Invoice.resx">
+      <DependentUpon>Sales Return Invoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Server Connection.resx">
+      <DependentUpon>Server Connection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Spending.resx">
+      <DependentUpon>Spending.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Spoiled Item.resx">
+      <DependentUpon>Spoiled Item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Time Attandance Sheet.resx">
+      <DependentUpon>Time Attandance Sheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\Employee.resx">
+      <DependentUpon>Employee.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArabicView\User Tracking.resx">
+      <DependentUpon>User Tracking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResourceFile\Resources.en-us.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.en-us.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\AddressPhoneBook.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AddressPhoneBook.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\SampleDeptList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SampleDeptList.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReports\Rpt_BranchLists.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_BranchLists.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\AdditionalBarcode.resx">
+      <DependentUpon>AdditionalBarcode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\AgentDetail.resx">
+      <DependentUpon>AgentDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\AddressPhoneBook.resx">
+      <DependentUpon>AddressPhoneBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Balance Sheet.resx">
+      <DependentUpon>Balance Sheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BankDeposit.resx">
+      <DependentUpon>BankDeposit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BankWithDraw.resx">
+      <DependentUpon>BankWithDraw.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Cash Capital.resx">
+      <DependentUpon>Cash Capital.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Debt Adjustment.resx">
+      <DependentUpon>Debt Adjustment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Discount.resx">
+      <DependentUpon>Discount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\EndOfTheDay.resx">
+      <DependentUpon>EndOfTheDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Entry Time Attandance.resx">
+      <DependentUpon>Entry Time Attandance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Find Purchase Invoice.resx">
+      <DependentUpon>Find Purchase Invoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Find Sales Invoice.resx">
+      <DependentUpon>Find Sales Invoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Inventory Adjustment.resx">
+      <DependentUpon>Inventory Adjustment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ItemCard.resx">
+      <DependentUpon>ItemCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Opening Stock.resx">
+      <DependentUpon>Opening Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Order Invoice.resx">
+      <DependentUpon>Order Invoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Paid Refund.resx">
+      <DependentUpon>Paid Refund.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Pay Receipt.resx">
+      <DependentUpon>Pay Receipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Performance Invoice.resx">
+      <DependentUpon>Performance Invoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\POS Shortcuts.resx">
+      <DependentUpon>POS Shortcuts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\PrimaryInfo.resx">
+      <DependentUpon>PrimaryInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Print Barcode.resx">
+      <DependentUpon>Print Barcode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Purchase Invoice.resx">
+      <DependentUpon>Purchase Invoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Quick Price Information.resx">
+      <DependentUpon>Quick Price Information.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Receive Receipt.resx">
+      <DependentUpon>Receive Receipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Return Purchase Invoice.resx">
+      <DependentUpon>Return Purchase Invoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ReportViewer.resx">
+      <DependentUpon>ReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Salary Payment.resx">
+      <DependentUpon>Salary Payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Sales Invoice.resx">
+      <DependentUpon>Sales Invoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Sales Return Invoice.resx">
+      <DependentUpon>Sales Return Invoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Sample.resx">
+      <DependentUpon>Sample.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Spending.resx">
+      <DependentUpon>Spending.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Spoiled Items Invoice.resx">
+      <DependentUpon>Spoiled Items Invoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Time Attandance Sheet.resx">
+      <DependentUpon>Time Attandance Sheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\User Tracking.resx">
+      <DependentUpon>User Tracking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UserAdministrator.resx">
+      <DependentUpon>UserAdministrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BumedianBM_TemporaryKey.pfx" />
+    <None Include="BumedianPOS.chm" />
+    <None Include="BumedianReports.xsc">
+      <DependentUpon>BumedianReports.xsd</DependentUpon>
+    </None>
+    <None Include="BumedianReports.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>BumedianReports.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="BumedianReports.xss">
+      <DependentUpon>BumedianReports.xsd</DependentUpon>
+    </None>
+    <None Include="CashDrawer\OpenDrawer.bat" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\74be16979710d4c4e7c6647856088456.jpg" />
+    <None Include="Resources\acf7ef943fdeb3cbfed8dd0d8f584731.jpg" />
+    <None Include="Resources\agreement.rtf" />
+    <None Include="Resources\CDT Content End User License.rtf" />
+    <None Include="Resources\d41d8cd98f00b204e9800998ecf8427e.jpg" />
+    <None Include="Resources\Fonts\EAN13.ttf" />
+    <None Include="Resources\Fonts\SALEH_10.TTF" />
+    <None Include="Resources\images.jpg" />
+    <None Include="Resources\Skins\Flexi.skf" />
+    <None Include="Resources\Skins\MacStyle.skf" />
+    <None Include="Resources\Skins\Sequence.skf" />
+    <None Include="Resources\Skins\Tranquill.skf" />
+    <None Include="Resources\Skins\Ultraviolet.skf" />
+    <None Include="Resources\Skins\VistaStyle.skf" />
+    <None Include="Resources\Skins\VistaStyleNew.skf" />
+    <None Include="Resources\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AlmaqarPOS.ico" />
+    <Content Include="CashDrawer\OpenDrawer.vbs" />
+    <Content Include="imageedit_2_9483092371_cxF_icon.ico" />
+    <Content Include="Resources\accounting_32.ico" />
+    <Content Include="Resources\accounting_32.png" />
+    <Content Include="Resources\accounting_48.png" />
+    <Content Include="Resources\additional_barcode_32.ico" />
+    <Content Include="Resources\additional_barcode_32.png" />
+    <Content Include="Resources\add_32.png" />
+    <Content Include="Resources\add_48.png" />
+    <Content Include="Resources\administrator_128.png" />
+    <Content Include="Resources\administrator_32.ico" />
+    <Content Include="Resources\administrator_32.png" />
+    <Content Include="Resources\administrator_48.png" />
+    <Content Include="Resources\agents_32.png" />
+    <Content Include="Resources\agents_48.png" />
+    <Content Include="Resources\agent_fiel_32.ico" />
+    <Content Include="Resources\agent_fiel_32.png" />
+    <Content Include="Resources\almaqar logo.png" />
+    <Content Include="Resources\AlmaqarPOS.ico" />
+    <None Include="Resources\almaqarsoft - Copy.png" />
+    <None Include="Resources\almaqarsoft %282%29.png" />
+    <Content Include="Resources\almaqarsoft.png" />
+    <Content Include="Resources\almaqar_logo_withouttext.png" />
+    <Content Include="Resources\attandance_report_32.ico" />
+    <Content Include="Resources\attandance_report_32.png" />
+    <Content Include="Resources\backup_save_32.png" />
+    <Content Include="Resources\backup_save_48.png" />
+    <Content Include="Resources\back_128.ico" />
+    <Content Include="Resources\back_128.png" />
+    <Content Include="Resources\back_32.ico" />
+    <Content Include="Resources\back_32.png" />
+    <Content Include="Resources\back_48.ico" />
+    <Content Include="Resources\back_48.png" />
+    <Content Include="Resources\back_481.png" />
+    <Content Include="Resources\balance_sheet_128.ico" />
+    <Content Include="Resources\balance_sheet_128.png" />
+    <Content Include="Resources\balance_sheet_32.ico" />
+    <Content Include="Resources\balance_sheet_32.png" />
+    <Content Include="Resources\bank_deposit_32.ico" />
+    <Content Include="Resources\bank_deposit_32.png" />
+    <Content Include="Resources\bank_withdraw_32.ico" />
+    <Content Include="Resources\bank_withdraw_32.png" />
+    <None Include="Resources\bill_32.png" />
+    <None Include="Resources\bill_48.png" />
+    <None Include="Resources\bill_128.png" />
+    <Content Include="Resources\binoculars_32.png" />
+    <None Include="Resources\Cancel48.jpg" />
+    <Content Include="Resources\calculator_refresh_128.png" />
+    <Content Include="Resources\calculator_refresh_16.png" />
+    <Content Include="Resources\calculator_refresh_24.png" />
+    <Content Include="Resources\calculator_refresh_32.png" />
+    <Content Include="Resources\calculator_refresh_48.png" />
+    <Content Include="Resources\cancel_32.png" />
+    <Content Include="Resources\cancel_321.png" />
+    <None Include="Resources\cashbox_32.png" />
+    <None Include="Resources\cashbox_48.png" />
+    <None Include="Resources\cashbox_128.png" />
+    <Content Include="Resources\cash_capital_32.ico" />
+    <Content Include="Resources\cash_capital_32.png" />
+    <Content Include="Resources\CDT Content End User License.txt" />
+    <None Include="Resources\CDT_Content_End_User_License.bmp" />
+    <None Include="Resources\CDT_Content_End_User_License.txt" />
+    <Content Include="Resources\change_user_32.ico" />
+    <Content Include="Resources\change_user_32.png" />
+    <Content Include="Resources\change_user_48.png" />
+    <Content Include="Resources\Check.png" />
+    <None Include="Resources\check_32.png" />
+    <None Include="Resources\check_48.png" />
+    <None Include="Resources\check_128.png" />
+    <Content Include="Resources\clean_db_32.png" />
+    <Content Include="Resources\clean_db_48.ico" />
+    <Content Include="Resources\clean_db_48.png" />
+    <Content Include="Resources\close_32.ico" />
+    <Content Include="Resources\close_32.png" />
+    <Content Include="Resources\close_321.png" />
+    <Content Include="Resources\close_322.png" />
+    <Content Include="Resources\close_a_128.ico" />
+    <Content Include="Resources\close_a_128.png" />
+    <Content Include="Resources\close_a_48.ico" />
+    <Content Include="Resources\close_a_48.png" />
+    <Content Include="Resources\close_a_481.png" />
+    <Content Include="Resources\close_b_128.png" />
+    <Content Include="Resources\close_b_32.png" />
+    <Content Include="Resources\close_b_321.png" />
+    <Content Include="Resources\close_b_322.png" />
+    <Content Include="Resources\close_b_48.png" />
+    <Content Include="Resources\Copy of accounting_32.png" />
+    <None Include="Resources\copy_16.png" />
+    <None Include="Resources\copy_32.png" />
+    <None Include="Resources\copy_48.png" />
+    <None Include="Resources\copy_128.png" />
+    <None Include="Resources\custom report %281%29.png" />
+    <None Include="Resources\custom report %282%29.png" />
+    <None Include="Resources\custom report %283%29.png" />
+    <None Include="Resources\custom report %284%29.png" />
+    <None Include="Resources\custom report %285%29.png" />
+    <None Include="Resources\credit_cards_32.png" />
+    <None Include="Resources\credit_cards_48.png" />
+    <None Include="Resources\credit_cards_128.png" />
+    <Content Include="Resources\daily_jhornal_32.ico" />
+    <Content Include="Resources\daily_jhornal_32.png" />
+    <Content Include="Resources\daily_jhornal_48.png" />
+    <Content Include="Resources\database_save_32.png" />
+    <Content Include="Resources\database_save_48.png" />
+    <Content Include="Resources\debts_32.ico" />
+    <Content Include="Resources\debts_32.png" />
+    <Content Include="Resources\debt_adjustment_32.ico" />
+    <Content Include="Resources\debt_adjustment_32.png" />
+    <None Include="Resources\Delete report %281%29.png" />
+    <None Include="Resources\Delete report %282%29.png" />
+    <None Include="Resources\Delete report %283%29.png" />
+    <None Include="Resources\Delete report %284%29.png" />
+    <None Include="Resources\Delete report %285%29.png" />
+    <Content Include="Resources\delete_32.png" />
+    <Content Include="Resources\delete_48.png" />
+    <Content Include="Resources\delete_item_128.ico" />
+    <Content Include="Resources\delete_item_128.png" />
+    <Content Include="Resources\delete_item_32.ico" />
+    <Content Include="Resources\delete_item_32.png" />
+    <Content Include="Resources\delete_item_48.ico" />
+    <Content Include="Resources\delete_item_48.png" />
+    <Content Include="Resources\delete_item_481.png" />
+    <None Include="Resources\Discount.jpg" />
+    <Content Include="Resources\diskette_32.png" />
+    <Content Include="Resources\diskette_48.png" />
+    <None Include="Resources\Double_Ring-2.2s-200px.gif" />
+    <Content Include="Resources\down_48.png" />
+    <Content Include="Resources\drawings_32.png" />
+    <Content Include="Resources\drawings_48.png" />
+    <Content Include="Resources\employee_inf_32.ico" />
+    <Content Include="Resources\employee_inf_32.png" />
+    <Content Include="Resources\employee_inf_ok_48.ico" />
+    <Content Include="Resources\end_of_day_32.ico" />
+    <Content Include="Resources\end_of_day_32.png" />
+    <None Include="Resources\end_of_day_321.png" />
+    <Content Include="Resources\end_of_day_48.png" />
+    <Content Include="Resources\expencies_32.ico" />
+    <Content Include="Resources\expencies_32.png" />
+    <Content Include="Resources\expencies_48.png" />
+    <Content Include="Resources\expiry_list_128.ico" />
+    <Content Include="Resources\expiry_list_128.png" />
+    <Content Include="Resources\expiry_list_32.ico" />
+    <Content Include="Resources\expiry_list_32.png" />
+    <Content Include="Resources\expiry_list_48.ico" />
+    <Content Include="Resources\expiry_list_48.png" />
+    <None Include="Resources\Export report %281%29.png" />
+    <None Include="Resources\Export report %282%29.png" />
+    <None Include="Resources\Export report %283%29.png" />
+    <None Include="Resources\Export report %284%29.png" />
+    <None Include="Resources\Export report %285%29.png" />
+    <None Include="Resources\Favoriets %281%29.png" />
+    <None Include="Resources\Favoriets %282%29.png" />
+    <None Include="Resources\Favoriets %283%29.png" />
+    <None Include="Resources\Favoriets %284%29.png" />
+    <None Include="Resources\Favoriets %285%29.png" />
+    <Content Include="Resources\first_32.png" />
+    <Content Include="Resources\first_48.png" />
+    <Content Include="Resources\forward_128.ico" />
+    <Content Include="Resources\forward_128.png" />
+    <Content Include="Resources\forward_32.ico" />
+    <Content Include="Resources\forward_32.png" />
+    <Content Include="Resources\forward_321.png" />
+    <Content Include="Resources\forward_48.ico" />
+    <Content Include="Resources\forward_48.png" />
+    <Content Include="Resources\generated_barcode_list_32.png" />
+    <Content Include="Resources\generated_barcode_list_321.png" />
+    <Content Include="Resources\generate_barcode_32.png" />
+    <Content Include="Resources\group_reload_32.png" />
+    <Content Include="Resources\group_reload_48.png" />
+    <Content Include="Resources\import_invoice_128.ico" />
+    <Content Include="Resources\import_invoice_128.png" />
+    <Content Include="Resources\import_invoice_32.ico" />
+    <Content Include="Resources\import_invoice_32.png" />
+    <Content Include="Resources\import_invoice_48.ico" />
+    <Content Include="Resources\import_invoice_48.png" />
+    <Content Include="Resources\insert_item_128.ico" />
+    <Content Include="Resources\insert_item_128.png" />
+    <Content Include="Resources\insert_item_32.ico" />
+    <Content Include="Resources\insert_item_32.png" />
+    <Content Include="Resources\insert_item_48.ico" />
+    <Content Include="Resources\insert_item_48.png" />
+    <Content Include="Resources\InstallLogo.bmp" />
+    <Content Include="Resources\InstallTop.bmp" />
+    <Content Include="Resources\inventory_adjustment_32.ico" />
+    <Content Include="Resources\inventory_adjustment_32.png" />
+    <Content Include="Resources\inventory_adjustment_321.png" />
+    <Content Include="Resources\inventory_list_32.png" />
+    <Content Include="Resources\inventory__32.ico" />
+    <Content Include="Resources\inventory__32.png" />
+    <Content Include="Resources\invoice_export_128.ico" />
+    <Content Include="Resources\invoice_export_128.png" />
+    <Content Include="Resources\invoice_export_32.ico" />
+    <Content Include="Resources\invoice_export_32.png" />
+    <Content Include="Resources\invoice_export_48.ico" />
+    <Content Include="Resources\invoice_export_48.png" />
+    <Content Include="Resources\invoice_find_128.ico" />
+    <Content Include="Resources\invoice_find_128.png" />
+    <Content Include="Resources\invoice_find_32.ico" />
+    <Content Include="Resources\invoice_find_32.png" />
+    <Content Include="Resources\invoice_find_321.png" />
+    <Content Include="Resources\invoice_modfy_128.ico" />
+    <Content Include="Resources\invoice_modfy_128.png" />
+    <Content Include="Resources\invoice_modfy_32.ico" />
+    <Content Include="Resources\invoice_modfy_32.png" />
+    <Content Include="Resources\invoice_new_128.ico" />
+    <Content Include="Resources\invoice_new_128.png" />
+    <Content Include="Resources\invoice_new_32.ico" />
+    <Content Include="Resources\invoice_new_32.png" />
+    <Content Include="Resources\invoice_save_128.ico" />
+    <Content Include="Resources\invoice_save_128.png" />
+    <Content Include="Resources\invoice_save_1281.png" />
+    <Content Include="Resources\invoice_save_32.ico" />
+    <Content Include="Resources\invoice_save_32.png" />
+    <Content Include="Resources\item_card_128.ico" />
+    <Content Include="Resources\item_card_128.png" />
+    <Content Include="Resources\item_card_32.ico" />
+    <Content Include="Resources\item_card_32.png" />
+    <Content Include="Resources\item_card_48.ico" />
+    <Content Include="Resources\item_card_48.png" />
+    <Content Include="Resources\item_delete_32.png" />
+    <Content Include="Resources\item_delete_48.png" />
+    <Content Include="Resources\item_info_128.ico" />
+    <Content Include="Resources\item_info_128.png" />
+    <Content Include="Resources\item_info_32.ico" />
+    <Content Include="Resources\item_info_32.png" />
+    <Content Include="Resources\item_info_48.ico" />
+    <Content Include="Resources\item_info_48.png" />
+    <Content Include="Resources\item_save_32.png" />
+    <Content Include="Resources\item_save_48.png" />
+    <Content Include="Resources\kitchen_screen_32.ico" />
+    <Content Include="Resources\kitchen_screen_32.png" />
+    <Content Include="Resources\last_32.png" />
+    <Content Include="Resources\last_48.png" />
+    <Content Include="Resources\Loading1.gif" />
+    <None Include="Resources\loading83.gif" />
+    <Content Include="Resources\login_32.png" />
+    <None Include="Resources\logo123456.png" />
+    <None Include="Resources\logoamlaqar.png" />
+    <Content Include="Resources\main_info_32.ico" />
+    <Content Include="Resources\main_info_32.png" />
+    <None Include="Resources\new %281%29.png" />
+    <None Include="Resources\new %282%29.png" />
+    <None Include="Resources\new %283%29.png" />
+    <None Include="Resources\new %284%29.png" />
+    <None Include="Resources\new %285%29.png" />
+    <Content Include="Resources\new_item_32.png" />
+    <Content Include="Resources\new_item_48.png" />
+    <Content Include="Resources\next_128.ico" />
+    <Content Include="Resources\next_128.png" />
+    <Content Include="Resources\next_32.ico" />
+    <Content Include="Resources\next_32.png" />
+    <Content Include="Resources\next_48.ico" />
+    <Content Include="Resources\next_48.png" />
+    <Content Include="Resources\next_481.png" />
+    <None Include="Resources\Note1.png" />
+    <None Include="Resources\Note1_Footer.png" />
+    <None Include="Resources\Note2_Footer.png" />
+    <None Include="Resources\Note2.png" />
+    <Content Include="Resources\Notes.bmp" />
+    <None Include="Resources\Notes4_Footer.png" />
+    <None Include="Resources\Notes3.png" />
+    <None Include="Resources\Notes3_Footer.png" />
+    <None Include="Resources\Notes4.png" />
+    <Content Include="Resources\NotesImage.png" />
+    <Content Include="Resources\NotesPanalImage.png" />
+    <Content Include="Resources\notes_32.ico" />
+    <Content Include="Resources\notes_32.png" />
+    <Content Include="Resources\notes_321.png" />
+    <Content Include="Resources\notes_322.png" />
+    <Content Include="Resources\notes_48.png" />
+    <Content Include="Resources\notes_481.png" />
+    <Content Include="Resources\ok_32.png" />
+    <Content Include="Resources\ok_48.png" />
+    <Content Include="Resources\options_32.ico" />
+    <Content Include="Resources\options_32.png" />
+    <Content Include="Resources\options_48.png" />
+    <Content Include="Resources\order_invoice_32.ico" />
+    <Content Include="Resources\order_invoice_32.png" />
+    <Content Include="Resources\paid stamps.png" />
+    <None Include="Resources\paste_16.png" />
+    <None Include="Resources\paste_32.png" />
+    <None Include="Resources\paste_48.png" />
+    <None Include="Resources\paste_128.png" />
+    <Content Include="Resources\pay_receipet_128.ico" />
+    <Content Include="Resources\pay_receipet_128.png" />
+    <Content Include="Resources\pay_receipet_32.ico" />
+    <Content Include="Resources\pay_receipet_32.png" />
+    <Content Include="Resources\pay_receipet_48.ico" />
+    <Content Include="Resources\pay_receipet_48.png" />
+    <Content Include="Resources\phone_book_32.ico" />
+    <Content Include="Resources\phone_book_32.png" />
+    <None Include="Resources\php9avz5kPM.jpg" />
+    <None Include="Resources\phpY4AsvoPM.jpg" />
+    <Content Include="Resources\pos_screen_32.ico" />
+    <Content Include="Resources\pos_screen_32.png" />
+    <Content Include="Resources\pos_shortcut_32.ico" />
+    <Content Include="Resources\pos_shortcut_32.png" />
+    <Content Include="Resources\prepherals_comunicate_32.png" />
+    <Content Include="Resources\prepherals_comunicate_48.png" />
+    <Content Include="Resources\price_info_32.ico" />
+    <Content Include="Resources\price_info_32.png" />
+    <Content Include="Resources\price_info_48.png" />
+    <Content Include="Resources\printer_128.ico" />
+    <Content Include="Resources\printer_128.png" />
+    <Content Include="Resources\printer_1281.png" />
+    <Content Include="Resources\printer_32.ico" />
+    <Content Include="Resources\printer_32.png" />
+    <Content Include="Resources\printer_48.ico" />
+    <Content Include="Resources\printer_48.png" />
+    <Content Include="Resources\printer_481.png" />
+    <Content Include="Resources\print_barcode_128.ico" />
+    <Content Include="Resources\print_barcode_128.png" />
+    <Content Include="Resources\print_barcode_32.ico" />
+    <Content Include="Resources\print_barcode_32.png" />
+    <Content Include="Resources\print_barcode_48.ico" />
+    <Content Include="Resources\print_barcode_48.png" />
+    <Content Include="Resources\proforma_invoice_32.ico" />
+    <Content Include="Resources\proforma_invoice_32.png" />
+    <Content Include="Resources\purchases_32.ico" />
+    <Content Include="Resources\purchases_32.png" />
+    <Content Include="Resources\purchases_48.png" />
+    <Content Include="Resources\purchases_return_invoice_32.ico" />
+    <Content Include="Resources\purchases_return_invoice_32.png" />
+    <Content Include="Resources\purchases_return_invoice_48.png" />
+    <Content Include="Resources\QtechBlurLogo2.png" />
+    <Content Include="Resources\QtechLogo1.png" />
+    <Content Include="Resources\QtechLogo2.png" />
+    <Content Include="Resources\QtechLogoBlur.png" />
+    <Content Include="Resources\quit_32.png" />
+    <Content Include="Resources\quit_48.png" />
+    <Content Include="Resources\receive_receipet_128.ico" />
+    <Content Include="Resources\receive_receipet_128.png" />
+    <Content Include="Resources\receive_receipet_32.ico" />
+    <Content Include="Resources\receive_receipet_32.png" />
+    <Content Include="Resources\receive_receipet_48.ico" />
+    <Content Include="Resources\receive_receipet_48.png" />
+    <Content Include="Resources\reload_32.png" />
+    <Content Include="Resources\reload_48.png" />
+    <Content Include="Resources\renteing_sheet_128.ico" />
+    <Content Include="Resources\renteing_sheet_128.png" />
+    <Content Include="Resources\renteing_sheet_32.ico" />
+    <Content Include="Resources\renteing_sheet_32.png" />
+    <Content Include="Resources\renteing_sheet_48.ico" />
+    <Content Include="Resources\renteing_sheet_48.png" />
+    <Content Include="Resources\renting_invoice_32.png" />
+    <Content Include="Resources\renting_invoice_321.png" />
+    <Content Include="Resources\renting_invoice_48.ico" />
+    <Content Include="Resources\renting_invoice_add_32.ico" />
+    <Content Include="Resources\reports2_32.ico" />
+    <Content Include="Resources\reports2_32.png" />
+    <Content Include="Resources\reports2_48.png" />
+    <Content Include="Resources\reports_32.png" />
+    <Content Include="Resources\reports_48.png" />
+    <Content Include="Resources\reset_128.ico" />
+    <Content Include="Resources\reset_128.png" />
+    <Content Include="Resources\reset_32.ico" />
+    <Content Include="Resources\reset_32.png" />
+    <Content Include="Resources\reset_321.png" />
+    <Content Include="Resources\reset_48.ico" />
+    <Content Include="Resources\reset_48.png" />
+    <Content Include="Resources\restore_database_32.png" />
+    <Content Include="Resources\restore_database_48.png" />
+    <Content Include="Resources\return_item_128.ico" />
+    <Content Include="Resources\return_item_128.png" />
+    <Content Include="Resources\return_item_32.ico" />
+    <Content Include="Resources\return_item_32.png" />
+    <Content Include="Resources\return_item_48.ico" />
+    <Content Include="Resources\return_item_48.png" />
+    <Content Include="Resources\rew_128.ico" />
+    <Content Include="Resources\rew_128.png" />
+    <Content Include="Resources\rew_32.ico" />
+    <Content Include="Resources\rew_32.png" />
+    <Content Include="Resources\rew_321.png" />
+    <Content Include="Resources\rew_48.ico" />
+    <Content Include="Resources\rew_48.png" />
+    <Content Include="Resources\salary_32.ico" />
+    <Content Include="Resources\salary_32.png" />
+    <Content Include="Resources\sale_32.png" />
+    <Content Include="Resources\sale_48.png" />
+    <Content Include="Resources\sale_invoice_32.ico" />
+    <Content Include="Resources\sale_invoice_32.png" />
+    <Content Include="Resources\sale_invoice_321.png" />
+    <Content Include="Resources\sale_invoice_322.png" />
+    <Content Include="Resources\sale_return_invoice_32.ico" />
+    <Content Include="Resources\sale_return_invoice_32.png" />
+    <Content Include="Resources\sale_return_invoice_48.png" />
+    <Content Include="Resources\sandclock_down_32.png" />
+    <Content Include="Resources\sandclock_down_48.png" />
+    <Content Include="Resources\sandclock_up_32.png" />
+    <Content Include="Resources\sandclock_up_48.png" />
+    <None Include="Resources\SaveReport %281%29.png" />
+    <None Include="Resources\SaveReport %282%29.png" />
+    <None Include="Resources\SaveReport %283%29.png" />
+    <None Include="Resources\SaveReport %284%29.png" />
+    <None Include="Resources\SaveReport %285%29.png" />
+    <None Include="Resources\searchreport %281%29.png" />
+    <None Include="Resources\searchreport %282%29.png" />
+    <None Include="Resources\searchreport %283%29.png" />
+    <None Include="Resources\searchreport %284%29.png" />
+    <None Include="Resources\searchreport %285%29.png" />
+    <Content Include="Resources\serial_number_32.ico" />
+    <Content Include="Resources\serial_number_32.png" />
+    <Content Include="Resources\set_payment_date_128.ico" />
+    <Content Include="Resources\set_payment_date_128.png" />
+    <Content Include="Resources\set_payment_date_32.ico" />
+    <Content Include="Resources\set_payment_date_32.png" />
+    <Content Include="Resources\set_payment_date_48.ico" />
+    <Content Include="Resources\set_payment_date_48.png" />
+    <Content Include="Resources\spoiled_items_32.ico" />
+    <Content Include="Resources\spoiled_items_32.png" />
+    <Content Include="Resources\spoiled_items_48.png" />
+    <None Include="Resources\sql_query_32.png" />
+    <None Include="Resources\sql_query_config_32.png" />
+    <None Include="Resources\sql_query_down_32.png" />
+    <None Include="Resources\sql_query_fav_32.png" />
+    <None Include="Resources\sql_query_ok_32.png" />
+    <None Include="Resources\sql_query_refresh_32.png" />
+    <None Include="Resources\sql_query_reload_32.png" />
+    <None Include="Resources\sql_query_save_32.png" />
+    <None Include="Resources\sql_query_search_32.png" />
+    <None Include="Resources\sql_query_up_32.png" />
+    <None Include="Resources\sql_query_write_32.png" />
+    <None Include="Resources\sql_query_zoom_32.png" />
+    <Content Include="Resources\start_new_year_32.png" />
+    <Content Include="Resources\start_new_year_48.png" />
+    <Content Include="Resources\stock_32.ico" />
+    <Content Include="Resources\stock_32.png" />
+    <Content Include="Resources\stock_48.png" />
+    <None Include="Resources\submit querry %281%29.png" />
+    <None Include="Resources\submit querry %282%29.png" />
+    <None Include="Resources\submit querry %283%29.png" />
+    <None Include="Resources\submit querry %284%29.png" />
+    <None Include="Resources\submit querry %285%29.png" />
+    <None Include="Resources\system_back_16.png" />
+    <None Include="Resources\system_back_24.png" />
+    <None Include="Resources\system_back_32.png" />
+    <None Include="Resources\system_back_48.png" />
+    <None Include="Resources\system_back_128.png" />
+    <None Include="Resources\system_cancel_16.png" />
+    <None Include="Resources\system_cancel_24.png" />
+    <None Include="Resources\system_cancel_32.png" />
+    <None Include="Resources\system_cancel_48.png" />
+    <None Include="Resources\system_cancel_128.png" />
+    <None Include="Resources\system_clock_16.png" />
+    <None Include="Resources\system_clock_24.png" />
+    <None Include="Resources\system_clock_32.png" />
+    <None Include="Resources\system_clock_48.png" />
+    <None Include="Resources\system_clock_128.png" />
+    <None Include="Resources\system_close_16.png" />
+    <None Include="Resources\system_close_24.png" />
+    <None Include="Resources\system_close_32.png" />
+    <None Include="Resources\system_close_48.png" />
+    <None Include="Resources\system_close_128.png" />
+    <None Include="Resources\system_config_16.png" />
+    <None Include="Resources\system_config_24.png" />
+    <None Include="Resources\system_config_32.png" />
+    <None Include="Resources\system_config_48.png" />
+    <None Include="Resources\system_config_128.png" />
+    <None Include="Resources\system_down_16.png" />
+    <None Include="Resources\system_down_24.png" />
+    <None Include="Resources\system_down_32.png" />
+    <None Include="Resources\system_down_48.png" />
+    <None Include="Resources\system_down_128.png" />
+    <None Include="Resources\system_help_16.png" />
+    <None Include="Resources\system_help_24.png" />
+    <None Include="Resources\system_help_32.png" />
+    <None Include="Resources\system_help_48.png" />
+    <None Include="Resources\system_help_128.png" />
+    <None Include="Resources\system_info_16.png" />
+    <None Include="Resources\system_info_24.png" />
+    <None Include="Resources\system_info_32.png" />
+    <None Include="Resources\system_info_48.png" />
+    <None Include="Resources\system_info_128.png" />
+    <None Include="Resources\system_level_16.png" />
+    <None Include="Resources\system_level_24.png" />
+    <None Include="Resources\system_level_32.png" />
+    <None Include="Resources\system_level_48.png" />
+    <None Include="Resources\system_level_128.png" />
+    <None Include="Resources\system_lock_16.png" />
+    <None Include="Resources\system_lock_24.png" />
+    <None Include="Resources\system_lock_32.png" />
+    <None Include="Resources\system_lock_48.png" />
+    <None Include="Resources\system_lock_128.png" />
+    <None Include="Resources\system_refresh_16.png" />
+    <None Include="Resources\system_refresh_24.png" />
+    <None Include="Resources\system_refresh_32.png" />
+    <None Include="Resources\system_refresh_48.png" />
+    <None Include="Resources\system_refresh_128.png" />
+    <None Include="Resources\system_reload_16.png" />
+    <None Include="Resources\system_reload_24.png" />
+    <None Include="Resources\system_reload_32.png" />
+    <None Include="Resources\system_reload_48.png" />
+    <None Include="Resources\system_reload_128.png" />
+    <None Include="Resources\system_unlock_16.png" />
+    <None Include="Resources\system_unlock_24.png" />
+    <None Include="Resources\system_unlock_32.png" />
+    <None Include="Resources\system_unlock_48.png" />
+    <None Include="Resources\system_unlock_128.png" />
+    <None Include="Resources\system_up_16.png" />
+    <None Include="Resources\system_up_24.png" />
+    <None Include="Resources\system_up_32.png" />
+    <None Include="Resources\system_up_48.png" />
+    <None Include="Resources\system_up_128.png" />
+    <None Include="Resources\system_zoom_16.png" />
+    <None Include="Resources\system_zoom_24.png" />
+    <None Include="Resources\system_zoom_32.png" />
+    <None Include="Resources\system_zoom_48.png" />
+    <None Include="Resources\system_zoom_128.png" />
+    <Content Include="Resources\time_attandance_32.ico" />
+    <Content Include="Resources\time_attandance_32.png" />
+    <Content Include="Resources\TipsMan.png" />
+    <Content Include="Resources\TipsMsg.png" />
+    <Content Include="Resources\up_32.png" />
+    <Content Include="Resources\up_48.png" />
+    <Content Include="Resources\user_clock_32.png" />
+    <None Include="Resources\user_clock_48.png" />
+    <Content Include="Resources\user_id_clock_32.ico" />
+    <Content Include="Resources\user_id_clock_32.png" />
+    <Content Include="Resources\user_tracking_32.ico" />
+    <Content Include="Resources\user_tracking_32.png" />
+    <Content Include="Resources\views_32.ico" />
+    <Content Include="Resources\views_32.png" />
+    <Content Include="Resources\views_48.png" />
+    <None Include="Resources\wait.gif" />
+    <Content Include="Resources\withdrawal_32.ico" />
+    <Content Include="Resources\withdrawal_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BALHelper\BALHelper.csproj">
+      <Project>{631D31FC-49BF-4E69-B4BF-E65F293F396B}</Project>
+      <Name>BALHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommonHelper\CommonHelper.csproj">
+      <Project>{ADAE9F43-DC6B-4BA3-B4FA-04E1E6729AD5}</Project>
+      <Name>CommonHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataBaseHelper\DataBaseHelper.csproj">
+      <Project>{499AAB51-6A85-4437-BC03-CC9A100C741D}</Project>
+      <Name>DataBaseHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ObjectHelper\ObjectHelper.csproj">
+      <Project>{72A64860-3FC7-489B-8CD4-8987BBBA925B}</Project>
+      <Name>ObjectHelper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy "$(SolutionDir)SamplesAmpos\BumedianPOS.chm" "$(ProjectDir)$(OutDir)"  /Y
+xcopy "$(SolutionDir)SamplesAmpos\CashDrawer" "$(ProjectDir)$(OutDir)"/Y</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
